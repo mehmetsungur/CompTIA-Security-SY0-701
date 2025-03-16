@@ -1,0 +1,40 @@
+Next, we have network access control or NAC.
+So this refers to a set of policies
+that define a minimal set of requirements
+that each device must have
+before being allowed on the network.
+So such things as antivirus installed and up to date,
+certain OS levels and patch levels,
+and then applications.
+Making sure they have certain applications
+or making sure they don't have certain applications.
+Again, we can whitelist or blacklist.
+So, again, this is becoming more and more important
+as BYOD becomes more and more prevalent.
+So a few examples of some of these things
+might be good messaging.
+We have Mobile Iron, and then we also have Workspace ONE,
+which was formerly VMware AirWatch.
+So when it comes to actually
+how we set up network access control,
+a few things to keep in mind here.
+We have a permanent agent,
+so that's a persistent agent
+that's installed on the host device
+and it runs continuously.
+Next, we have a dissolvable or a temporary agent.
+So that's an agent that's run from a portal.
+So a user downloads the agent,
+it runs once, and then it disappears.
+We have agentless NAC,
+which is embedded within an Active Directory as an example.
+So that network access control code verifies
+the host complies with access policy,
+and that's typically with a domain join
+or a logon or logoff.
+And then we have a mobile network access control
+or Mobile NAC,
+specifically designed for mobile devices.
+They enforce security policies on smartphones and tablets.
+BYOD, as we talked about,
+is making this more and more critical.

@@ -1,0 +1,33 @@
+So when it comes to compliance monitoring,
+we need to make sure we take due diligence and care.
+So continuous assessment to ensure the organization's
+due care measures align with due diligence findings.
+So to reiterate, basically meaning if we find something,
+we're actually going to correct it.
+So regular reviewing of security policies
+and procedures is definitely something
+that should be an ongoing process.
+And then attestation and acknowledgement.
+So tracking and verifying attestations
+and acknowledgements means we ensure that individuals
+and entities are held accountable
+for their commitment to compliance.
+So in other words, we put out these policies
+and procedures, we want people to read them, act upon them,
+basically internalize them, and then we actually need them
+to say and confirm, "Yes, I read the policy.
+"Yes, I'm adhering to those practices and principles."
+And then also, as I mentioned,
+internal and external monitoring.
+So internal checks help to identify
+and rectify issues proactively, while external assessments
+ensure that the organization meets external requirements
+and avoids those potential penalties and fines.
+And then automation is a big piece of that puzzle.
+So continuously monitoring compliance metrics,
+generating alerts for potential issues or deviations,
+and also providing real-time visibility
+into that organization's compliance status.
+Automation takes a lot of that manual process,
+a lot of that toil off an individual's plate,
+increases accuracy and overall timeliness.

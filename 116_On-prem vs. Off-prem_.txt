@@ -1,0 +1,52 @@
+Next, let's talk
+about on-prem versus off-prem.
+So on-prem, as you might guess, you own the infrastructure,
+so you have more control on customization
+and on non-standard builds.
+So I'm talking about servers, desktops, storage,
+whatever the infrastructure might be.
+When it's on-prem and you own it, you can control
+how that is built, how it's managed.
+So you also have more direct control over policies,
+management, administration and so forth.
+The downside is you have to manage the lifecycle
+of those individual devices.
+And also, it's a capital expenditure, right?
+CapEx typically.
+So you pay for the entire cost of that device upfront
+and then you depreciate it over time.
+When we're talking about off-prem,
+and when I say off-prem, I'm referring to hosted
+or cloud environments.
+So in off-prem environments, you don't own the equipment,
+it's managed by the provider.
+So they take care of patching,
+lifecycle, all that good stuff.
+Now you have less control over customization,
+less control over policies than the overall administration.
+So that could be a plus or minus,
+depending upon how you look at it.
+Also, no lifecycle or maintenance activities.
+So you just consume the infrastructure.
+You don't have to worry
+about projecting lifecycle activities
+and all of that good stuff.
+And then patching and security, as I mentioned,
+is managed by the provider.
+And then we have the opposite of CapEx, which is OpEx.
+So you don't pay for the entire thing upfront,
+you only pay for how much you use,
+you pay for it month over month.
+Now, the downside is that will last in perpetuity
+or as long as you're actually using the infrastructure.
+Whereas when it's a capital expense,
+after five years, it's fully depreciated.
+Now again, most organizations
+will not keep their infrastructure longer
+than five years anyway,
+so you're gonna go out and basically buy a new piece
+as soon as you're done paying for it.
+But at least you don't have to pay for it all upfront.
+So with OpEx, you typically just pay a monthly fee,
+and that just continues for as long as that project
+or whatever isn't actually in operation.

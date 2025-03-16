@@ -1,0 +1,45 @@
+Hey everybody, welcome back to Pluralsight.
+I'm your instructor, Christopher Rees,
+and in this module, we'll be talking about concepts
+and strategies to protect data.
+So let's take a look at what we'll cover in this module.
+We have four major categories.
+We have data types, data classifications,
+general data considerations,
+and then methods to secure data.
+And as always, we'll take a little bit deeper look
+behind the covers, and pause here for just a second.
+You can look at what we'll cover in more detail.
+And then when you're ready, let's go ahead and get started.
+Okay, so basically, why is this important?
+Data classification doesn't sound all that glamorous,
+(chuckles) quite frankly,
+and it's a little bit on the dry side,
+but the reality is it's extremely important.
+So it's important that you follow through this module
+and understand the concepts in here,
+because ensuring that data is classified correctly,
+handled appropriately,
+and protected against theft or misuse is critical.
+It's really absolutely critical
+to maintain the confidentiality,
+integrity, and availability.
+Remember the CIA triad that we talked about previously?
+It's what all security professionals are trying
+to make sure they accomplish.
+It's critical to an organization's data.
+So some of the potential risks if we don't do this properly
+are data exposure.
+It could be leaked out to the public,
+it could be stolen or exfiltrated.
+We could have compliance violations,
+which could have some pretty significant financial
+implications attached to that.
+We may have insufficient incident response
+because we're not identifying the risk early enough,
+or we don't understand the ramifications
+or the downstream impacts.
+It could be, as I mentioned, loss of revenue.
+And then most importantly, it could be loss of trust
+and or investor and consumer confidence,
+which is pretty much the lifeblood of any company.

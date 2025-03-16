@@ -1,0 +1,142 @@
+Okay, switching things up a bit,
+let's talk about CVEs and CVSS.
+So CVE stands for Common Vulnerabilities and Exposures,
+and it's a reference for publicly known information
+about security vulnerabilities.
+So it's maintained by Mitre Corporation,
+and you can think of it a bit like a library.
+And if you're under 30 (chuckles),
+you may have never even been into a library,
+but libraries have a card system and you can pull out a card
+and you can look up any specific book
+by a unique ID that's associated to that book.
+Well, it's the same concept here.
+So they associate unique IDs
+and then it's further categorized by year.
+So it makes it easy to find and identify
+and sort through vulnerabilities
+and we'll talk more about that in just a moment.
+But there's a searchable website that you can visit.
+And then next, we have the Comment Vulnerabilities
+Scoring System or CVSS.
+So this is an open framework
+for communicating the characteristics
+and the severity of software vulnerabilities.
+And we'll talk more about CVSS in just a moment.
+So as far as CVEs go, as you can see,
+we have a naming convention here.
+So it starts off with a prefix of CVE,
+and then we have the year
+that the vulnerability was discovered,
+and then there's an arbitrary number of digits
+or a unique identifier
+that distinguishes that vulnerability within that year.
+So as I mentioned, the Mitre Corporation
+maintains a CVE database,
+and you can see I have the web address
+listed down here in the bottom,
+but it's a searchable database.
+So if you know the CVE number, you can put it indirectly
+and learn about that CVE,
+or you can search for a specific type,
+a specific operating system,
+a type of vulnerability and so forth.
+So in this case, it is put in Ubuntu and it comes back
+and show me the vulnerabilities
+that are associated with that operating system.
+Now, there are a number here.
+So we see that there are over 7,000 CVEs
+that match that search term.
+So I can click on any one of these.
+Let's take a look at 3297.
+And we basically double click down
+and look at more information
+about that specific vulnerability.
+So it will give us a description of that CVE,
+a link to the CVSS scoring calculator,
+which I'll talk about more in just a moment.
+And then additional references.
+So if you click on the link for Learn more
+at the National Vulnerability Database or NVD,
+it then gives us additional details
+about that specific vulnerability,
+which includes the CVSS scoring information.
+So again, I'll drill down even further,
+and you can see by the scoring here at 7.8,
+it's rated as a high vulnerability.
+So again, double clicking down even further,
+it shows us the different parameters
+that make up that score.
+So the CVSS or the Common Vulnerability Scoring System
+is maintained by the Forum of Incident Response
+and Security Teams, or FIRST
+and it's used to assess the principle characteristics
+of a vulnerability and then produce a numerical score
+reflecting its severity, and it's a scale one out of 10.
+So that numerical score can then be translated into low,
+medium, or high, and it helps organizations properly assess
+that vulnerability and prioritize resources
+to manage and to mitigate.
+You can think of it much like if you're gonna take a trip
+and you're looking at row conditions and weather
+and all the different things that may factor into
+how risky a specific path is to get from point A to point B.
+So you're then able to gauge the best course,
+but also understand that any specific thing,
+how risky that thing is.
+So it's much the same here.
+So we're looking at things like
+how easy is it to actually exploit that vulnerability?
+Is it internal? Is it external? What's the blast radius?
+What's the impact if it actually exploited and so forth.
+So that way we can prioritize
+and assign resources as necessary.
+So again, when we're talking about
+what to assign resources to and prioritizing,
+there are some risk factors
+and considerations that you should be aware of.
+First off, we have exposure factor.
+So that's the percentage of an asset that is exposed
+to a threat or vulnerability.
+So basically quantifies how much of the asset is at risk
+in the case of an exploit.
+So EF can vary depending
+upon the nature of the vulnerability
+and the specific security controls in place.
+For example, if a vulnerability affects a web server,
+the exposure factor might be 100%
+if the entire server is exposed to the internet.
+But if that server's behind a robust firewall,
+the EF might be lower, let's say 20%
+as only a portion of that server is exposed.
+So next is environmental variables.
+So environmental variables are factors that affect the risk
+and impactable vulnerability in a specific context.
+So these factors can include things
+like organizational security policies, network architecture,
+and the use of security controls.
+Again, for example,
+if an organization has a very strict security policy
+in place and regularly updates its software,
+the impact of a vulnerability may be reduced.
+On the other hand, if the organization
+has a very relax security posture,
+then the impact could be more significant.
+And then we have industry and organizational impact.
+So this will vary widely by industry
+and also by type of business, right?
+We have regulatory and compliance things
+that come into play.
+Some industries such as healthcare or finance
+have very strict regulatory requirements,
+and a security breach could result in severe financial
+and/or reputational damage.
+Conversely, in other industries, the impact might be less.
+For example, a personal blog or a small business website
+may have a lower impact if compromised,
+primarily affecting the owner and the visitors.
+Either way, it's crucial to analyze these factors
+to properly prioritize
+which vulnerabilities required immediate attention
+and resource allocation,
+and which ones can be addressed later.

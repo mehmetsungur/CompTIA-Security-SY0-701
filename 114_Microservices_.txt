@@ -1,0 +1,117 @@
+Another concept that you should be aware of,
+especially when we're talking about DevOps
+or infrastructure as code,
+is the concept of microservices.
+So a microservices is an application
+that is really structured as a collection
+of loosely coupled independently deployable services.
+So what does that mean?
+Well, it basically means that we're taking an application
+that used to be, and I'm using air quotes,
+a monolithic application.
+It might be a black box, in other words,
+where information goes in and then information comes out
+and we're not really sure what happens behind the curtain.
+Well, in this instance, we're taking that application
+and we're breaking it up into smaller,
+more manageable pieces,
+for all intents and purposes, are more or less standalone.
+So in other words, each can be independently deployed,
+patched, updated, and also scaled.
+So if we need more compute,
+we need more networking bandwidth,
+we need more load balancing capability, what have you,
+we have the ability to scale
+these individual microservices up independent of each other.
+So it also allows for decentralization,
+and again, speed of development,
+because now we can have multiple people
+working on individual components
+versus having developers working
+on the entire application at once.
+So as an example, so here is a monolithic architecture.
+We talked about that just a moment ago.
+So we basically would have the user interface,
+business logic, the data interface, and the database,
+like all the things that make up
+that application are all one big gigantic application.
+Well, in microservices architecture,
+we break all of those things up.
+So we still have a user interface.
+Up behind the curtain, we have a number of microservices.
+And you'll notice each microservice, for the most part,
+has their own database.
+So they have their own collection of code,
+their own code base,
+and they can be upgraded, patched,
+and so forth, independently of each other.
+So an example of a microservices architecture
+when we're talking about a specific application,
+well, we may have a mobile application
+that connects to an API Gateway via a REST API, right?
+It's the method of how they actually connect to
+and call the API Gateway.
+And then we have a web browser
+that would access the same backend,
+but now they're coming in through a web app
+through a web request.
+So behind the scenes, however,
+they're issuing REST API calls to different microservices.
+The account service, the inventory service,
+the shipping service,
+all of these things operate independently of each other
+with their own runner services and so forth.
+And they connect to their own databases
+that track their code changes and track all the code.
+So that way, as an example, if you found a bug
+in the inventory service
+or we wanted to add an additional feature,
+well, you wouldn't have to actually address
+the entire code base.
+You wouldn't have to also update the account service
+or the shipping service,
+or all the other things that might make up that application.
+You could just patch the inventory service,
+push that patch out, and the application will be upgraded.
+So some microservices key points.
+So applications are broken apart by function.
+All services are created individually
+and deployed separately from one another.
+Each component is loosely coupled, as I mentioned.
+So different groups can develop different functions
+and each service can be changed
+and upgraded without affecting the others.
+They could even use different code bases
+or even different programming languages,
+whatever tools work best
+for that individual development team.
+And then also it can be deployed via containers.
+So Kubernetes and Docker are typically used,
+and each microservice is packaged as a container image.
+And again, when we're doing all these things,
+we have security in the mix as well.
+They may do static code analysis
+or they'll do code analysis
+as it goes through the CI/CD pipeline
+to make sure that it's pulling from the proper repost,
+to make sure there's no vulnerabilities being injected.
+It's not pulling things from places unknown
+out on the internet, right?
+They're all approved repos and so forth.
+All of these things can be automated
+and built into the CI/CD pipeline.
+So as these microservices are updated,
+all of these things kind of kick off and take place.
+And we also have the ability to scale quickly.
+So scaling is done based on the changing number
+of container instances.
+So we can have the pipelines triggered
+so that as soon as a new feature or a new code is pushed,
+it automatically kicks off the pipeline,
+builds out the test case,
+runs it through various environments.
+And once all the smoke tests are complete
+and we understand that the code is functional
+and doesn't break anything,
+it can then be deployed very programmatically
+out to production.

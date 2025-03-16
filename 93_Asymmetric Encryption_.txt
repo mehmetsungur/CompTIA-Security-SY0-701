@@ -1,0 +1,49 @@
+Okay, so if we compare
+that symmetric versus asymmetric,
+if we look at an asymmetric encryption algorithm,
+it uses a two key public key, private key system.
+So here we have two keys, one public, one private.
+Same type of scenario here,
+we're trying to send a message from one person to another.
+The sender will encrypt that information
+with the recipients public key, right?
+So here you have the hello students message,
+the encryption algorithm,
+that public key is provided by the recipient, right?
+So they're gonna share their public key with the sender,
+right, let's use Bob and Alice,
+age old internet friends since the dawn of the internet age,
+or the computer age.
+So Bob will give Alice a copy of his public key.
+She will then encrypt the information with that public key,
+send it across the wire.
+You can see here the cipher text.
+Bob is the only one that can decrypt that message
+because he owns the private key.
+And again, we wanna do what with the private key?
+We want to keep it secure, right?
+We give that to no one because of that leaks out,
+then anyone could, in fact, decrypt that message,
+or even impersonate Bob and digitally sign something, right?
+So that non-repudiation that we'll talk about later
+goes out the window as well.
+So always keep that private key secure.
+But in this example,
+the information is decrypted with a private key
+and we have the hello students back again, right?
+So all is well with the world.
+So asymmetric encryption, key pair is used,
+one key for encryption, the other four decryption.
+Public key is made publicly available, as the name implies.
+Private key must be kept secret, as we've talked about.
+Kind of beat that one to death.
+Either key can encrypt and either key can decrypt, right?
+So encrypt with the public key
+and decrypt with the private key,
+or encrypt with the private key
+and decrypt with the public key,
+when we're doing things like digitally signing and so forth.
+So a message encrypted cannot be decrypted
+with the same key, right?
+Public can't do public and private can't do private.
+So that's a key takeaway here.

@@ -1,0 +1,42 @@
+Some additional vulnerability considerations.
+Alright, malicious updates.
+So an attacker manages to compromise
+a legitimate software update or a distribution mechanism
+to inject malicious code or malware
+into a trusted piece of software.
+Along those very same lines,
+we have operating system based updates
+where an attacker compromises the process of delivering,
+distributing, or installing operating system updates,
+injecting malicious code into a trusted update
+for the operating system.
+So, very similar to what I just mentioned
+with malicious updates,
+but now we're talking at the operating system level,
+whereas the malicious updates before
+were talking about a specific piece of software,
+software application, and so forth.
+Whereas OS based are coming from a typically,
+a trusted source like the operating system vendor.
+Let's take a look at a specific attack scenario.
+So here we have an attacker
+who has their eyes set on a vendor or an OS manufacturer,
+and that OS manufacturer has a distribution channel,
+which they then push out updates and so forth
+to various devices, server, a desktop,
+a thin client, laptop, mobile device, what have you.
+These devices are expecting to get updates
+from a distribution channel,
+and they think that that distribution channel
+is a trusted source.
+That attacker introduces malware
+into that vendor or OS manufacturer's infrastructure.
+Once compromised, that malicious code then finds its way
+into the distribution channel.
+From there, as those updates are getting pushed
+to the intended targets, which are now victims,
+those updates or those malicious updates
+get pushed to those target devices as well.
+And at this point, they're all compromised,
+even though they believe they're getting their updates
+from a trusted source.

@@ -1,0 +1,169 @@
+Okay, let's talk
+about secure communication and access.
+And the first thing under this category is gonna be VPN
+or Virtual Private Network.
+And what a VPN is, if you're not aware,
+it creates a private network across a public network.
+So it allows us to create a tunnel,
+and then send our encrypted information over that tunnel.
+So basically communicate in a secure manner
+over an insecure medium.
+And we do so by several tunneling protocols,
+such as Layer 2 tunneling protocol or L2TP,
+or PPTP, which is point to point tunneling protocol,
+or we can also use IP Security or IPSec.
+So security comes from the tunneling protocol,
+which is PPTP, as an example,
+and also the encryption method, IPSec in this example.
+So when most folks connect with a VPN,
+they use one of two methods.
+They use either a straight up username and password,
+or they may use some type of two-factor authentication.
+And you can see here, we have several examples.
+One-time passwords.
+It could be a SMS or an email code that gets mailed to you
+or emailed to you, or a text push.
+It could be a biometric authentication.
+It could be retina or fingerprint scans.
+It could be hardware tokens,
+or it could be security questions
+that you have to answer, right?
+Some type of second factor
+to allow that connectivity with VPNs.
+So basically we have a remote client,
+and whether they're on their laptop
+or a mobile device, they will then wanna connect
+to some type of corporate resource in this example.
+So they'll fire up their VPN client.
+Once that opens, they basically connect
+to that VPN client and they authenticate.
+And from there, they can then communicate securely
+to that corporate resource.
+So that communication is then encrypted through that tunnel,
+which is passing again, over an insecure medium.
+So in another example,
+many companies obviously provide VPN access
+to their remote employees, especially post pandemic.
+So we can use various methods
+to provide that remote connectivity.
+So you see here on the left, we have VPN
+between two corporate networks.
+So we have a network here on the left.
+We have a network here on the right.
+So these are actually corporate networks
+in different buildings, or perhaps even in different states,
+different parts of the world.
+And they'll be connected via a dedicated VPN connection.
+We have VPN concentrators on both sides,
+and that tunnel will be established,
+and then that secure communication can take place
+between those two networks.
+On the right hand side,
+we have much like I talked about before.
+We have a VPN between a remote user and office.
+So the user will connect to their ISP.
+The ISP's connectivity allows them
+to connect to a VPN server, right?
+Whatever VPN server they use,
+whether it's their corporate VPN server,
+or it might be something that they download themselves.
+Typically in a work environment, you're gonna be provided.
+Typically in a work environment,
+you'll be provided a VPN client from your work.
+So once you launch that, as I mentioned before,
+you'll connect and then through there,
+connect to the remote resource
+and you'll have an encrypted tunnel,
+and communication is secure.
+And what this basically does is allow you
+to access corporate resources.
+Again, it could be anywhere in the world
+and you're not being blocked by some type of firewall
+or regional policy.
+And then something else to note is
+that access can be restricted
+to only certain parts of a corporate network.
+So when we talk about the secure protocols, two main types,
+we have SSL and TLS.
+So it's secure sockets layer and transport layer security.
+Now, TLS is newer, but it's based on SSL.
+It adds confidentiality
+and also data integrity by encapsulating other protocols.
+So it initiates a stateful session with a handshake.
+So what do you mean by a handshake?
+Well, I'm glad you asked that question.
+I just happen to have it here.
+So here we have a user with their laptop,
+and they wanna communicate with that server.
+So they're basically going to initiate a handshake,
+which is much like in the real world, right?
+Two people will connect, they'll handshake,
+they'll agree on something,
+and then they'll start communicating.
+So here the client sends a hello message,
+which is a cipher suite.
+They're basically saying, "Hey, here's what I'm gonna use.
+Here's the cipher or the encryption mechanism
+that I wanna use to communicate with you."
+So the server acknowledges and basically,
+gives what's called an ACK of that cipher suite,
+and provides their digital certificate, their public key,
+so that user can then use that public key
+for future communication.
+So what basically happens here is
+verification of the certificate.
+They extract the public key, they encrypt a pre-master key
+with the public key of the server.
+From there, the server decrypts that pre-master key
+with their private key.
+Now, if you recall from public key, private key,
+or PKI infrastructure,
+the server can provide their public key.
+The remote user can use that public key,
+encrypts something and send it back.
+The only person or the only server in this instance
+that can decrypt that is the owner of that private key.
+So that's where the security comes into play.
+From there, once that pre-master key is in place,
+then communication can take place from that point forward.
+And then of course, HTTP messages are encrypted
+and then decrypted with that shared master key.
+One thing to note with TLS, basically TLS 1.0
+and 1.1 have been deprecated,
+meaning they're no longer in use.
+While 1.2 is widely in use,
+TLS 1.3 is considered the most secure.
+It mandates something called perfect forward secrecy,
+and overall it's faster than TLS 1.2,
+but you will still see 1.2 widely in use.
+However, in your environment,
+or if you're auditing environments, you should double check
+to make sure TLS 1.0 and 1.1 is not in use,
+because they should be deprecated and no longer used,
+because they're considered insecure.
+Okay, let's talk about transport encryption.
+So I'm referring to IPSec or internet security protocol.
+And the concept I want you
+to be aware of is authentication header or AH.
+So basically that provides authentication and integrity.
+So as you can see here,
+we're adding an authentication header to that payload.
+So we have the original IP header,
+and we have an authentication header
+that's inserted into that packet.
+We still have our TCP part and then the payload.
+But keep in mind, there's no encryption here,
+as the AH only offers integrity.
+For the encryption part with IPSec, we're talking about ESP
+or encapsulating secure payload.
+So this provides confidentiality
+along with optional integrity checking.
+So it adds a header, a trailer,
+an integrity check value, or ICV.
+So here we have our data packet, right?
+The original IP header. Now we're adding our ESP header.
+We have TCP, our payload,
+and then we're also adding an ESP trailer,
+and then ESP authentication.
+So TCP, payload, and the ESP trailer is encrypted, right?
+So that encryption provides the data confidentiality.

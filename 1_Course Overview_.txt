@@ -1,0 +1,47 @@
+In an era of ever-evolving cyber threats,
+organizations are constantly at risk
+of financial and reputational damage.
+From ransomware attacks to data breaches,
+the spectrum of cyber threats is broad
+and potentially devastating.
+The need for competent, knowledgeable security folks
+has never been greater.
+So this course provides a deep dive
+into the current cyber threat landscape
+and also unveils practical strategies
+to mitigate risks and vulnerabilities.
+By enhancing your understanding
+and implementing robust security measures,
+you can significantly fortify your organization's defense
+against malicious actors.
+By understanding the threats that exist
+and where they may come from,
+you'll be able to make your organization
+a much harder target for adversaries.
+Hey, everyone.
+My name is Christopher Rees, and welcome to my course
+Threats, Vulnerabilities, and Mitigations
+for CompTIA Security+.
+Some of the major topics that we'll cover include:
+types of attackers and their motivations,
+goals, and tactics;
+common threat vectors and attack surfaces;
+also types of vulnerabilities
+and how to mitigate against them;
+along with indicators of compromise
+and the tools used to launch attacks.
+By the end of this course,
+you'll have the knowledge required to understand and assess
+the various threats and vulnerabilities
+you're likely to face,
+along with the tools and methods to guard against them.
+Additionally, you'll be able to articulate those findings
+to your peers, to management,
+and also to partner organizations.
+But before beginning this course, you should be familiar
+with general IT and computer concepts.
+So I hope you'll join me on this journey
+and learn to identify the threats,
+both internally and externally, that all companies face
+with the Threats, Vulnerabilities, and Mitigations course
+for CompTIA Security+ here at Pluralsight.

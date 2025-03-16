@@ -1,0 +1,150 @@
+Okay, so let's talk about
+continuous integration and testing,
+and what that means for us as security professionals.
+So when we talk about continuous integration,
+we're talking about small, iterative changes to code
+made by multiple developers, typically,
+that are continuously tested
+and integrated into our code-base,
+and ultimately released out to end users,
+so throughout that process,
+we wanna ensure that we're including code-scanning,
+and that the code is released to production
+not only as bug-free as possible,
+but also free of security vulnerabilities, as well.
+Fortunately, there are tools that integrate
+into our pipelines that enable
+the automation of code-scanning as code works its way
+through our CI/CD pipelines,
+so let's look at some of the elements
+of continuous integration, and how they fit together.
+Okay, so when we talk about continuous integration,
+it's a practice and a process
+of automatically integrating code changes
+from multiple developers, typically,
+again, you may have one developer,
+you may have a team of hundreds of developers,
+but all of these different developers
+can work on code on their own,
+and they merge that code into a shared repository.
+We'll look at it more closely here in just a second,
+but each developer basically works on code
+on their own workstation and so forth,
+before committing that code to a shared repository,
+so when they commit that code, it's an integration.
+So each integration triggers testing to detect issues,
+and there's testing like smoke-test,
+which is done by the individual developers,
+then we have unit-testing, and then, integration-testing,
+and the way this typically works
+in a high-functioning environment,
+code changes can typically be made multiple times per day.
+So you may heard the term CI/CD,
+the CI part is "continuous integration,"
+CD could be either "continuous delivery"
+or "continuous deployment,"
+depending upon how mature that organization is.
+So continuous delivery,
+"Code changes trigger automated testing,
+and builds are then pushed to staging,"
+and we'll talk about that pipeline more in just a second.
+The actual release to production, however,
+is a manual process, and most organizations
+will have some format of continuous integration,
+continuous delivery.
+Very high-functioning and very mature environments
+may go to continuous deployment,
+so that has to be a very mature environment, obviously.
+So continuous deployment,
+"Code changes are continuously released to production
+after passing all automated testing,"
+so from the developers working on their code
+all the way through to releasing to production
+is a fully-automated process,
+so again, a lot of trust and testing needs to occur.
+There also should be continuous monitoring
+and alerting in production, to make sure that any issues
+that appear in production are caught right away.
+Okay, so here we have our CI/CD pipeline,
+I'll show you all the steps first,
+and then, we'll talk a little bit more about each one.
+So we have our code, which is the individual developers
+working on their code, working on their changes.
+They commit those changes into a shared repository.
+That goes into a CI/CD pipeline, which triggers a new build,
+which goes through unit-testing, which is more localized,
+and then, through integration-testing,
+to make sure it actually integrates
+and works with other systems, other applications,
+microservices, and so forth.
+From there, it goes into the CD part of the pipeline,
+and that could be continuous delivery
+or continuous deployment.
+So if it's continuous delivery,
+we have a manual review, it gets pushed into staging.
+From there, assuming everything passes,
+it then gets released to production.
+So early on in the pipeline,
+developers will build, run, and test code locally
+before committing code to the version-control repository.
+So from a security perspective,
+we should incorporate security all throughout this process.
+Now, it's not always done, but in a perfect world,
+we'll be incorporating code-scanning along the way,
+so static-code analysis should take place,
+otherwise known as "linting,"
+that's done before committing changes
+to the version-control repository,
+so assuming all things pass, they commit their code
+to the repository, which triggers a build.
+So from there, once it hits the CI part of the pipeline,
+there's some automation that should kick in,
+static-code analysis takes place again,
+automated code-scanning tools,
+which check for issues like code smells,
+potential vulnerabilities, and then, adherence to standards.
+Also, static application security testing, or SAST,
+so these SAST tools analyze code for vulnerabilities
+like SQL injection, cross-site scripting,
+or insecure configurations,
+and then, we have dependency-scanning
+to make sure that the code we create,
+if it calls any third-party libraries or third-party code,
+that code is scanned as well
+to make sure it passes our security checks.
+Now, if at any point in time, any of these tests fail,
+it gets sent back to the beginning,
+the developers will fix any deficiencies,
+and then, the process will repeat itself,
+so assuming everything passes up to this point,
+it then moves over to the CD part of the pipeline,
+and whether that involves delivery or deployment
+really, again, depends on what I talked about previously
+on how mature that environment is.
+But regardless, once it gets to the CD part,
+we're talking about moving through a review process,
+and then, it gets pushed to staging.
+Once it's in staging,
+we have dynamic application security testing, or DAST,
+which simulates attacks against a running application
+to identify run-time vulnerabilities
+like cross-site request forgery or open redirects.
+We also do container-scanning,
+so if we're using Docker or Kubernetes,
+we'll do image-scanning to identify vulnerabilities
+in container images before deploying,
+and then, assuming we pass all the tests,
+it then gets pushed to production.
+Now, if we're doing CI/CD,
+where we're doing continuous delivery,
+we're basically pushing everything to staging
+and letting it sit there,
+and then, we can manually release to production
+at a defined cadence,
+maybe once a week, or once a month,
+or whatever cadence works for your organization.
+If we're doing continuous deployment,
+then as soon as those tests pass,
+it automatically works its way through the pipeline,
+and then, automatically gets pushed to production,
+so there's no manual intervention there.

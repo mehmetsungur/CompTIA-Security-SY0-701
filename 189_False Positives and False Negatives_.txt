@@ -1,0 +1,66 @@
+Okay, shifting gears a bit,
+let's talk about analysis.
+So when we're doing our scans,
+vulnerability scans, penetration testing, and so forth,
+alerts from our different systems, all of that good stuff.
+Well, as I'm sure you can guess,
+scans are typically accurate,
+but occasionally they can provide erroneous results.
+So if you've ever had one of your systems come up
+and give you a result that you're not actually expecting,
+it can be pretty devastating.
+So a false positive, no system is perfect,
+and can occasionally generate false positives.
+And what that basically means is,
+it identifies a vulnerability that doesn't actually exist.
+So in that case, as I mentioned,
+results must be verified and occasionally audited
+for completeness and for accuracy.
+So with false positives,
+the controls should be routinely audited and reviewed,
+as I mentioned.
+False positives end up being events
+that really aren't incidents,
+and this could result from anomalies
+that deviate from normal behavior
+but really aren't actually an issue.
+And to make sure
+that we're not spinning up resources unnecessarily,
+we should review these things
+to ensure policies are set up properly.
+Because as I mentioned,
+false positives can create excess work
+and also minimize attention when real incidents occur.
+So if we're getting false positives
+over and over and over again,
+it's much like the old story of the boy who cried wolf
+or chicken little with the skies falling, right?
+Over and over and over again.
+It loses value and you ignore it, you think it's noise,
+and then the one time you don't pay attention
+is the time it's actually real.
+And then of course, you got bigger issues on your hands.
+The opposite of that would be false negatives.
+So false negatives are the opposite of false positives.
+So in that case, you actually had an incident,
+but you failed to recognize it.
+So that means controls are set up improperly
+or it could be a result of operator error.
+And just to understand, there are basically three types.
+We have type one, two, and three errors.
+So a type one error would be a false positive.
+A type two error would be a false negative.
+And a type three error
+is where you arrive at the right conclusion,
+but for the wrong reasons.
+And that can create issues because you think you're right,
+but it was basically luck (laughs)
+that you arrived at that conclusion.
+So you can't count on the fact
+that you're able to duplicate that
+or be right the next time.
+So it's important to audit our systems, to test them,
+to make sure that they're pulling up things properly,
+that our policies are set up properly, configured properly,
+and that we're alerting
+and actually acting upon the alerts that we get.

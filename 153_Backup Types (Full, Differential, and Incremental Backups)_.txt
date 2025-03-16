@@ -1,0 +1,60 @@
+So let's talk about the different types
+of backups.
+We have differential.
+So differential is data that has changed
+since the last full backup.
+So the time to backup increases over time
+because more and more data will change
+since the last full backup.
+But the time to restore is reduced
+because we only require two backup media,
+the last full and the differential.
+Next, we have incremental.
+So incremental backups is data that has changed
+since the last incremental backup.
+So the time to backup is reduced,
+but the time to restore is increased
+as all the incremental backups,
+plus the last full backup is required.
+And then a full backup,
+which all data is backed up each time.
+Kinda self-explanatory. And then we have snapshots.
+So a snapshot is a point in time copy of data
+that typically maintains pointers to the original data
+rather than actually copying the data itself.
+So snapshots typically take up very little space,
+and they can be performed very quickly.
+So let's look at the difference between incremental
+and differential.
+So here's an example, incremental backup schedule.
+So here you see we have the backup type,
+and then we have the days of the week, right?
+And the effect.
+So in this example, on Sunday, we do a full backup,
+and then Monday, Tuesday, Wednesday, and on,
+we do incrementals.
+So as you can see, any changes since Sunday,
+any changes since Monday, et cetera, et cetera.
+So as you can imagine,
+the backups themselves won't take very long
+because we're only capturing changes from that previous day.
+However, when it comes time to restore,
+we have to restore the last full backup,
+plus all of the incrementals.
+On the other side of the coin, we have differential backups.
+So again, backup type and the days of the week.
+We have a full backup done on Sunday,
+and then as you can see,
+each day when we run a differential,
+it captures all of the changes since the last full backup.
+So as the days go on, the backups take a little bit longer,
+because more and more things have changed.
+But when it comes time to restore, however,
+it's going to be much quicker
+because all we have to do is the last differential
+and the full backup.
+So we only need two media.
+So again, no matter which method you choose,
+there's no right or wrong answer.
+It's basically what is most appropriate
+for your organization.

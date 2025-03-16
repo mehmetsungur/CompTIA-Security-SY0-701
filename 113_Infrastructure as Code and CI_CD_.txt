@@ -1,0 +1,68 @@
+Okay, next, let's talk about
+infrastructure as code or IaC.
+So this is a methodology to create repeatable processes
+for deploying infrastructure.
+So what it does is it replaces static scripts,
+whether it's bash scripts or what have you.
+And then it allows for collaboration and automation
+with tools like Puppet, chef, Ansible, Terraform.
+There's a lot of things out there
+that can accomplish these tasks.
+But they all have the same main goal,
+which is basically enabling speed of delivery
+and reducing errors
+by taking the manual part out of the process.
+So it reduces shadow IT as well,
+and it makes processes more secure,
+and as I mentioned, reduces the risk of human error.
+And one of the things
+kind of associated with infrastructure as code
+is referred to as a CI/CD pipeline,
+continuous integration, continuous deployment.
+And there are lots of tools out there
+that have CI/CD pipelines built in.
+You may have heard of some of these, like GitHub or GitLab.
+There's Jenkins.
+There's lots of different tools out there
+that can do these types of activities.
+GitHub is a very, very popular one,
+perhaps probably the most popular.
+So I'll just give a high level example.
+But by doing this, it allows us to have version control
+and allow multiple developers to work on that code,
+check code out, make their changes,
+merge it back into the main code and so forth.
+It allows us to speed up delivery
+and make incremental or iterative changes
+ultimately multiple times a day
+in a high functioning environment.
+So let's say for instance, we have a main branch,
+and what a developer would do
+is check out that piece of code from the code repository.
+So when you check out that branch,
+you basically would then go to a,
+let's say in this example, a development branch.
+So from there,
+the developer can commit changes to a pull request
+to make sure they have the latest,
+greatest version of the code.
+And then they would do some type of automated testing.
+And in this case,
+GitHub actions is part of that testing apparatus.
+So the code changes that they introduce would get tested,
+and it could be completely automated
+or may be some manual steps in there as well.
+But it's tested to make sure everything works
+and that doesn't break anything.
+So from there, those fixes are committed,
+and then we make a decision.
+Did it pass?
+Yes or no.
+If it did, great, it goes on to the next step.
+If not, it gets sent back to the beginning
+and the developers are notified
+and then they fix whatever the issue was,
+and then the process repeats over again.
+But if it passes, then we approve the pull request
+and it gets merged back into the main branch
+and then deployed back into production.

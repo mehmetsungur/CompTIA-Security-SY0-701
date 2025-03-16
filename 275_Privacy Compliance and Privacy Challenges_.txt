@@ -1,0 +1,58 @@
+So next up, let's talk about privacy.
+So we have a big challenge here.
+The global nature of the internet can cause communication
+and expectations of privacy
+to vary widely throughout different parts of the world.
+So what do I mean by that?
+Well, behavior that's totally acceptable
+in one part of the world
+can be a capital offense in another.
+So, (chuckles) so I don't mean to laugh,
+but that really can't be overstated.
+What can be acceptable in one place
+can be really bad in another.
+So we have to be aware of these things, cultural norms
+and so forth, being respectful of the place
+in which we do business.
+So again, doing business in a global economy.
+Historically, the US traditionally set the tone
+for data privacy laws.
+However, other countries have stepped out
+and really taken the lead here,
+so more restrictive regulations
+aimed at consumer privacy and also protection
+and companies must comply with the laws
+of each country in which they do business.
+And we'll talk a bit about GDPR here, but that's a big one.
+If you do business within the UK,
+then you must comply with those laws.
+So some of the privacy compliance challenges.
+So we have data security.
+So requirements are obviously coming from all angles,
+data privacy laws, cybersecurity regulations,
+trade secret laws, so on and so forth, right,
+customer specific contracts, consumer protection statutes.
+As you can see, there's a myriad of things,
+all of which can vary depending upon location
+and also jurisdiction.
+And then, deletion of data.
+Understanding what data a company even has,
+it can be massive amounts of data.
+Keeping track of all these things is a massive challenge.
+So where that data resides,
+how long to retain the data, so on and so forth,
+all of these things are a major challenge.
+And then once you factor in things like big data
+and big data analytics, that makes keeping
+and mining that data potentially more valuable.
+So companies don't necessarily really have an incentive
+to get rid of data if they can mine it
+and somehow make money off of it.
+So sometimes making money, profits, are in direct opposition
+to the rules and regulations around them.
+And then documentation, keeping up with requirements,
+especially with global companies,
+is becoming increasingly complex.
+Requirements vary between countries
+and sometimes even between states,
+whether it's local, federal, et cetera.

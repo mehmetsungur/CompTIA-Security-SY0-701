@@ -1,0 +1,89 @@
+Hey, everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Rees.
+And welcome to course number five,
+Security Program Management and Oversight.
+In this module, we'll be talking about elements
+of effective security governance.
+So let's go ahead and take a look
+at what we'll cover in the module.
+We'll be talking about guidelines, policies,
+standards, procedures, external considerations,
+monitoring and revision,
+types of governance structures,
+and then roles and responsibilities for systems and data.
+And, as usual, let's peel back the curtain
+and look at the subtopics that are covered.
+I won't read through all of these,
+but you can go ahead and pause,
+and then, when you're ready,
+let's go ahead and get started.
+Okay, so why is this important?
+Well, security governance establishes a framework
+for safeguarding
+an organization's sensitive information and assets.
+So it helps to ensure consistency and compliance
+and also provides a structured approach
+to handle security incidents and changes.
+Some of the benefits of effective security governance
+are: risk mitigation.
+Basically, we're talking about
+guidelines, policies, and standards
+to help identify and mitigate security risks,
+reducing the likelihood of data breaches
+and also cyber attacks.
+Compliance assurance.
+So these components ensure organizations
+comply with industry, legal, and regulatory requirements,
+avoiding costly fines and legal consequences.
+And then consistency.
+So establishing procedures and standards
+which foster consistency in security practices,
+reducing vulnerabilities
+resulting from ad hoc approaches.
+We want to kind of reduce the one-offs.
+And then also incident response.
+So these policies and procedures enable organizations
+to respond quickly and also effectively
+to security incidents,
+minimizing damage, and, of course, downtime.
+And then we have business continuity.
+So components like disaster recovery
+and business continuity plans
+help organizations maintain operations
+in the face of cyber disruptions,
+again, ensuring minimal downtime,
+which is really what we're after,
+and, of course, data loss.
+And then we have accountability and governance.
+So governance structures
+and defined roles and responsibilities.
+This creates a clear chain of accountability
+for cybersecurity,
+which ultimately enhances decision making
+and security oversight.
+So just to give you a quick idea
+of how all these things work,
+how they feed each other, and so forth.
+At the top, we have executive support.
+That's critical to making sure all of this works.
+Without executive support,
+it'll be a very uphill battle
+to get company-wide adoption.
+So, anyway, executive support then feeds
+policies, procedures, training,
+and, of course, a security culture,
+which then, of course, feeds risk assessment,
+all of our different types
+of planning, reporting, and monitoring.
+And you can see all of these things,
+like policies, training, security,
+they feed each and every one of these subcategories.
+And by the same token,
+these also feed compliance, documentation,
+making us very adaptable,
+and then, of course, feeding proper communication
+downstream to business partners,
+other lines of business and so forth.
+So all of these things are very, very important,
+and they're all highly interrelated.

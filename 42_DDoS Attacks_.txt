@@ -1,0 +1,27 @@
+Okay, next up, we have network attacks.
+First on the list we have Distributed Denial of Service
+attacks or DDOS.
+So a DDOS attack has a goal of being able to slow down
+the target server or network,
+basically to the point of being unusable.
+So the attack vectors typically used are gonna be network,
+and that's a DNS amplification attack,
+sometimes known as a SMURF attack
+or an application level attack where we have HTTP GET
+and POST attacks basically, where it floods the server
+with so many requests that it exhausts the resources
+on the server, effectively bringing it to a screeching halt.
+Now, we do have some operational technology mitigations,
+such as Web Application Firewalls,
+which can help prevent some of that traffic
+from getting through.
+There are also things like IP reputation databases,
+which basically say, hey, if the site coming through
+is coming from an IP address
+that's not in our reputation database, then allow.
+Then we also have a challenge to requestor,
+basically a CAPTCHA, which also helps to curb bots
+because as at least right now, until AI takes over,
+we need a human to actually read that CAPTCHA
+for the most part, and enter it in manually
+before they're allowed to go on.

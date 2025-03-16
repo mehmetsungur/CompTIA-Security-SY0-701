@@ -1,0 +1,45 @@
+And then a few more tools
+that I wanna make sure you're aware of
+or a few more concepts rather.
+We have just-in-time permissions.
+So this is where users are granted temporary access
+for a specific task and a period of time.
+So this minimizes the exposure of privileged accounts.
+Next, we have password vaulting.
+So password vaulting is securely storing
+and managing privileged account credentials.
+So in an enterprise environment,
+you might have HashiCorp Vault or CyberArk
+or something along those lines
+where you have password vaulting
+along with privileged access management.
+So you can store your credentials there securely.
+So your applications and so forth
+would then contact the vault to get very secure passwords
+and you can have them auto rotate and so forth.
+So it makes managing those passwords
+and those secrets much, much easier,
+and they can even launch ephemeral credentials.
+So ephemeral credentials are temporary, short-lived access
+tokens that provide access to privileged accounts.
+So ephemeral credentials enhance security
+by reducing the time during which
+credentials can be exploited.
+Again, they only last for a short period of time.
+They are temporary, they're time-based,
+they automatically expire and they're dynamically generated
+and not stored on any system.
+So again, password vaulting, HashiCorp vault,
+and some others can dynamically generate these as well.
+So if you haven't looked at these yet, I highly recommend
+that you do and see if you can incorporate
+those into your systems.
+Okay, jam packed module talking about
+identity and access management.
+A lot of good stuff there, I hope it sunk in.
+If not, please go back and rewatch until it sinks in.
+Hopefully you can take it back and
+incorporate into your organization.
+So please stick around because up next we have automation
+and orchestration to secure operations.
+I'll see you in the next module.

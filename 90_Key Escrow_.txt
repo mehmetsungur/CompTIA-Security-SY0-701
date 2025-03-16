@@ -1,0 +1,30 @@
+So another concept is Key Escrow.
+So Key Escrow is a trusted third party
+that holds the keys needed to decrypt data,
+just like escrow if you're talking about
+a mortgage and a third party
+or mortgage company
+holds some amount of money in escrow
+to pay taxes and so forth.
+Well, same thing here.
+We have a trusted third party
+that's holding the keys needed to decrypt data.
+So it's used in cases where keys are lost
+or some mandate,
+I.E, court order,
+requires the decryption of that data
+so they're holding it in escrow
+for if and when needed
+often referred to as a fair cryptosystem.
+Now, there are some disagreements
+around the technical feasibility
+of having a trusted third party
+correctly managed access to keys
+or control collateral compromise
+if the keys are leaked,
+because as we know, people get hacked,
+organizations get hacked,
+and if we have a trusted third party,
+if that gets leaked, then the confidentiality,
+and the security of that entire system
+is also compromised.

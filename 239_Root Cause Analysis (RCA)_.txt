@@ -1,0 +1,53 @@
+Alrighty.
+So next up, let's talk about root cause analysis.
+And basically we're talking about going down rat holes.
+(instructor chuckling)
+And this is what this poor guy's about to embark upon.
+As soon as you peel back the onion,
+you realize it's usually a thousand layers deep.
+So one thing leads to another when we're doing an RCA
+or root cause analysis.
+So what we're really trying to do is determine the reason
+why something happened,
+not just basically fixing the symptom,
+but understanding the underlying cause
+that actually created the issue.
+The one constant that's within IT is that it depends.
+So it's really a matter of the situation.
+It's a matter of the complexity of the issue,
+how big the organization is, you know,
+how much infrastructure is involved, so on and so forth.
+But more often than not, when you're with a larger company,
+you'll engage vendors to come in and help with the RCA.
+And again, depending upon the size of the organization,
+you may have these things worked out ahead of time via SLAs
+so that you have a service level agreement that states,
+okay, if an RCA happens or an event happens
+and we need an RCA, it will be a five day or a 10 day
+or a 15 day, you know,
+whatever the case may be in your specific situation,
+but you have a turnaround time.
+So you'll get that information back
+and they may request logs, they may request different pieces
+of information from, whether it's a hardware
+or software issue, whether it's storage, network,
+compute, firewall, so on and so forth.
+Every situation will be slightly different,
+but what we're basically doing is, as the name implies,
+getting to the root of the issue.
+So the steps involved, we're gonna do data collection,
+as I mentioned, then we would do problem identification.
+They would do some type of cause analysis
+and generate then a solution as to what needs to happen.
+And typically with vendors,
+they're gonna say, oh, it's not my fault.
+It's their software or their piece of network,
+or their piece of hardware.
+So sometimes there's some finger pointing back and forth
+before you actually get to the true root cause
+and someone actually takes ownership of that.
+But once that happens, then the solution is generated,
+then we're gonna implement that solution
+and then we need to monitor and verify
+that did in fact fix the issue.
+And then of course, documentation and reporting.

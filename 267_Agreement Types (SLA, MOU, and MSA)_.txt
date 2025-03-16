@@ -1,0 +1,74 @@
+So there are several types of agreements
+that I wanna make sure you're aware of.
+First off is an SLA or service level agreement.
+So this is a legal document that needs to be put in place
+before you engage with services
+or interact with third parties.
+So this will define and identify things like uptime,
+reliability, and response times,
+and then also penalties for non-performance.
+So this is important, very important
+because if you don't have these things clearly defined,
+then the vendor is under no specific obligation
+to do things in a specified period of time.
+It could take them days, weeks, months, or not at all.
+If there's no penalties for that non-performance,
+again, that makes it very difficult for you to take action.
+The more due diligence you do upfront
+and the more contractual things you have upfront
+makes the entire process that much more smooth.
+Next is a memorandum of understanding or an MOU.
+So this is really a letter of intent.
+It's really not a formalized contract.
+And what it does is specify mutually accepted expectations
+between two or more people.
+Typically, it's not legally binding
+and it's more flexible than contracts.
+However, legal remedies, liquidated damages
+and so forth may not be available.
+So regardless of how cautious you may be, MOUs pose risks.
+So in a business environment,
+these informal agreements lack the formality
+and the standardization of a contract
+and basically don't have the same protections
+that both parties would expect during a project.
+So as a result, legal remedies might be non-existent
+in the event of a non-performance
+or a lack of adherence to an MOU.
+So typically recommended not to use these things.
+I'm just putting it out there for your information.
+There are more formalized ways to get the job done.
+Next is a master services agreement.
+So this is a contract reached
+between two parties in which the parties agree
+to most of the terms that will govern
+future transactions or future agreements.
+So expedite future transactions
+is really the one of the main goals.
+Most of the terms will be negotiated ahead of time,
+pricing, discounts, SLAs,
+turnaround times, et cetera, et cetera.
+So only terms specific to the transaction at hand
+then need to be negotiated because some of these contracts,
+especially for bigger companies,
+can take weeks or months to flush out.
+You get the contract, your legal team red lines it,
+sends it back, their legal team takes it, red lines it,
+sends it back, and it'll go back multiple iterations
+before both parties finally agree.
+And if you have to do that every single time,
+it becomes very burdensome to both sides.
+So by having an MSA in place,
+you can negotiate a large portion of that,
+maybe 80, 90% ahead of time,
+and it will be standard for each contract.
+Then you can just refer to the MSA
+during those pieces of the contract.
+Only the things that are specific to that actual transaction
+will then need to be called out.
+Next is a BPA or a business partner agreement.
+And this defines roles on each side
+of a manufacturer/reseller relationship.
+Decision making process, management style,
+how capital is to be distributed,
+salary, distributions, and so forth.

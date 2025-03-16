@@ -1,0 +1,35 @@
+Okay, next up, let's talk about
+identity proofing.
+And a few things to keep in mind here,
+first off, we have verification of identity.
+This is basically information required
+to establish identity.
+So this could include the user's name,
+address, date of birth,
+and it can range from knowledge-based questions
+to more robust or complex forms,
+like biometrics, as an example.
+Next is authentication methods.
+So information required to prove identity.
+So that could be something you know,
+something you have, or something you are.
+And we'll talk more about that in just a moment
+when we talk about multifactor authentication.
+And then we have risk-based assessment.
+So here we assess risk associated with granting access.
+In other words, perhaps a user's location,
+the device they're using,
+a specific behavior, or transaction history.
+So based on any or all of those things,
+it may trigger additional, what's called step up,
+identity verification steps.
+Meaning, "Hey, you say you're this,
+but we're not quite sure,
+or this is a risky behavior, or a risky location,
+so we're now going to ask you for a second form,"
+maybe a multifactor authentication,
+biometric retina scan, security questions, so on, so forth.
+And lastly, compliance and regulations.
+Regulations like GDPR or HIPAA
+often require stringent identity verification steps
+to protect sensitive data.

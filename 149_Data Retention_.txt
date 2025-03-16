@@ -1,0 +1,42 @@
+And then that brings us up
+to actually recovering data.
+So data retention.
+We need to make sure things are properly defined
+and actually documented.
+So data may need to be retained
+or specifically not retained for various reasons.
+So compliance, it could be eDiscovery,
+it could be data-mining,
+customer history, customer experience.
+Some companies wanna keep everything forever.
+Some wanna keep it for X number of years.
+Some don't wanna keep it for very long at all.
+So that way they don't have things
+that could be brought up in an eDiscovery scenario.
+So, again, every business is gonna be different
+and the industry that you're in
+will also dictate some of that
+'cause there may be compliance and regulation issues.
+So the longer data is retained, as you can imagine,
+the costs and the storage requirements will increase.
+Replicating offsite.
+A remote data center or a cloud provider
+can protect against some things like disaster,
+cyber incidents, and so forth.
+We talked about replicating to a hot site or a warm site,
+or perhaps even a cold site.
+So just keep those things in mind.
+And then a quick example of data retention.
+So here we have a user that's sitting in a primary location,
+a primary data center.
+So they have data on primary storage
+while they can do backups to a secondary storage array.
+And that will more than likely be
+in the primary data center.
+So you're gonna back up to another device
+within your same data center,
+or it could be a remote data center.
+So we could actually back up to a cloud provider,
+or we could back up to a remote data center
+to help us guard against some type of national disaster
+to our primary data center.

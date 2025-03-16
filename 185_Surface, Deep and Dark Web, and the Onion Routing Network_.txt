@@ -1,0 +1,124 @@
+Okay, so whenever we see someone in a hoodie
+looking at the screen, that can't be good.
+Well, this time is no different.
+So we're talking about the dark web.
+And the dark web is an area of the internet
+not accessible via normal web browsers.
+And we'll dig into more detail about what this means.
+So it requires special software or applications,
+and we're talking about TOR, which is The Onion Router
+or TOR Gateway, which is tor2web
+or I2P, which is the Invisible Internet Project.
+So you may or may not have heard the term dark web before.
+You may or may not have visited those places before.
+Although it sounds ominous
+and there are a lot of illegal activities
+that take place there, it's not 100% illicit
+and we'll talk more
+about how it got started here in just a minute.
+We have the surface web,
+which is pretty much what we're used to,
+the deep web and then the dark web.
+So the surface web are publicly accessible websites
+that are indexed by search engines
+like Google, Bing, Wikipedia, Reddit,
+so on and so forth, right?
+Publicly accessible websites
+that people visit on a daily basis.
+They're also available or accessible, rather,
+via standard web browsers.
+That actually comprises about 5%
+of what's available on the internet.
+So that's why I have the picture of the iceberg here.
+Now, if we dig down below the surface,
+then we come up with the deep web.
+And the deep web is cloud storage, email inboxes.
+It can be legal documents, research articles,
+financial records and so forth.
+So basically documents that are not indexed,
+they're protected by some type of authentication mechanism,
+passwords, maybe a paywall.
+And then various security measures
+like firewalls and so forth are put in place.
+Although you can get to them with a typical web browser,
+they're not indexed and they're not searchable.
+And then below that, we have the dark web,
+which is what I talked about just a moment ago.
+So these things are not searchable, they're not indexed,
+and they're not even reachable by normal web browsers.
+So they're .onion sites,
+they don't show up in any search engines,
+and you need specialized software
+to actually access these sites.
+And the tools that you use encrypts and anonymizes traffic.
+So it requires specialized software like the Tor browser.
+So when you think about all of this, it's pretty amazing.
+The actual percentages might change a bit.
+No one knows exactly
+how much is in the deep web and the dark web
+because again, they're not indexed.
+But general consensus is is roughly 95% below the surface,
+and only about 5% is actually searchable
+and indexable on the quote unquote surface web.
+So just a bit more about the Onion Router or Tor
+and the Onion Routing network.
+So this was actually originally created in the mid-90's
+by the US Naval Research Laboratory
+to help secure US intelligence communications online.
+So if you've ever used the Tor browser
+to access a Tor network,
+that Tor Project was actually founded in 2006.
+And again, this was all based upon the technology
+and the protocols established
+by the US Navy back in the mid-90's.
+So without going into too much detail,
+let's just take a quick look at how this works.
+So here we have a user
+who actually wants to get to a destination.
+And again, this is a destination that's on the dark web,
+so it's a .onion website.
+You can also use this to access surface web websites,
+so it doesn't have to necessarily be just dark web.
+You can use the Tor browser
+and the Onion Routing network
+to access publicly accessible websites
+just like you would today.
+It basically anonymizes your traffic,
+and this comes into play with like journalists,
+or if you're in a part of the world
+that has heavy censorship,
+then the Tor browser can be of benefit to you.
+But again, in between the user
+and the destination is the Tor network.
+And then within that network, there are thousands of nodes.
+A lot of folks will volunteer their computers
+as middle nodes or entry or exit nodes on that network.
+So a user using their Tor browser
+will connect to the Tor network,
+and they'll go through typically three nodes
+to get from point A to point B.
+Each node in the process
+only knows of where it came from previously one hop before
+and where it's going to one hop next.
+So the nodes in between don't know
+where that traffic originated from
+or where it's actually ending up.
+So the user will connect, it goes into an entry node.
+The entry node then decides where to send it across one
+or more middle nodes until it reaches an exit node
+and then goes out to the destination.
+Now you'll notice that the blue lines here are encrypted,
+communications that's encrypted by Tor.
+Once it hits an exit node, it is unencrypted
+and sent on to the destination.
+However, the destination does not know
+the originating source of that data.
+The only thing it knows about is the exit node.
+So the communication, when it goes back to the user,
+follows that same path.
+It basically creates a circuit.
+It goes back to the same path,
+and the user will take that path
+until that communication is done
+or they decide to create a new circuit,
+in which case it will spin up a different pathway.

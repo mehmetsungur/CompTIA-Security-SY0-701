@@ -1,0 +1,117 @@
+So next, let's talk
+about the technical implications.
+And we have such things as allow/deny lists, right?
+We wanna make sure we clearly define what can be done,
+what cannot be done, who's allowed to do things,
+who's not allowed to do things.
+And that could be a person, could be a resource,
+a computer, laptop, what have you,
+or it could be the traffic itself.
+What can pass through a certain point and what cannot?
+Also restricted activities.
+By calling out these things,
+and clearly defining them within our SOPs,
+then everyone is on the same page,
+everyone knows what's acceptable, what's not
+and we're defining what is a restricted activity,
+meaning it needs special authorization.
+It might need a VP approval, or a special level of access
+to get into a certain file system,
+or a certain area of the data center or what have you.
+But without defining these restricted activities,
+it's very difficult to adhere and make sure everyone
+is actually following the same process.
+Also, downtime, we'll talk more about this later,
+but there is planned downtime
+and there's unplanned downtime.
+And as you can imagine,
+planned downtime is much better than unplanned,
+happy versus unhappy.
+If it's planned downtime,
+I.e, a maintenance window, then everyone is aware.
+Everyone knows that, hey, during this time period,
+the server might go down, the application might go down,
+we're patching, we're upgrading,
+we're doing something to that environment,
+so please be on standby.
+Unplanned downtime, right, we're not doing things properly.
+We have no set of procedures that everyone's following.
+Something gets pulled,
+an application goes down, it's not expected,
+that can impact revenue, it can impact business operations.
+And of course, that's not a good thing.
+So again, talking about things like service,
+or application restarts,
+all these things should be called out in our tickets.
+All these things should be understood clearly
+by everyone involved so that we know
+that, hey, we're gonna be patching this system.
+It's gonna require a restart of the service
+or a restart of the application,
+and that may take hours to come up.
+If you don't have experience in an enterprise environment,
+you might be used to just a single computer and say,
+oh, I'm just going to reboot my computer,
+and it might take, you know, whatever, 30 seconds
+or a minute.
+But in some very large interior applications
+that might have other systems that feed
+from that specific application and so forth,
+all of those things have to come up
+in a very specific order,
+especially if it's a clustered application
+where you have multiple servers actually acting as one,
+well, that server,
+so that application might take a half an hour
+or an hour to come back up
+and become fully operational again.
+So those things have to be accounted for
+in our planning process.
+And then also legacy applications.
+And I feel bad we have some spiderwebs sitting here
+on our books, but legacy doesn't necessarily mean old.
+Sometimes it does, but it just means something
+that's kind of slated for a refresh.
+So a legacy application could only be maybe a year old,
+but if we have decided as an organization
+to refresh that application
+or swap it out for something else,
+well then it's basically a legacy application at that time.
+Now, historically, or in most contexts, legacy means old,
+it's not necessarily patched,
+it's not necessarily upgraded anymore.
+Well, again, keep those things in mind
+because some applications have been running for so long,
+the folks that actually used to maintain
+that application may have retired years ago
+and nobody wants to touch it because if you turn that off,
+it may not come back up again.
+So no one's touched it for years.
+Those things have to be accounted
+for in your change management process, just in case.
+So if you do have to take that application down,
+if it doesn't come back up, what's our contingency, right?
+All of those things should be planned.
+And then also dependencies.
+So dependencies could be databases,
+that could be web services,
+that could be other applications,
+customer service applications,
+finance, what have you, right?
+So an application typically
+is not just a standalone application.
+They usually have a lot of dependencies.
+That could be things that it feeds actually information
+to or it gets information from.
+You may have applications that run reports monthly,
+or sends reports every morning into executive management
+or what have you.
+Those things have to be accounted for,
+so that when your application or when your changes
+are taking effect, the folks that are potentially impacted
+by that change, not necessarily even the folks
+that are part of the application,
+but all the ones that are dependent on that application,
+they should also be included
+in that notification communication,
+so they're aware of the changes that are taking place.

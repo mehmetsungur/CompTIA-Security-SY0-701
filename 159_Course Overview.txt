@@ -1,0 +1,41 @@
+(soft bright music)
+Hey, everybody.
+Welcome to Security Operations.
+This course is the fourth course in our series
+on CompTIA Security+ certification.
+This certification prep course will help you prepare
+for the SY0-701 exam.
+In this course, we're going to cover the skills measured
+in the security operations objective in the exam guide.
+This objective is found in the exam objectives
+or domains section of the exam guide,
+which counts for 28% of the total exam.
+My name is Christopher Rees,
+and I'm an author, trainer, and enterprise senior IT leader.
+I've been an instructor creating certification training
+for over 20 years.
+With over 50 courses created over the years,
+I've had the privilege
+of training over 600,000 students worldwide
+who have collectively watched
+over a million hours of content.
+I hold over a dozen certifications
+and have been CompTIA and Microsoft certified since 1999.
+I also have 23 years of enterprise IT experience,
+and I have over a decade of senior IT management experience
+for a large enterprise organization.
+Prior to that, I was a law enforcement officer
+and detective specializing in computer crime investigations.
+To download the exercise files,
+navigate to the exercise files tab
+and click the download button.
+In the exercise files, you'll find a helpful study guide
+that you can use to follow along
+during your certification prep for the SY0-701 exam.
+It contains a glossary of terms
+you should be familiar with,
+as well as some practice questions.
+I'm happy to join you on your certification prep journey
+with the CompTIA Security+ Security Operations course
+here at Pluralsight.
+(soft bright music)

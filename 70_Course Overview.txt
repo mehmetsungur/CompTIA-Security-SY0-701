@@ -1,0 +1,51 @@
+(gentle music)
+Hi everyone.
+My name is Christopher Rees
+and welcome to my course, General Security Concepts
+for CompTIA Security+.
+I'm an IT leader, author, and trainer
+and to date, I've created over 60 courses
+and trained over half a million students worldwide
+since 1999.
+I've trained folks from small companies
+to large Fortune 50 corporations,
+every branch of the military, along with local, state,
+and federal law enforcement.
+I thoroughly enjoy teaching
+and consider it an absolute privilege
+to be able to play a small part in helping students attain
+their certification and career goals.
+So thank you very much
+for spending your valuable time with me.
+Cybersecurity is one of the fastest growing
+and most needed skill sets out there.
+With companies of all sizes
+and every industry needing qualified,
+cybersecurity professionals.
+So a few examples of things we'll be covering in this course
+are things like zero trust,
+which are becoming increasingly more popular
+as companies pivot to more remote work options.
+Also, things like honeypots and honeynets,
+which are increasingly being used
+to attract and monitor bad actors.
+And the popularity of things like cryptocurrency
+has focused attention on blockchain technology,
+which we'll cover as well.
+Additionally, some of the major topics that we'll cover
+include security controls and various control types.
+We'll talk about CIA and AAA concepts,
+and also PKI fundamentals, like public keys
+and private keys, symmetric versus asymmetric encryption,
+certificates, hashing and salting.
+By the end of this course, you'll have a good understanding
+of general security concepts required to understand
+and assess the risks within your organization
+and articulate those findings to your peers, management,
+and partner organizations.
+Before beginning the course, you should be familiar
+with general IT and computer concepts.
+So I hope you'll join me on this journey
+to learn how to build a strong cybersecurity
+foundational skillset with the general security concepts
+for CompTIA Security+ course here at Pluralsight.

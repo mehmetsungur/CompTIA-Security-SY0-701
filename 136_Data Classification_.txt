@@ -1,0 +1,45 @@
+Okay, so separate for the types of data,
+let's talk about data classification.
+So we have sensitive data.
+So this is data or information
+that requires special handling due to its potential impact
+or consequence if disclosed or compromised.
+Next, we have confidential information,
+and this is information that is legally
+or ethically restricted from disclosure
+to unauthorized individuals or entities, and then public.
+So public information is as the name implies,
+it's intentionally made accessible to anyone
+and does not require protection or restrictions.
+And then we have restricted data.
+So data with limited access granted
+only to authorized individuals
+or groups based upon specific criteria.
+Private, which is information intended
+for a specific audience or a restricted set of individuals
+and not for public consumption.
+And then critical, so data systems or assets
+that are essential to an organization's operations
+and require the highest level
+of protection and availability.
+So again, I say all these things to make sure
+that you understand the distinction,
+how they're supposed to be handled,
+and you may or may not have all of these classifications
+within your organization, but number one for the exam,
+you need to understand what these things are.
+But more importantly, you need to make sure
+that data is classified properly within your organization.
+Now, depending upon the size of the organization,
+that could be a massive undertaking,
+especially if you've gone through years and years of growth
+and expansion and so forth.
+And that data's never been really properly classified.
+To try to go in and actually do it now
+could be a monumental effort.
+But it is worth it, it does pay dividends in the end
+if in fact you ever get audited or in fact you have a breach
+or some type of cyber incident occurs
+and you don't have proper documentation on
+how you were properly securing that data,
+you could be opening yourself up to liability.

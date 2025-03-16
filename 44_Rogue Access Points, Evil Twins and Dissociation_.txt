@@ -1,0 +1,60 @@
+Another concept
+while we're talking about network attacks
+is rogue access points.
+So you see here we have a typical network.
+We have laptops, we have some desktops,
+we have a wireless LAN controller, routers, firewalls,
+all that good stuff.
+The thing we're concerned with here
+is our wireless access point.
+So right now, that wireless access point has an SSID
+or an identifier of PSIGHT-AP1.
+Well, where this can become problematic
+is we have a rogue access point.
+You'll see here this new wireless access point
+just joined the network.
+And in this scenario,
+that's a bad actor's wireless access point.
+And what they're trying to do is essentially take
+the legitimate wireless access point offline.
+So we see that happening here.
+Using specialized hardware,
+they can send dissociation packets onto the network,
+forcing clients to log off
+or disconnect from that wireless access point.
+And as that wireless access point goes offline,
+the rogue access point comes back online with the same SSID.
+So those clients that were dissociated
+or disconnected from the network,
+when they attempt to reconnect,
+they will try to reconnect to the rogue access point.
+So this can also be known as an evil twin.
+So an evil twin is a rogue access point
+that is impersonating a legitimate access point.
+They use the same SSID,
+it dissociates the legitimate access point
+to make clients reconnect.
+And you may ask, okay, well why?
+What's the point of that?
+Well, what happens is when they actually reconnect,
+they may be presented with a login screen again.
+And when this happens to someone sitting on the network,
+they just think there was a glitch in the network
+and they try to log back in again.
+Well, when they put in their username and password,
+the bad actor that's operating
+that rogue access point captures that information.
+And once they have those credentials,
+they can go ahead and log in as that user.
+So just to reiterate, dissociation.
+An attacker can create a denial
+of service scenario on a wireless network
+by sending a spoofed dissociation frame.
+So in essence, the source MAC address,
+and we'll talk more about media access control
+or MAC addresses in a later video,
+but the source MAC address is set
+to that of the access point.
+So basically meaning when those clients reconnect,
+they're gonna reconnect to the rogue access point
+or to the evil twin instead of the legitimate access point.

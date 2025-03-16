@@ -1,0 +1,34 @@
+So I guess the big question is,
+why is all of this important?
+Well, design decisions can have security
+and also financial implications.
+For example, it's much harder to pivot in the future.
+If we make a wrong decision in the beginning
+and we build an environment on top of that,
+it becomes harder to pivot down the road if we decide,
+yeah, that really wasn't the best idea
+or we should have gone a different way.
+so doing your due diligence,
+putting some time and effort and thought
+into which way you're going to design your network,
+the parameters, the processes,
+the technologies, and so forth,
+all can have a major impact down the road.
+So as I mentioned, it's costly to shift to new platforms,
+and then it builds an environment, potentially,
+again, not always, but potentially,
+on insecure or inflexible foundations.
+And then lastly, we have things like vendor lock-in,
+which may or may not be a big deal,
+depending upon your vendor, how much you like them,
+how stable and resilient they are,
+but if you put all of your eggs in one basket
+and that ends up being the wrong basket,
+again, it's hard to pivot and take a new direction.
+However, if it's designed properly,
+some of the benefits include flexibility and agility.
+You build in resiliency and security, and also availability.
+So all of the things that are a bit of a no-brainer
+when we're talking about design,
+but again, if you don't do it properly in the beginning,
+these things are not guaranteed.

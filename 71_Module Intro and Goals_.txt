@@ -1,0 +1,77 @@
+Hey everybody.
+Welcome to Pluralsight and this course on CompTIA Security+.
+This is the first course of the series,
+and I'm very glad you're here.
+I'm sure we're gonna have a great time.
+This course is General Security Concepts
+for CompTIA Security+ again,
+the first course in the series.
+And in this module, we will compare
+and contrast various types of security controls.
+My name is Christopher Rees.
+I'm a Pluralsight author and an enterprise IT leader.
+I've been creating training videos since 1999
+and have trained 600,000 students,
+give or take worldwide over the past 23 years or so.
+So I'm very happy that you're becoming part of the family.
+I consider it an honor
+and a privilege that you choose me
+to help you along this journey.
+So let's go ahead and take a look
+at what we're actually gonna cover in this module.
+We're gonna cover the various categories
+of security controls.
+That means technical, managerial, operational, and physical.
+And we'll talk about a few other names
+you might hear these called by in other courses.
+CISSP as an example,
+has some slightly different terms for some of these.
+We'll also talk about the types of controls,
+and we have preventative,
+we have deterrent, detective,
+corrective, compensating, and directive.
+So let's go ahead and dive in.
+So before we get started,
+I wanna talk about the goals of the module.
+So basically we wanna understand types of threats, right?
+Not all threats are created equal,
+and no one control or one control type
+can deter or prevent everything.
+It's just not possible.
+That's why we talk about the concept of defense in depth,
+which we will cover more later.
+But just understand that there is no one silver bullet
+that's going to fix everything.
+Different sizes, different techniques, different controls
+for different types of scenarios,
+different types of attackers and so forth
+and also realize different groups
+have different motivations.
+So what motivates one hacker
+or one hacking group or bad actor,
+the terms are sometimes interchangeable,
+what motivates one group may be completely
+different than another.
+So again, multiple control types are required.
+And then also to reinforce the importance,
+as I mentioned, of defense in depth.
+So again, one size does not fit all.
+Multiple layers of defense are required
+to properly deter and to prevent breaches.
+Just like with your house as an example,
+you have locks on your door, you have locks on your windows,
+and all of those different things are designed
+to prevent different types of attacks,
+different types of breaches,
+just because you have five locks on your front door,
+if you have no locks on your back door
+or you leave your windows wide open,
+an attacker or bad actor will simply move
+from one area of attack
+or one attack surface
+or attack vector and move somewhere else.
+They'll move from the front door,
+which might be heavily fortified,
+and they'll move over to a window, right?
+Or somewhere that's a little bit less cumbersome
+to get into.

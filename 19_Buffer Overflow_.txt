@@ -1,0 +1,16 @@
+Next we have buffer overflow.
+And as you can see from the glass here,
+if we have a glass that is full
+and we keep adding more and more water
+or more and more liquid into that glass,
+well eventually it's going to overflow.
+So the same thing happens with our buffers.
+So an attack that causes a system or an application to crash
+or behave unexpectedly.
+So writing more data than the buffer can handle,
+so it basically becomes full and it overflows.
+Data is then written to adjacent memory,
+and it basically causes calls or pointers to jump
+to a different address than what was intended.
+So this can contain executable code,
+which could allow for remote code execution.

@@ -1,0 +1,68 @@
+Next is configuration enforcement.
+So this is the practice of ensuring systems
+and software adhere to defined configuration standards.
+So standardizes the environment and then reduces risk.
+So the more things that are the same,
+then the less chance we have some one-off,
+or some quote-unquote snowflake
+that can introduce either risk
+or something we have to troubleshoot
+when something goes bump in the night.
+If everything's the same,
+we know how to fix things very, very quickly.
+It also adheres with compliance requirements.
+So depending upon the environment that you work in,
+the industry that you work in,
+you may have some very strict compliance requirements,
+and by standardizing and having configuration standards
+in place and documented, as long as those things
+adhere with those compliance requirements,
+then it makes your life much easier.
+It also reduces the attack surface.
+So again,
+once we understand actually what's in our environment,
+what applications, what ports,
+what components actually make up our software,
+all of these different things,
+if we fully understand what's there,
+we can turn off what's not needed
+and reduce our attack surface.
+And then, it assists with documentation,
+and also with change control.
+The larger the environment gets,
+change control becomes harder and harder.
+So by fully understanding what is in place, what systems,
+what applications and so forth exist, when we do changes,
+then we can understand what are the potential impacts
+of those changes, what are the downstream impacts,
+upstream impacts, and so forth.
+What things depend upon the changes that we make
+or the applications that we're making changes to,
+all of these things, again,
+help to secure the environment and reduce risk.
+So just a few quick examples
+of some configuration enforcement tools.
+So for automated management,
+we have things like Puppet, Chef, and Ansible.
+For compliance auditing, again,
+some tools like Qualys or Nexpose.
+Patch Management, we can use WSUS or SCCM.
+And again, understand that these aren't necessarily
+endorsements of any one specific product over another.
+I'm just giving you some examples
+of tools within each category.
+If you wanna research them further on your own,
+or perhaps you're already familiar with them.
+For change control,
+we have things like Service Now or Remedy or JIRA.
+JIRA can also be used for bug tracking and so forth.
+For continuous monitoring,
+we have things like Splunk or New Relic or Sumo Logic.
+And then for policy enforcement,
+things like Group Policy or Jamf Pro,
+if you're in an Apple environment.
+So again, not something that you specifically need to know
+for the test, but I just wanna make sure
+you have an understanding of what tools
+kind of fit into what category
+so you can dig in a little bit deeper on your own.

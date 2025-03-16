@@ -1,0 +1,37 @@
+Next, is business continuity plans.
+So these plans deal with resumption
+and recovery of business operations
+once the initial disruption is contained.
+So things like how to begin recovery,
+the location of key personnel and resources,
+disaster recovery, alternate work locations,
+staging areas, and so forth.
+Also, needed resources, whether it's supplies, logistics,
+and then various interested parties.
+And then standardized data collection
+and reporting templates, forms, portals, and so forth.
+Because again, depending upon the nature of the disaster
+or the breach or the incident,
+you may need to liaison with law enforcement,
+with your PR folks, with news outlets, and so forth.
+And then we have business resumption plans.
+So this can be the same
+or part of the business continuity plan.
+So defines who owns the resumption process,
+which, again, may be different
+than the personnel responsible
+for incident management or disaster recovery,
+and the process for determining replacement
+of staff, buildings, infrastructure, services, and so forth.
+So it depends upon the nature of the incident and damage.
+So as an example, do you have temporary folks
+that you can bring in as needed
+if your disaster recovery area
+is in another part of the country,
+but there's no folks local with the skill sets needed
+to actually house or staff that specific data center?
+Well, then it might be an issue.
+They might be able to work remotely.
+But again, that should all be defined ahead of time.
+It's not the time in the middle of the crisis
+to find these things out.

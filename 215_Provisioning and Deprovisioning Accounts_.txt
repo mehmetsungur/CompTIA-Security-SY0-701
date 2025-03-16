@@ -1,0 +1,50 @@
+So when it comes to provisioning
+and de-provisioning user accounts.
+So we need to make sure that users are given
+only the access they need, right, least privilege.
+We'll talk more about that in just a moment.
+Also, automate where possible to ensure consistency
+to make sure we're doing the same thing each and every time.
+De-provisioning takes the opposite approach
+and it ensures employees who leave
+have their access revoked immediately.
+Right, we don't wanna necessarily have users walking around
+with access after they left the company.
+That would be bad.
+And it also helps to maintain compliance.
+I mean, that's just general good housekeeping.
+It also helps if we're ever audited,
+and, of course, it helps maintain security.
+So just a quick recap.
+So when we're provisioning a user account,
+we wanna make sure we adopt
+the principle of least privilege,
+make sure that the permissions
+are appropriate for the current role.
+And we also wanna make sure that we assign permissions
+at the group level versus the individual user.
+It just makes things a lot easier
+when people shift roles
+and move from one group to another,
+like finance to accounting, or HR to marketing,
+or, you know, whatever the case might be.
+They leave one role and they go into another.
+Permissions are automatically removed from the one role,
+and then as soon as they get dropped into the other group,
+permissions are automatically granted.
+So it makes administration much easier.
+And then temporary or contract users
+should have an end date set upon creation if known.
+We talked about that just a moment ago.
+When it comes to de-provisioning, basically same thing,
+access removed upon leaving the company,
+we wanna reduce the risk of unauthorized access
+or, of course, data breaches.
+We wanna make sure we ensure compliance
+with various regulations depending upon what they are.
+And again, it's gonna vary from company to company.
+And then also wherever possible,
+automate to remove access across systems
+so that way we make sure
+that all of their access across all the things they may need
+are removed upon leaving.

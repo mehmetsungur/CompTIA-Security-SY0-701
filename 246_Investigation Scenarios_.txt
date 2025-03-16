@@ -1,0 +1,170 @@
+Okay, so let's go ahead
+and walk through some of the scenarios.
+So, the first one is unauthorized access attempt.
+So, here's the scenario.
+A user reports that they couldn't access their account
+and they suspect some type of hacking attempt.
+So, we have an unhappy user here.
+So, what data sources could we use for that?
+As we go through these, you may wanna pause the video
+and ask the question for yourself before you see the answer
+about what type of data sources could be used?
+Well, data sources could be firewall logs, application logs,
+could also be OS-specific security logs,
+and then network logs.
+And then how we would use those
+would be basically analyze firewall logs
+for any unusual incoming traffic,
+we could review application logs for login attempts,
+also check OS security logs for failed login attempts,
+and basically we're looking for the source
+of the unauthorized access attempt.
+So, some of the tools you might use,
+and again, as I go through these,
+I'm not recommending one over the other.
+These are just some of the more popular tools
+that you may have in your environment,
+and most if not all of the tools that are mentioned here,
+we have training and/or labs within Pluralsight,
+that you can dig deeper into each of these.
+Going into the actual inner workings of them
+is beyond the scope of this course,
+but I would definitely encourage you
+to dig deeper into each of these tools,
+look at some of the training available at Pluralsight,
+and dig deeper where you can.
+So anyway, so some of the tools
+would be our SIEM systems, right?
+Security information and event management.
+So, we have solutions like Splunk.
+We could also use ELK Stack or Qradar,
+and these can centralize and analyze logs
+from various sources.
+We can also utilize network intrusion detection systems,
+or NIDS,
+such as Snort,
+and that can help to detect suspicious traffic.
+Next one, malware infection.
+All right, so the scenario.
+A computer in the network is behaving strangely
+and we suspect a malware infection.
+So, what data sources will we use?
+Well, we can use endpoint logs, network logs,
+and then OS-specific security logs,
+and we'd use them by examining endpoint logs
+for unusual processes or system behavior,
+review network logs for suspicious outbound connections,
+and check OS logs for any signs of malware execution
+or unauthorized system changes.
+Some of the tools you may use for that
+would be endpoint detection and response, or EDR, solutions
+like CrowdStrike or Carbon Black,
+which can provide real-time monitoring
+and response capabilities.
+Also, network traffic analysis tools like Wireshark
+can also be used for packet capture analysis.
+Next, we have data exfiltration.
+So, the scenario here,
+we have sensitive company data
+that appears to have been leaked or stolen.
+So, what data sources might we look at here?
+Well, we can check out network logs, metadata,
+and also packet captures.
+So, various uses.
+We would analyze network logs for unusual data transfers,
+we would review metadata for file access history,
+and also examine packet captures
+to trace the path of the exfiltrated data
+and hopefully identify the responsible parties.
+So, some tools that we could possibly use
+might be DLP, or data loss prevention, solutions,
+like Semantic DLP, or also McAfee DLP.
+Both of those can monitor
+and also prevent unauthorized data transfers.
+We can also use network forensic tools like Zeek,
+formerly known as Bro,
+which can aid in analyzing packet captures.
+Next, a brute force attack.
+All right, this scenario here.
+Frequent login attempts on a critical server,
+so we suspect someone's trying to brute force their way in.
+Well, data sources could be application logs,
+OS-specific security logs.
+Again, hopefully you're seeing the importance
+of making sure you're logging properly.
+So, uses could be investigating application logs
+for repeated login failures.
+We can also check OS logs
+for failed authentication attempts,
+and then review our IDS or IPS logs
+for any alerts related to suspicious login activity.
+Some tools you might use would be IDS systems
+like Snort or Suricata,
+which can generate alerts for suspicious login attempts.
+We can also look at the authentication logs
+from platforms like Windows Event Logs
+or our Linux auth logs, which can be reviewed.
+Next, a software vulnerability exploitation.
+So, a known software vulnerability
+is being actively exploited in the environment.
+So, what data sources might we use
+to aid in our investigation?
+Well, vulnerability scans, automated reports,
+and dashboards.
+So, some potential uses.
+We would review vulnerability scan reports
+to identify affected systems,
+we could also analyze automated reports
+for exploitation attempts,
+and then also use dashboards
+to monitor ongoing attempts and response efforts.
+Some tools you may use
+would be a vulnerability assessment tools,
+such as Nessus or OpenVAS,
+which can identify vulnerable systems.
+Security dashboards within our SIEM platforms
+can also provide real-time visibility
+into vulnerability exploitation attempts.
+Next, we have an insider threat,
+apparently a very well-dressed insider threat,
+and here the scenario is suspicion of an insider threat
+leaking confidential information.
+So, some data sources we might use are, again,
+metadata, endpoint logs, and network logs.
+So, some of the uses might be examining metadata
+to track file access and changes,
+review endpoint logs for user activities,
+and analyze network logs
+to see if any unusual data transfers or connections
+correlate with the suspected insider's actions.
+Some tools that may help us
+are file integrity monitoring tools like Tripwire or OSSEC,
+which can detect unauthorized changes to files,
+user and entity behavior analytics platforms
+like Exabeam or Splunk User Behavior Analytics
+can also help identify insider threats.
+And then we have a phishing attack.
+So, in this scenario, employees receive suspicious emails
+and you suspect a phishing campaign.
+So, some data sources we may use,
+email logs, IDS and IPS logs,
+and then also application logs.
+So, in using that, we would analyze email logs
+for patterns of phishing emails,
+we could check IDS and IPS logs for any related alerts,
+and review application logs
+to see if any users clicked on malicious links
+or downloaded attachments.
+So, some tools we may use for that
+would be email security solutions
+like Proofpoint or Mimecast,
+which can provide email filtering and analytics.
+We could also use our WAFs, or web application firewalls,
+like ModSecurity,
+which can help protect against web-based phishing attempts.
+Alrighty, so that wraps up this module.
+Hopefully you found it useful and informative
+and you understand the importance
+of proper data collection and logging.
+So, that brings us to the end of this course,
+but stick around, because up next is our domain summary.

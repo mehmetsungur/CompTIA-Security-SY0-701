@@ -1,0 +1,47 @@
+Next, the right to be forgotten.
+So the right to be forgotten allows individuals
+to request the removal of their personal data.
+So as you can imagine, organizations face challenges
+ensuring comprehensive data erasure,
+basically balancing competing rights
+and navigating complex technical and legal considerations.
+So when it comes to the right to be forgotten,
+a few more things I wanna talk about.
+So just so you're aware, this originated
+from the European Union's GDPR legislation, adopted in 2016,
+so again, it's been around for a while.
+And it's a data subject's right,
+meaning it's granted to individuals
+whose personal data is being processed by an organization.
+Conditions for exercise, meaning it's no longer necessary
+or the consent's withdrawn.
+So data subjects, or again, people,
+can typically exercise this right under certain conditions,
+such as when the data's no longer necessary
+for the purpose in which it was collected or processed,
+when consent is withdrawn,
+or even in certain circumstances
+when the data processing is based on legitimate interests
+but the individual objects to it.
+When it comes to data removal,
+when a request is made, the organization must comply
+and completely erase that individual's data
+and also inform any third parties
+to whom it has disclosed that data.
+So as you can imagine, that's a pretty monumental challenge.
+And as I mentioned, that can all take place,
+they could potentially collect that data again.
+So if you were to request that it be removed,
+don't necessarily assume that's for life.
+That's a periodic thing that, if it's important to you,
+you should check in on every so often.
+Okay, that brings us to the end of this module.
+A lot of really good information.
+Hopefully it really illustrates to you
+the importance of security compliance.
+It's not a trivial matter, and some of the fines
+and penalties can be extremely impactful.
+So again, hopefully you found it informative,
+but stick around, because up next we have types and purposes
+of audits and assessments.
+I'll see you in the next module.

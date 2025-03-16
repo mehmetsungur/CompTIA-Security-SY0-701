@@ -1,0 +1,41 @@
+Okay, next,
+we have something called tokenization.
+And tokenization is replacing sensitive data
+with a non-sensitive equivalent.
+So it can be single use, multiple use,
+it can be cryptographic or non-cryptographic,
+it could be also reversible or irreversible, right?
+So how's that for covering all the bases?
+So we have two main types.
+We have HVTs, or high-value tokens,
+and they can be used to replace things
+like primary account numbers, or PANs,
+on credit card transactions,
+and it can be bound to specific devices, and so forth.
+And then we have low-value tokens
+that can serve a similar function,
+but it needs the underlying tokenization system
+to match it back to the actual primary account number,
+or the PAN.
+So a tokenization example.
+So here we have a customer,
+and basically the customer makes a purchase, right?
+So that token goes to the merchant,
+the merchant passes that token along
+to the merchant acquirer.
+From there, the merchant acquirer passes that token
+to the network.
+From there, the token vault is consulted to match the token
+with the customer account number.
+The network passes the token
+and the primary account number to the actual bank.
+The bank verifies the funds and authorizes the transaction,
+and then sends that back, the info back through the network,
+the acquirer, and the merchant to complete the transaction.
+So it's a complicated process,
+and typically when you tap your card
+or insert into the point of sale terminal,
+all of this happens very, very quickly,
+but it's basically passing that information all the way down
+through this network to the bank and back again
+in relatively short order.

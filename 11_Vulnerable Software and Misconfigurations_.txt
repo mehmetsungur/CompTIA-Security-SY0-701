@@ -1,0 +1,65 @@
+When we're talking about vulnerable software,
+again, I mentioned we have two different ones.
+Client-based, which is basically an agent
+is installed on the client, a small piece of software,
+but that needs to be updated and patched
+as vulnerabilities are discovered.
+So one more thing we now have to actually monitor,
+patch, update, and so forth.
+And then we have agentless,
+uses existing communication methods and built-in protocols
+and authentication mechanisms.
+So yes, that's easier.
+It doesn't always necessarily give you the full range
+of functionality that a client-based install
+might do, but it's easier.
+It's not something you have to update constantly.
+However, existing communication methods and those protocols,
+they do need to be updated periodically as well,
+as vulnerabilities are discovered.
+So it doesn't necessarily mean set it and forget it.
+All these things have to be periodically reviewed,
+updated, and so forth.
+Another big one is misconfigurations
+and weak configurations.
+So a weak or improper configuration
+can expose an organization to risk.
+And it's really a false sense of security,
+because if you think you've done something correctly,
+you're not necessarily likely
+to constantly keep monitoring it.
+In other words, if I went and bought a really heavy
+steel door and I put 10 locks on that door,
+but I never actually bothered to lock them,
+or I didn't screw them in tight enough
+so that you can just push the door gently
+and all the locks fall off, well,
+that's a false sense of security, right?
+Because I think I've done the right thing,
+but I really haven't.
+What that actually creates is a gaping hole in defenses.
+Because now I think I'm secure, I may let my guard down,
+I may not pay as much attention,
+and that actually makes me less secure.
+So as you might imagine, those things can also
+increase the attack surface.
+So it can be mitigated through
+vulnerability scanning and security audits,
+as we've talked about before,
+but these things need to be run periodically.
+Again, it's not a one-and-done.
+It should be done weekly, monthly,
+or at least quarterly, if not more.
+But at a very minimum,
+at least enough to make it worthwhile.
+And then when zero days or things pop up
+that are more or less out of band,
+we have to have the mechanisms in place
+to build or scan our networks ad hoc
+to make sure we can identify vulnerabilities as they pop up.
+And what this allows us to do is establish
+a security and a configuration baseline for each system,
+and then we can periodically audit against that.
+Because once we have a baseline set,
+then you can very easily see
+when you start to deviate from that baseline.

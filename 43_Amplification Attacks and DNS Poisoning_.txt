@@ -1,0 +1,50 @@
+So if we dig in a bit deeper,
+let's look at an amplification attack,
+previously known as a Smurf attack.
+So this is a distributed denial of service
+type of an attack, as I mentioned.
+And basically, the victim's IP address is spoofed
+and ICMP messages, otherwise known as ping messages,
+are broadcast to a computer network.
+So the recipients will reply with the victim's
+IP address, flooding it with responses,
+because typically when you send a ping, you get a response.
+Well, if an attacker sends that specially-crafted message
+and spoofs the victim's IP address as their own IP address,
+then everyone that replies, instead of replying back
+to the attacker, will reply back to the victim,
+essentially flooding that victim with responses.
+So the goal being is to slow down that victim, right,
+the PC, your laptop, what have you,
+to the point of being unusable.
+So that's the main goal of most DDoS type of an attack
+is to bring that system offline
+or at least bring it down to a screeching halt.
+So some mitigations we can put in place.
+These things can be mitigated by network administrators,
+by setting a policy to disallow computers from responding
+to ICMP requests or to broadcasts.
+We can also configure routers to not forward broadcasts,
+which is default on most but something to check
+just to be sure.
+So if we take a look at this graphically,
+so you see we have a victim's computer over here
+on the left and then we have our attack computer, right,
+our bad actor, down here at the bottom.
+And they will send a directed broadcast
+with the victim's spoofed IP.
+So when the attacker sends that broadcast
+with the spoofed IP address, all of the hosts
+on that network and again, there could be hundreds,
+there could be thousands, they will respond
+to the victim's computer instead.
+So all of those responses go back to the victim,
+flooding that computer with opened-end responses
+and basically eating up all the resources.
+Next we have DNS poisoning.
+So DNS poisoning is also known as DNS cache poisoning.
+And this is basically manipulating the data
+in a DNS server's cache to point to a different IP address.
+So the attacker could redirect a site's traffic
+from a legitimate site to one that they own.
+All right, so just something I want you to be aware of.

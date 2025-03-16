@@ -1,0 +1,33 @@
+Hey everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Reese,
+and in this module, we'll be covering
+Fundamental Security Concepts.
+So let's go ahead and take a look at
+what we'll be covering in the module.
+We'll talk about such things as non-repudiation.
+We'll talk about authentication,
+authorization and accounting, or AAA.
+We'll talk about something referred to as a Gap analysis,
+and then we'll talk about the concept of zero trust,
+followed by a couple extra things on physical security,
+a little bit of an addendum from our previous module.
+And then we'll talk about deception
+and disruption technology, such as honeypots,
+honeynets, and so forth.
+So if we actually break
+all of those things down into their sub components,
+not to scare you away,
+but these are the things
+that we'll be covering in this module.
+So feel free to pause here
+for a moment to read through these things.
+And by the end of the module,
+these will all make sense to you.
+Now, just keep in mind, the physical security section,
+we've already covered the first five or six things there
+from bollards down to sensors,
+but we'll be covering such things as infrared pressure,
+microwave and ultrasonic to add
+a few more pieces of information to that category.
+So with that, let's go ahead and get started.

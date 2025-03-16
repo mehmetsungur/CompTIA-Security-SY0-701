@@ -1,0 +1,88 @@
+Hey, everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Reese.
+And in this module,
+we'll be talking about automation and orchestration
+to secure operations.
+So let's go ahead and take a look
+at what we'll cover in this module.
+We'll be talking about the various use cases
+of automation and scripting,
+talk about the benefits of automation and scripting,
+and other considerations that we need to keep in mind.
+So, as usual, let's pull back the covers a bit
+and talk about the three main topics.
+You can see all the subtopics covered here.
+Take a moment to look things over,
+and then when you're ready,
+let's go ahead and get started.
+Alrighty, so when we talk about the use cases
+of automation and scripting,
+it's pretty well known that automation rocks
+as long as it works.
+So one of the first use cases is user provisioning.
+So let's talk about how automation
+can enhance that specific task.
+So automation can enhance, of course, accuracy,
+it can reduce errors, and also increase productivity.
+It streamlines the process of creating, managing,
+and also deactivating user accounts.
+So we can create templates
+and assign permissions to groups versus users.
+I've mentioned that one a few times in the past,
+and I'll reiterate it again.
+It's definitely a good idea
+to assign permissions to groups whenever possible.
+And a few popular tools that we can use to do this
+are Microsoft PowerShell and Ansible.
+And as I always say,
+I'm not endorsing one tool over the other.
+Just giving you an idea of some things to dig into
+if you want to research further,
+and of course look at other options as well.
+When it comes to commissioning and decommissioning.
+Now, here I'm talking about assets,
+but the same thing goes for user accounts, right?
+So I'll talk about it here first manually,
+just so you understand some of the tasks
+that go into commissioning
+and, of course, decommissioning assets.
+So when we bring a new asset on board,
+we wanna make sure we have things
+like the end-of-service date.
+The day something arrives,
+we wanna make sure you have a good idea
+of when that thing is gonna be leaving as well.
+That way we depreciate the asset properly,
+but we also can plan ahead of time
+so that we know six months out or maybe even longer
+how long it's gonna take to get off of that asset
+and we start that decommissioning process.
+Automation tools can help a lot with that as well,
+depending upon what the asset is,
+the level of effort and so forth.
+But anyway, the end-of-service date.
+Also, security scans.
+When a new asset is brought on board,
+we wanna make sure we scan them,
+and we wanna make sure that that asset
+is now in our inventory
+so it gets scanned again periodically over time.
+We also wanna make sure we have a MOP,
+or a method of operation,
+for daily operations
+so we understand how the thing works
+and how to troubleshoot it,
+who to reach out to if things go south and so forth.
+And then also make sure we have into our auditing schedule.
+When it comes time to decommission an asset,
+we need to make sure that all the data
+is migrated off of that platform onto a new platform,
+or decommission the data as well
+depending upon what it is.
+Old data is no longer needed,
+of course, then get rid of it,
+asset is wiped and purged, as per policy,
+and then the asset is disposed of properly,
+whether you have an internal disposal team
+or you outsource that.

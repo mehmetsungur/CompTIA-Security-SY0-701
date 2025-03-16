@@ -1,0 +1,38 @@
+So one concept I wanna make sure
+you're aware of is attestation,
+and we've mentioned that before,
+but just to reiterate, it's a formal statement
+or a certification to confirm the accuracy,
+the truthfulness, or the authenticity of a particular fact,
+a particular statement, a document, or a process.
+So it provides verification of compliance
+with relevant laws, regulations, perhaps industry standards,
+and also internal policies.
+So that's really crucial in demonstrating to stakeholders,
+internal customers, partners, regulators,
+and so forth, that the organization takes security
+and compliance seriously.
+Also, trust and transparency.
+So we wanna build that trust with customers and clients,
+and also business partners,
+so it demonstrates a commitment to security and compliance,
+and again, reassure stakeholders that their data
+and interests are protected.
+Also, legal and regulatory requirements.
+So depending upon the location and also the industry,
+attestation could be a legal requirement,
+so organizations there must provide evidence of compliance
+through audit reports, through assessments,
+and also certifications
+to meet certain regulatory obligations.
+As we know, non-compliance with these types of requirements
+can result in legal consequences, fines,
+and also reputational damage.
+And then we also have internal accountability.
+Attestation processes also hold internal teams
+and employees basically accountable
+for security and compliance.
+So again, bottom line, we wanna make sure
+everyone's on the same page and that we're demonstrating
+to the proper authorities, to partners, customers,
+and so forth that we take this security business seriously.

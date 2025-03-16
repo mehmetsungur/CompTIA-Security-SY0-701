@@ -1,0 +1,101 @@
+All right, so next up,
+let's talk about something a little more exciting,
+and talk about threat hunting.
+So with threat hunting, we're taking a proactive,
+cybersecurity approach that involves actively searching
+for signs of malicious activity, even when there are no IOCs
+or indicators of compromise present.
+And we're talking about throughout the network,
+throughout the various systems, and also the data itself.
+So some threat hunting examples.
+So here we have our bad actor,
+and one example might be a threat hunter
+notices that an unusual pattern of outbound network traffic
+originating from a specific internal system.
+So upon investigation, they discover that this system
+has been compromised and is communicating
+with a known, malicious IP address.
+So obviously that's no good.
+So once discovered, immediate action should be taken,
+or the decision might be to monitor for a period of time
+and see what's being exfiltrated
+or attempted to be exfiltrated,
+or what the nature of the activity is.
+So it's not necessarily bad
+to not take things down right away.
+You have to be very confident and very clear
+that you're not allowing things to happen
+that could have an even bigger impact later down the road.
+So in other words, the rule of thumb is typically,
+when you identify malicious activity,
+we wanna shut that down as quickly as possible.
+Another scenario might be a privileged escalation event.
+So through threat hunting, the threat hunter observes
+that a regular user account is attempting
+multiple failed login attempts on various systems.
+So this behavior suggests a potential insider threat,
+or perhaps, a compromised account.
+So again, closely monitoring, disabling the account,
+contact with the user are all possible next steps,
+again, depending upon what your course of action is,
+and if you just wanna kind of wait and see what transpires,
+or if you wanna just shut them down
+and take them offline immediately.
+And then some of the tools that we can use
+to aid in our investigation and also in our detection
+are things like SIM,
+security information and event management.
+So SIM systems like Splunk, IBM, QRadar, or Elastic Security
+can aggregate and analyze data from multiple sources.
+And again, alerts of all different types,
+it could be SNMP traps, it could be application alerts,
+different thresholds that we have set
+for compute, storage, network,
+all those things can help alert
+and then point our focus in a specific direction.
+Network traffic analysis, so tools like Wireshark and Zeke
+can also help analyze network traffic
+for unusual or suspicious patterns.
+Threat intelligence feeds, another big one.
+Threat intelligence platforms and feeds,
+like Threat Connect can provide valuable insights
+into known threats and indicators of compromise.
+So I can't stress enough
+the importance of threat intelligence because alerts,
+things we get from our SIM systems, network analysis,
+all these things are good for vulnerability assessments,
+all that stuff is obviously very, very valuable.
+By using threat intelligence
+and by bringing in feeds from other areas,
+from everything from public and private sources,
+the dark web, so on and so forth,
+we're able to enrich that data
+and bring in a lot of additional data
+that we can feed or lay on top of the existing alerts
+or indicators of compromise that we're seeing.
+So it allows us to dig much deeper
+and gives us much more information
+that we can turn into actionable items
+that allow us to take that vulnerability offline
+or shut down that incident very quickly.
+And then we have ML and AI,
+machine learning and artificial intelligence.
+So this provides advanced analytics
+and machine learning platforms
+that can help identify anomalies and deviations
+from normal behavior in very, very large data sets.
+So it's extremely good at seeing patterns
+and seeing things in very large data sets
+that a human might miss.
+And then we have EDR systems,
+endpoint detection and response.
+So tools like Carbon Black or CrowdStrike
+provide real-time endpoint monitoring
+and threat detection capabilities.
+So if you put all of these things together,
+especially if you're fortunate enough
+to have all of these tools in your arsenal,
+then threat hunting becomes, I wouldn't say easy,
+but it becomes much more of a powerful tool
+to really hone in on IOCs and shut things down
+many times before they even get a chance to spin up.

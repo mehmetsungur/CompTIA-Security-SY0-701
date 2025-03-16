@@ -1,0 +1,195 @@
+Okay, so let's talk about something
+referred to as a SCADA system or SCADA.
+So we're basically talking
+about Supervisory Control and Data Acquisition systems.
+So you may not be familiar with this term yet,
+but it's very important that we understand what it is
+and the implications if those things
+are not maintained properly.
+They can have a big impact or potentially a big impact
+because these types of systems
+usually refer to centralized systems,
+which monitor and control entire sites
+or complexes of systems spread throughout large areas.
+So what does all that really mean?
+Well, you see here I have a small diagram.
+What we're talking about is things like systems
+that control the electrical grid or the power grid,
+things along those lines,
+things that are very, very important,
+nuclear facilities and so forth.
+So again, a simplistic diagram.
+We'll dig down deeper in just a moment.
+But just so you understand
+some of the terminology within a SCADA environment,
+we have such things as an RTU or a Remote Terminal Unit,
+and that is connection to sensors.
+Basically, it's going to convert the sensor information
+and whatever that sensor might be,
+whether it's on a pipe
+or some piece of equipment within a larger system,
+and it monitors that via those sensors
+and triggers alerts depending upon what's going on.
+For example, they may check the temperature or the pressure
+or the amount of electricity,
+the voltage, so on, and so forth.
+So there's gonna be a sensor connected to that.
+The RTU then converts that sensor information
+into digital data.
+Next is a PLC or a Programmable Logic Controller.
+So this is similar to an RTU,
+but PLCs are a little bit newer,
+they're more versatile, more economical,
+but they basically do the same type of function.
+So they're gonna report
+into a Master Terminal Unit, or an MTU.
+And then next, a Human Machine Interface or an HMI
+is gonna present that data
+that's collected from these RTUs and PLCs
+to a human operator
+who can then act upon that specific data.
+So in other words, they may need to adjust valves
+or make sure that things are within acceptable ranges,
+in other words, take some type of action
+based upon the triggers and the alerts.
+And it's that Master Terminal Unit
+or the MTU that sends that information
+and instructions to the RTU or the PLC,
+and it's going to receive instructions back
+and basically aggregate all of that information.
+(laughs) A lot of acronyms there,
+hopefully that's making sense to you.
+Basically just understand it's an aggregated system
+with different sensors, different control interfaces.
+So basically, this is just an example
+of what a SCADA environment might look like.
+You may have some type of Master Control Area,
+where there's all different screens
+from the different systems,
+whether it's a nuclear power plant
+or a water treatment facility or an electrical grid.
+It could be a sewage system. You know, you name it.
+So these PLCs and RTUs
+are spread out through the entire system.
+They all report back to the MTU,
+and you have an operator that sits and manages and maintains
+and of course monitors all of these things.
+Okay, so if we look at this in a little more detail,
+you can see in that SCADA system we have RTUs right here.
+They're gonna be computers set up along the network,
+and typically these are closed-off networks.
+They're not connected to the internet, they're air-gapped,
+or at least not traditionally.
+So you'll see as we go along here, they've kind of evolved
+from a non-connected air-gapped type of an environment
+into things that are now more distributed, networked,
+and in some cases actually connected to the internet.
+So in this specific example, we have to be aware of the fact
+that we could have a remote access hacker
+that can get in if our machine or our network rather
+is connected to the internet
+or if we have some type of access point.
+Whether it's a legitimate access point
+or even a rogue access point,
+we may have a remote access attacker
+who can then come in from with internet,
+very similar to how they might come in through the internet.
+So it's critical to make sure the networks
+are as secure as possible.
+So one way we could do that
+would be to add monitoring into the network.
+Right, so we could add a network intrusion detection system.
+So some of our hosts may be locked down.
+We may not be able to add anything onto the actual hosts.
+So we can't put in a host intrusion detection system,
+but we may be able to put
+in a network intrusion detection system,
+and then firewall off the network itself.
+Even if they're attaching to the network itself
+from within inside our network,
+we could detect that intrusion.
+Okay, so a few SCADA security concerns.
+Now, as I mentioned, when these types of systems
+were first invented and first brought online,
+they were very monolithic.
+Right, they were not connected to the internet.
+They weren't designed to really be connected
+to anything else.
+They were designed as self-contained, air-gapped networks.
+So like I said, the change from proprietary closed systems
+to more open connected systems and protocols,
+as the platforms have evolved, right,
+they started off as very monolithic systems
+and they evolved into distributed systems,
+then they went into network systems,
+and now we're bringing in IOT or the internet of things,
+so we potentially have access from anywhere.
+So some security implications and some concerns obviously
+would be unauthorized access.
+It could be malware, it could be hacking or theft
+and destruction of data.
+So all of these things are obviously a big concern
+from a security standpoint.
+But we have to understand that these types of attacks
+can be used to degrade or destroy critical infrastructure.
+So two big ones that I wanna just call your attention to,
+one you may not be aware of.
+The actual first known successful cyber attack
+against critical infrastructure actually took place
+over 20 years ago in Queensland, Australia.
+So in a nutshell, there was a disgruntled ex-employee
+who had specific knowledge of ICS
+or industrial control systems and SCADA systems.
+So using that knowledge and some special equipment,
+he was actually able to leak 265,000 gallons of raw sewage
+that was leaked into local parks and rivers.
+So as you can imagine, that was a pretty crappy situation.
+I actually placed the link down here at the bottom.
+If you wanna read more about that specific scenario
+and see what happened and a bit more behind the scenes
+of how things were carried out, please check out that link.
+So in the previous example,
+we were talking about water treatment centers
+and water treatment facilities.
+In this one, we're talking about critical infrastructure
+around nuclear facilities.
+So in this instance,
+malware was actually used as a digital weapon,
+and it can be used to degrade
+or destroy critical infrastructure.
+So in 2010, the malware referred to as Stuxnet
+attacked targeted ICS or industrial control systems,
+specifically the PLCs and the SCADA system
+that was used in Iran's nuclear facilities,
+destroying roughly 1,000 centrifuges.
+So unlike most malware that targets any vulnerable system,
+Stuxnet was designed specifically
+to target the Siemens Step7 software,
+which managed the SCADA systems
+at the Natanz nuclear facility.
+So once on the network,
+Stuxnet search for specific configurations
+of programmable logic controllers or PLCs
+that were used in the centrifuges.
+And that was brought in initially via infected USB sticks
+that was used to gain access to that air-gapped network.
+So once it made its way into the network
+and actually infected those specific PLCs,
+it actually spun the centrifuges up very fast,
+then slowed them down and sped it up and slowed them down
+and created wear and tear
+and ultimately broke those centrifuges.
+But it tricked the system
+into reporting back to the operators.
+So the HMIS and the humans actually monitoring these things
+that everything was okay, so they had no idea.
+So the cyber attack on the Natanz facility
+was really groundbreaking in many ways.
+It was one of the first known instances
+of a digital weapon causing physical damage.
+So the intricacy of this malware,
+combined with its targeted nature,
+really at this point in time marked a new era
+in cyber warfare and cybersecurity,
+bringing attention to the potential vulnerabilities
+and critical infrastructure really worldwide.

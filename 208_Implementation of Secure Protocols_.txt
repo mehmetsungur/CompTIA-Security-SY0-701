@@ -1,0 +1,138 @@
+Next, let's talk about the implementation
+of secure protocols.
+So protocol selection,
+we wanna make sure whenever possible,
+we choose a secure version of a protocol
+when we have one available.
+So HTTPS versus HTTP as an example,
+or SSH or SFTP instead of Telenet or FTP.
+In other words, we wanna make sure we have encryption
+and security enabled, if that is an option.
+Otherwise, we're sending things in clear text.
+When it comes to port selection, same thing.
+Standard ports are predictable.
+Everyone knows what they are, right?
+We have the first 1024,
+which are defined as well-known ports,
+using our quotes there.
+So standard ports are what everyone is aware of
+and it makes things easy, makes things functional,
+but it's also very predictable,
+whereas custom ports can provide security by obscurity.
+And again, not a great idea in and of itself,
+but you can layer that
+with other techniques and technologies
+to implement defense in depth or a layered security process.
+But be that as it may, introducing custom ports
+can also introduce other potential issues,
+like a configuration mismatches.
+One side's using a custom port,
+and the other side doesn't realize
+it's not the standard port
+and they're not configured properly.
+Things along those lines.
+And then also the transport method.
+We wanna make sure
+that we're choosing secure processes where possible.
+In other words, VPNs for data in transit, as an example,
+or end-to-end versus point-to-point.
+So end-to-end encryption is going to be better
+or more secure, all things considered,
+versus point-to-point encryption.
+So again, why is all of this stuff important?
+Well, secure protocols ensure communication is safe
+from hackers and from prying eyes,
+so it's critical to ensure our company's data,
+intellectual property, competitive advantage,
+and so on and so on, right?
+We wanna make sure
+that we're keeping things as secure as possible,
+so our customers are happy, our investors are happy,
+the board is happy, right?
+Your boss is happy.
+All these things are very, very important.
+So making things as secure as possible
+is always a good thing.
+Obviously, we don't wanna make things so secure
+that people can't get their work done.
+There's obviously a balance in between,
+but you know where I'm going with this.
+So getting back to transport method,
+we have end-to-end security versus point-to-point security.
+So end-to-end security ensures the data is encrypted
+from the original sender
+all the way through to the final recipient,
+remaining unreadable
+to anyone else along the communication path,
+including intermediaries like servers or routers.
+So it's ideal for ensuring privacy and security of data
+across an insecure medium like the internet
+or with data from external parties.
+So it's essential for confidential communications
+like private messaging, secure emails,
+and we can use protocols like HTTPS,
+which again is hypertext transfer protocol secure,
+and the encryption extends from the user's browser
+to the destination server.
+The signal protocol,
+which is used in messaging apps like WhatsApp and Signal,
+again, provides end-to-end encryption
+for messages, for calls, and for media.
+And then we have encryption mechanisms like PGP,
+which is pretty good privacy,
+or GPG, which is GNU Privacy Guard or GNU Privacy Guard,
+and this is used for encrypting emails and files,
+ensuring that only the intended recipient
+can decrypt and read that content.
+Conversely, we have point-to-point security.
+So point-to-point security in contrast refers to encryption
+that takes place between two specific points in a network,
+typically between two network devices,
+such as a router or a firewall.
+So this means the data may be decrypted
+and potentially read or modified at these points
+before being sent on to the final recipient.
+So again, this is suitable for securing data
+across a particular segment of its journey.
+In other words, across a corporate network
+or between two offices,
+and it's often used in organizational context
+where control over the network is possible.
+So some examples might be IPSec,
+which is often used in VPNs.
+It secures internet protocol communication
+by authenticating and encrypting
+each IP packet of communication sessions between two points.
+SSL and TLS, which is secure sockets layer
+and transport layer security,
+typically known for securing web traffic
+or HTTP connections.
+It can also secure other point-to-point connections,
+like between an email client and server.
+And then we have L2TP,
+or layer two tunneling protocol over IPSec.
+Again, commonly used in VPN services,
+layer two tunneling protocol or L2TP
+creates a tunnel between two points,
+and then IPSec provides the encryption
+for the data flowing through that tunnel,
+and just a quick refresher on networking protocols
+to make sure we're all on the same page.
+So we have IP or internet protocol,
+and just so you're aware, it's a connectionless protocol
+that's responsible for network addressing
+that provides routing of packets
+between networks and so forth,
+and then we have TCP, transmission control protocol.
+This is a connection-oriented protocol,
+and it actually establishes a connection between endpoints.
+There's a handshake process that takes place
+and it provides guaranteed delivery of packets
+because it acknowledges receipt
+as those things are delivered.
+And then we have UDP, which is user and datagram protocol.
+This is also a connectionless-oriented protocol,
+and it has no guarantee of delivery.
+It basically gives its best effort.
+So once it sends it off,
+it's never quite sure if it actually is received.

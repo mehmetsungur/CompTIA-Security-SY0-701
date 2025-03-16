@@ -1,0 +1,40 @@
+We have the concept
+of multifactor authentication.
+So two or more pieces of information used to authenticate.
+So that could be a PIN,
+that could be a password, a fingerprint.
+But something to keep in mind,
+it must be from different categories.
+So a password and a PIN would actually only be one factor
+because they both fall under something that you know, right?
+You know your password, you know your PIN.
+So that's only one factor.
+So some examples are different authentication categories.
+We have something, you know, which I talked about,
+a password or some type of secret, something that you are,
+and that could be a fingerprint, a retina scan, et cetera.
+Or it could be something that you have.
+Could be a smart card, a token, some type
+of two factor authentication, something that you carry
+with you like a smart card or something
+that changes every 60 seconds, like a token and so forth.
+Some others are somewhere that you are.
+So that could be a location based, an IP address,
+geolocation, so on and so forth.
+Something that you do, this is something
+that's not as common,
+but definitely can be a category.
+And that could be a signature, a pattern of behavior,
+language, slang, so on and so forth.
+And then something that you exhibit.
+That could be a personality or a neurological trait,
+a physical pattern, could be gait analysis,
+like how you walk or how you do certain things.
+Again, obscure use cases at this point.
+But I'm just filling in some of the categories of things
+that you could pull from to use two-factor authentication.
+This is not all that used, but something to be aware of.
+And then also someone that you know,
+so it could be social proof, having a friend
+or a colleague vouch for the user,
+usually via some type of to token generation.

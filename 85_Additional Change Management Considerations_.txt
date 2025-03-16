@@ -1,0 +1,83 @@
+Some additional
+change management considerations, right?
+Again, I talked about ownership and key stakeholders.
+So they need to be involved in the review
+and the approval process, along with the continuous updates
+on progress and outcome.
+So when we're doing our changes, right,
+we have a change maintenance window.
+It might be, let's say, midnight to eight in the morning.
+Well, as those changes go, we should alert everyone
+what we're doing, when we start.
+Maybe every half an hour or an hour,
+send out another email to that distribution list,
+including ownership and stakeholders to make sure
+they're aware of what's going on.
+And then perhaps at the end, when things are done,
+everything's been verified and validated,
+send out another communication saying,
+"Hey, things were successful."
+Or if we ran into issues, conversely send out an update
+saying, "Hey, we ran into some issues."
+"We had a problem here, we rolled back,"
+or "Here's the next steps to get us functional again."
+The impact analysis, we talked about.
+And this really is comprised of identifying what systems
+or environments could potentially be impacted by the change.
+And also the level of impact, right?
+What's the best case scenario? Meaning no impact.
+And what's the worst case scenario?
+Well, if things go completely belly up,
+we're gonna lose the system.
+It's gonna be down for X number of hours,
+it's gonna impact these other five or 10 systems
+because they're all interrelated.
+One application feeds us,
+and then these other four applications get fed by us.
+So all of these things should be documented
+and that risk assessed.
+Now, it doesn't necessarily mean it's gonna happen.
+It could be a one out of 1,000 chance,
+but it should still be put out there
+so that the stakeholders, the owners are aware
+of what's happening, and then they can make a decision
+to either go or no go.
+Test results, as we talked about, wherever possible,
+test changes in a lower environment or a test environment
+to understand the time required to implement.
+Also the level of difficulty,
+and then what rollback procedures are possible.
+And then all of those things
+should be included in the ticket.
+So that we not only are just hypothetically saying,
+Hey, this is what we think could happen,
+but, no, we tested it and here's what we know happens.
+It's gonna take us an hour and a half
+to implement this change.
+Whereas the vendor might say, it takes 10 minutes.
+Well, we tried it, it took an hour and a half,
+and that's best case.
+So by having those things in mind,
+you can set yourself up for success.
+And then maintenance window, we talked about that as well.
+So we have to define,
+what is an acceptable time to perform maintenance?
+What are the notification procedures?
+What are the rollback procedures, or the rollback threshold?
+And then also validation procedures and success criteria.
+So once our change or our maintenance window is up,
+who do we notify to come in
+and actually test what we just did?
+Maybe we're updating a database application.
+Well, we need to have the application owner,
+the database folks, maybe the storage folks,
+the server folks.
+They all need to have a representative that will jump in
+to that maintenance bridge and validate,
+yep, my application works.
+Yep, my application works, it came back up,
+it came back up, and everybody's happy.
+We can then say, okay, that met the criteria of success.
+Send out the email, go ahead and bring everything back up.
+Maintenance is officially closed,
+and we're off to the races.

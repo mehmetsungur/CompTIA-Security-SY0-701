@@ -1,0 +1,56 @@
+Next, let's talk about patch management.
+So when it comes to patching, we have a few things.
+Firmware is the software that runs chips
+and pieces of infrastructure,
+things like network interface cards or NICs,
+host bus adapters, also disk drives,
+graphics cards, et cetera.
+And by not updating firmware
+or updating firmware out of sync,
+it can sometimes create compatibility issues
+when other things are updated or if not in sync, right?
+So if you update the firmware on something
+and that conflicts with other components
+within your machine,
+you may have to do an upgrade kind of top to bottom
+to make sure everything stays in sync.
+On a general PC, typically not a problem.
+But when you have very large scale pieces of infrastructure,
+hyper-converged infrastructure and so forth,
+we have a lot of pieces to the puzzle.
+You have to take into consideration how to actually upgrade
+to make sure that everything is done in lockstep.
+And then when it comes to operating systems, right?
+Vulnerabilities are constantly being discovered as we know.
+And one of the best defenses is to keep systems patched
+and up to date.
+So if and when a cyber incident occurs,
+hopefully it never does to you,
+but more than likely, it will at some point.
+When that does happen, first thing I'm gonna say is,
+"Were your system's patched?"
+So you don't wanna be on the receiving end of that and say,
+"Um, no, I haven't patched anything
+in maybe six months or a year."
+"But wait a minute, that CVE came out of that,
+vulnerability was discovered 11 months ago.
+You haven't patched yet?"
+Yeah, that's not a good thing to come back and say no,
+that's referred to as an RGE.
+I think I mentioned that one before.
+A resume generating event, right?
+We don't want that.
+So keep things patched and updated.
+And then of course, applications.
+Applications just like OS and firmware or drivers
+should be kept in sync as much as possible.
+You may need to refer to your hardware compatibility matrix,
+which you talked about are an ACL,
+hardware compatibility list,
+to make sure that updating one thing
+doesn't necessarily conflict with another.
+But as a general rule of thumb,
+we wanna make sure we keep our firmware,
+our operating systems, our applications,
+all of those good things, patched and updated
+as quickly as possible.

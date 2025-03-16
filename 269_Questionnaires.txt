@@ -1,0 +1,35 @@
+Also make sure
+you have questionnaires developed
+so you can gather information from vendors
+on their security practices.
+So does their application meet certain requirements?
+How does it store data?
+Is it accessed remotely?
+Does it phone home?
+Basically meaning calling back to their headquarters,
+to their data center, et cetera, et cetera, right?
+Some applications, some hardware
+need to be remotely monitored and it will issue tickets
+or create trouble tickets
+or dispatch technicians and so forth.
+All of these things should be known
+and called out ahead of time.
+And then also encryption.
+Is it at-rest?
+Is it in-transit, in-use, or not at all?
+If not, that needs to be highlighted.
+And then AI or artificial intelligence integrations.
+So does their application now
+or will it in the future integrate
+some types of AI features?
+Copilot as an example.
+Does it actually reach out and talk to the Cloud?
+Is your data that you're putting into that application
+sent to the Cloud for data mining
+or perhaps to train the vendor's large language models?
+Again, all of these things should be very, very specifically
+called out so you understand what you're getting into.
+Also, check into their data breach history
+and compliance history.
+You wanna make sure all of these things line up
+with your own security posture.

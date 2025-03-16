@@ -1,0 +1,79 @@
+So when we talk about risk calculation,
+this is basically the process of identifying
+the likelihood of a threat, the impact from the threat,
+and how quickly systems can be operational.
+So we're looking at things like likelihood,
+the ALE or the annual loss expectancy value, overall impact,
+a single loss expectancy, and then the ARO
+or the annualized rate of occurrence.
+So let's break some of these things down.
+So the likelihood of threat,
+basically the possibility of threat initiation.
+So this can be rank either qualitatively or quantitatively,
+as we've talked about before.
+Just because of vulnerability exists
+doesn't necessarily mean it can be exploited.
+So understanding the risk enables proper prioritization.
+So everything can't be the highest
+or the lowest priority, right?
+Everything can't be number one.
+We have to stack rank that in order of priority
+and then triage the most important things first,
+and then we have the impact of the threat.
+So if the threat is successfully initiated,
+what is the actual impact?
+So is a system slow or unresponsive or completely offline?
+Those are obviously two very different things
+and would require a different level of response.
+How about things like data loss
+or destruction of systems or data,
+customer confidence, downstream effects,
+what other systems did that specific system feed
+or get data from, dependencies and so forth.
+Some of these things are more difficult
+to quantify than others,
+but in doing so, it allows us, again, to triage
+and stack rank appropriately so we're identifying
+and prioritizing our resources effectively.
+So I mentioned a few loss calculation terms.
+So we have the annual loss expectancy or the ALE,
+and that is a monetary measure
+of how much loss you can expect in a single year.
+A single loss expectancy is the monetary measure
+of how much you can expect to lose at any one time
+from a single event.
+And that's calculated by the asset value
+times the EF or exposure factor.
+So annualized rate of occurrence.
+So the likelihood, which is usually determined
+with historical value of an event occurring within a year.
+So if you put all of that together,
+we get the SLE times the ARO equals the ALE.
+So our single loss expectancy
+times the annualized rate of occurrence
+gives us our annual loss expectancy.
+So let's take a look at an example.
+So here we have an e-commerce company
+that generates $100,000 in sales
+per hour from their website.
+So they're doing okay, right?
+The probability of the server failing
+during the year is 30%.
+So failure would generate four hours of downtime
+and $6,000 in components to repair.
+So the single loss expectancy is $406,000
+or $100,000 per hour times four hours,
+plus the 6,000 in repair parts, right?
+So $406,000.
+The annual rate of occurrence
+is determined to be 0.5 or 50%.
+So there's a 50% chance that that could actually occur.
+So therefore, our annual loss expectancy is $203,000
+or the 406 times 0.50.
+So at that point, we now have a quantitative analysis
+of that specific asset,
+and we can prioritize resources, funding,
+and so forth appropriately
+to make sure that that specific asset is protected,
+or at the very least, we've prioritized that within the list
+of other things that may need to be addressed.

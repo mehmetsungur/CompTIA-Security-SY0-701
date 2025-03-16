@@ -1,0 +1,60 @@
+Alrighty, so some GDPR key terminology.
+When we're talking about personal data,
+some things to keep in mind.
+So here's good old Sally
+and all the things that apply to her.
+It can be a name, an ID number, a date of birth,
+it could be her email address, any online identifiers,
+photographs, religious beliefs, or location data.
+So again, a few of these are kind of obvious,
+but some things in and of themselves don't necessarily
+stand out as being identifiable.
+But again, with big data analytics, if we start pulling all
+of these things together, a name, an ID number,
+or an email address, they can all start to paint
+a big picture of who Sally is.
+So we could potentially be keeping these pieces of data
+in disparate databases,
+or, shudder the thought, a spreadsheet
+or a SharePoint site where it's easily accessible
+in plain text, which we would never do,
+so hopefully you're not doing that.
+But any of these types of things, again,
+can be pulled in from all these different places,
+put together, and then paint a very accurate picture
+of who Sally is.
+So that type of data needs to be regulated, life cycled,
+and secured properly.
+Some additional key terminology,
+we have the term processing.
+So any operation, whether automated or manual,
+that is performed on personal data.
+A data processor is responsible for the processing
+of personal data on behalf of a data controller.
+And the data controller themselves determines the purpose
+and the means by which personal data is processed.
+So six data processing principles.
+We need to have lawfulness, fairness, and transparency.
+Again, it needs to be lawfully collected.
+We have to have purpose limitation.
+It needs to be specified and explicit.
+We have to define why we're collecting that information
+so that way we're not gathering information
+that's out of scope or unnecessary.
+And then data minimization, again, we wanna only collect
+what is necessary, nothing more.
+The data must be accurate,
+and where possible, kept up to date, which again,
+you can imagine is a big challenge.
+And then storage limitation,
+so kept only as long as necessary.
+So if we need someone's information for six months
+for a marketing campaign or a customer service
+or what have you, well, then after that six-month period
+that needs to be deleted.
+And then integrity, and confidentiality.
+We have to make sure that that data is kept secure.
+So, as you can see, any one of these things
+is a major challenge.
+When you start looking at all six,
+it's a pretty massive undertaking.

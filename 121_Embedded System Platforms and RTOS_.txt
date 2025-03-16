@@ -1,0 +1,103 @@
+So a few examples of embedded systems
+or embedded system platforms.
+We have Raspberry Pi,
+which you may or may not have heard of.
+They're pretty popular.
+But a Raspberry Pi is actually
+a fully functional microcomputer,
+so not necessarily an embedded system in and of itself,
+but it can serve as the platform
+or the foundation of an embedded system.
+But understand that a Raspberry Pi,
+for the most part, is a fully functional microcomputer.
+It's got CPU, wifi, Bluetooth.
+It's got USB connectivity, even video outputs,
+depending upon the application, and so forth.
+And then we have something referred to as an Arduino board,
+and that's a single board,
+it's actually a microcontroller.
+It's not as fully featured as a Raspberry Pi,
+and they're designed with this specific purpose in mind.
+And then we have field-programmable gate arrays or FPGAs.
+These are integrated circuits
+designed to be configured and programmed
+after manufacturing.
+So all of these things specifically used was referred to as
+a real-time operating system,
+at least when we're talking about embedded systems.
+So a real-time operating system is designed
+to process data with minimal delay or latency.
+So it's very, very quick.
+It's very bare bones
+in the fact that it does one thing very, very well.
+So it's more concerned with deterministic processing of data
+than with the amount of work that can be performed.
+So what does that mean?
+Well, deterministic means
+we know exactly how long a specific action will take.
+So we could have it processed that transaction one time,
+a hundred times, a thousand times, a million times a day,
+and it will do that in the exact amount of time
+each and every time.
+Whereas a regular computer might have
+other things going on at once.
+It might be doing a malware scan, or videos loading,
+or a myriad of other things
+that computers do at any given time,
+so it's hard to determine
+exactly how long something will take,
+and the fact that it's always multitasking.
+Whereas real-time operating systems
+are doing one specific thing very, very well
+in a very deterministic fashion.
+So having said that, they're usually dedicated
+to a narrow set of functions.
+And as I mentioned, we're talking about things
+like embedded systems, internet of things or IoT devices,
+and then SCADA devices or SCADA systems,
+specifically the PLCs that we've talked about before.
+Now, some additional security concerns,
+and when we're in IT and IT security specifically,
+there are lots of things
+that keep us up at night, potentially.
+There's always new threats coming out,
+there's always new vulnerabilities to be discovered.
+So just a few things I want you to think about,
+and then ask yourself,
+how do the various systems discussed here
+actually address these concerns?
+So availability and resilience and cost,
+responsiveness, and so forth.
+A lot of the systems that we've talked about,
+whether it's virtualization, containers,
+Kubernetes, and so forth,
+these can certainly help with availability, resilience,
+it can help lower costs, and of course, responsiveness.
+Those things could also be applied
+to real-time operating systems, right? Very responsive.
+Virtualization and Kubernetes, containers, and so forth.
+Definitely ease of deployment, ease of recovery.
+We talked about some of the concerns, though,
+around like patch availability and the inability to patch.
+These low-power devices are great.
+Internet of things, make our life a lot easier,
+but they're low-power.
+They're also low-compute
+as far as processing power is concerned.
+So they can't defend against brute force attacks
+and their encryption is pretty weak, typically.
+Not always, but typically.
+So all of these things are concerns
+from a security perspective,
+and I want to make sure that you get in the habit
+of actually thinking of these things
+when addressing, when vetting systems,
+when talking with vendors,
+when looking at infrastructure within your own environment,
+and just make sure you're looking at things from all angles.
+Okay, so a lot of good information
+around some very important systems,
+but stick around because up next,
+we'll be talking about security principles
+to secure enterprise infrastructure.
+See you in the next module.

@@ -1,0 +1,65 @@
+Hey, everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Reese.
+And in this module, we'll be talking about
+types and purposes of audits and assessments.
+Let's go ahead and take a look at what we'll cover.
+We'll be talking about attestation,
+internal audits and assessments,
+external audits and assessments,
+and then penetration testing.
+So, a lot of great information in this module.
+Make sure you don't skip through,
+especially the information on penetration testing.
+So as usual, let's take a look behind the curtain
+and see what our subtopics are.
+I'll go ahead and pause here for a second,
+and then when you're ready, let's go ahead and get started.
+All right, so as we always do, why is this important?
+Well, I'm glad you asked.
+Audits and assessments are a necessary
+and also a very critical component
+to maintaining a strong security posture.
+So, it helps ensure security measures are in place,
+up to date, and also meeting compliance requirements,
+and we know from our last module
+how important compliance is.
+So, it also helps to uncover deficiencies
+and gaps in current processes.
+So, some of the benefits of proper audits
+and assessments are compliance assurance.
+We wanna make sure we demonstrate compliance with legal,
+regulatory, and also industry specific requirements.
+Otherwise, we face the risk of penalties and legal issues.
+Then risk mitigation.
+So, by doing proper audits and assessments,
+we identify vulnerabilities and risks
+and also enable organizations to take a proactive measure
+to mitigate potential threats
+and also minimize the impact of security incidents.
+So, audits and assessment lead to improved product
+and overall service quality,
+enhancing customer satisfaction,
+and ultimately customer loyalty.
+Also, efficiency gains.
+So, identifying and addressing inefficiencies
+or bottlenecks can result in cost savings
+and increased operational efficiency.
+Another big one is data-driven decisions.
+So, audits and assessments provide data insights necessary
+to make informed decision making
+and also strategic planning.
+It also provides enhanced security
+in that they help fortify an organization's defenses
+where the nicks in the armor are, so to speak,
+which helps protect sensitive data
+and prevent security breaches.
+Audits and assessments also promote transparency
+and accountability in operations,
+and also financial reporting,
+enhancing trust among stakeholders and also shareholders.
+And then lastly, something we're always striving for
+is continuous improvement.
+So, regular audits and assessments create that culture
+of continuous improvement, driving organizational growth
+and also competitiveness.

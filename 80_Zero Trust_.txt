@@ -1,0 +1,155 @@
+Okay, next, let's talk about
+the concept of zero trust.
+So zero trust is a paradigm shift
+from the traditional perimeter-based security,
+which I kind of alluded to previously, right?
+We're talking about the perimeter.
+We're assuming if you're outside of the perimeter,
+you may be a bad actor or we don't trust you.
+But if you're inside the perimeter, then you're trusted.
+Well, that concept is slowly going away,
+especially in the age of post-pandemic, right,
+where everyone's working from home,
+or everyone's working in some type
+of remote or hybrid capacity.
+So a lot of folks are now outside of our corporate network,
+you know, quote unquote,
+and they're accessing our resources from a remote location.
+So in a nutshell, it's a fundamental principle
+to not trust or automatically trust any user, device,
+or even a network component regardless of its location,
+whether it's on the network or outside of the network.
+We assume everything is compromised and we trust no one,
+so we're authenticating everything,
+inside and also outside of the network.
+So there's eight main tenants here.
+We have zero trust as comprised of Least Privileged Access,
+so we wanna make sure we only give the permissions necessary
+to access a resource.
+If all they need is read, then don't give them write.
+Next, we wanna talk about Micro-Segmentation,
+so we wanna divide our network
+and our resources into smaller groups,
+and segment those between firewalls
+or some type of perimeter defense,
+so that way, if by chance we are breached,
+then that attacker only has access
+to that one small piece of the network
+versus getting inside the network
+and then being able to go wherever they want.
+So by using Micro-Segmentation,
+we create stopgaps along the way
+and kind of contain that breach
+to a much smaller blast radius.
+Next, Continuous Monitoring.
+We wanna make sure we're always monitoring and not assuming
+that just because someone's inside the network,
+now we don't have to worry about them.
+"Eh, they must be authenticated, we're good to go."
+No, that concept is now out the window.
+So even if someone's inside of our network,
+we're continuously monitoring everything that they do.
+And then, as I mentioned previously,
+Multi-Factor Authentication.
+Even if you're accessing resources from inside the network,
+and you're actually on the network already,
+Multi-Factor Authentication still helps
+to increase that level of security.
+Device and User Identity Verification.
+Again, doesn't matter if they're inside the network or not,
+everything they access is being verified and authenticated,
+even internal resources.
+And then also Encryption.
+As the name implies, we wanna make sure we encrypt the data,
+whether it's in transit, whether it's at rest,
+you know, wherever possible,
+so that way, again, if a breach occurs
+or someone has access to a resource, right,
+they compromise a server or a switch or what have you,
+that data is encrypted
+and it becomes much, much more difficult to actually access.
+Strict Access Control was another tenant,
+and as the name implies,
+we're only giving the amount of access necessary.
+We wanna make sure it's as slimmed down as possible.
+And then lastly, Assume a Breach, right?
+We wanna assume everything is compromised
+or has the ability to be compromised,
+so we wanna lock down as much as possible.
+Micro-Segmentation is a great way
+to help reduce that blast radius,
+but just assume that everyone's a bad actor.
+So that way it doesn't matter if they're inside or outside,
+we apply the same level of permissions,
+the same level of due diligence, and so forth.
+So to break it down a little bit further,
+a zero-trust environment,
+a zero-trust network is made up of two primary components.
+We have the control plane, and then we have the data plane.
+So if we look at this graphically, right?
+We have control plane and a data plane.
+On the control plane itself,
+which is basically where we do our policies and so forth,
+we have something referred to as a policy decision point.
+And that's comprised of two main components,
+we have a policy engine and a policy administrator.
+The administrator actually creates the policies,
+the rules, if you will,
+that that policy decision point runs by.
+And then we have a policy enforcement point
+that basically is the gatekeeper
+that allows things to pass through.
+So let's say for an example,
+we have a subject that wants to access some resource.
+So the subject hops onto a system,
+and that system wants to access a resource,
+well, they're gonna have to go
+through that policy enforcement point.
+At this point, they're considered untrusted.
+A Policy Enforcement Point, or the PEP,
+reaches out to the policy decision point and it says,
+"Hey, here's what I have,"
+the user, the system they're on, and so forth,
+"Can they pass on through?"
+"Are they allowed to access what they're trying to access?"
+The policy engine runs and says,
+"Yes, they meet all the criteria that we have defined,"
+sends the information back and says, "Okay, on your way."
+So now it's considered a trusted resource,
+and it can then access the enterprise resource.
+And there are a lot of things that can feed
+into this policy decision point
+and help actually craft that decision
+and update things in real time.
+So we have things like a CDM system,
+which is a continuous diagnostics and mitigation engine.
+Industry compliance, which changes from time to time,
+whether it's PCI or some other mandate.
+So as those things get updated,
+we need to potentially update
+some of the policy decisions that we make.
+Could be also from threat intelligence,
+whether it's an internal threat intelligence
+or external sources,
+that help us to, again, craft these decisions.
+It could be activity logs from stuff inside the system.
+It could be data access policies.
+It could be PKI, or Public Key Infrastructure.
+Could be ID management, right?
+Or Privileged Access Management system or, or PAM.
+Or it could be our SIEM system,
+our Security Incident and Event Monitoring system.
+So all of these things gather data
+on all the activity within our network,
+and they then feed
+or help to feed the policy decision point,
+which you can update things in real time
+and make things as secure as possible
+in relative real time or as close to real time as possible.
+So if you'd like to read about this in much more detail
+and kind of break this graphic down even further,
+I put a link down here at the bottom, right?
+It's NIST.SP.800-207.
+If you look that up, you can download that white paper
+and will go into a lot more detail
+about the specifics of a zero-trust network.

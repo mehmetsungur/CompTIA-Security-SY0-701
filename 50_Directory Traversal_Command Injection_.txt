@@ -1,0 +1,45 @@
+Okay, the next thing is directory traversal
+or command injection.
+Now, with this, the attacker manipulates user input,
+that's going to cause the application
+to traverse a directory structure and access files
+that are not necessarily intended to be visible.
+So in other words, if I have the ability
+to go into an application, a website, what have you,
+and inject some type of code and say,
+instead of pulling up this specific file,
+actually backtrack up a couple of layers
+and pull up a file that I'm not supposed to have access to.
+So if I'm able to craft that manipulative injection,
+I can very well do that.
+I can go up maybe one, two, or three levels,
+or even up to the root of that directory structure
+that I'm currently sitting in
+from a web browsing perspective
+and maybe open up a command file
+or a configuration file, a password file, and so forth.
+So basically, as we know, a directory has, of course,
+a top level directory, and then sub directories.
+Typically, a website will sit inside of a directory
+within a larger folder structure on a web server.
+Well, wherever we happen to be sitting,
+if I were able to go in and initiate
+what's known as a backslash or a dot slash attack,
+I can go in and kind of step up
+or climb the ladder, so to speak, and get into folders
+that I'm not supposed to have access to.
+In other words, backtracking.
+So once I do that, I'm actually able to peek inside
+and really get access to things that I shouldn't be seeing.
+Configuration files, as I mentioned, user password files,
+perhaps sensitive information
+that really should not be accessible.
+So there are some ways and some permissions that can be set
+to mitigate this, but it's something
+that as a security professional, we should be aware of
+that this type of attack is possible,
+and then test against that
+to make sure that we hardened our servers
+to make sure that these things,
+this type of directly traversal is not possible,
+or at least not very achievable.

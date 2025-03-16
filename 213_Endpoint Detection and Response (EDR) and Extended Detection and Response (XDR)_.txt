@@ -1,0 +1,50 @@
+So next we have EDR,
+or Endpoint Detection and Response.
+So a few key features.
+So we basically have the ability to monitor
+and collect activity data from endpoints.
+We can analyze that data to identify threats,
+patterns or IOCs, or indicators of compromise.
+Also, automatically respond to identify threats,
+to remove or mitigate them,
+notify appropriate teams, and so forth.
+And also launch or further enhance forensics
+and analysis tools to research threats
+and to search for suspicious activities.
+So taking that one step further,
+we also have something called XDR.
+So we have endpoint detection and response,
+which we just talked about, which focus on endpoints,
+but we also have XDR,
+which is extended detection and response,
+and this provides a more integrated and comprehensive view
+across various data sources and environments.
+Here we have not just endpoints,
+but we have servers, desktops, mobile devices, firewalls,
+IoT, or internet of things, email systems, network devices,
+cloud infrastructure, and so forth.
+All of these things reporting in to our XDR system,
+and it basically gives us some additional functionality,
+like I said, XDR systems provide a more integrated
+and a more comprehensive view.
+They're also capable of identifying more complex threats
+that span across different parts of the IT infrastructure,
+so not just endpoints.
+However, implementing an XDR solution can be more difficult
+due to its broader scope and also the need for integration
+across various tools and various platforms,
+so just something to keep in mind.
+But just for your own information,
+if you'd like to dig in a bit
+and check out some XDR platforms
+or do some research on your own, there are a few,
+CrowdStrike Falcon XDR, Microsoft Defender for Endpoint,
+Palo Alto makes an XDR solution,
+Trend Micro has one called Vision One,
+and Symantec Endpoint Security,
+which is now part of Broadcom, all have XDR solutions
+that you might be interested in researching further.
+Okay, that brings us to the end of this module.
+Hopefully you learned a lot and had some fun.
+Please stick around because up next we'll talk about
+implementing and maintaining identity and access management.
