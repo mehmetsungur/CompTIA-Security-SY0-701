@@ -1,0 +1,58 @@
+Next, let's talk about
+Cross Site Request Forgery, or XSRF.
+And basically, this is exploiting
+a website's trust in a user.
+It's often referred to as a one-click attack
+or session writing,
+and it's basically pronounced "See-Surf."
+So what this does is it requires the victim
+to have recently visited the target website
+and also have a valid cookie.
+So not necessarily the easiest thing to implement,
+but it is an actual attack
+and it can be executed if all the things line up properly.
+So let's take a look at how this actually happens.
+So in a CSRF example, all right, we see up to the top here,
+we have an attacker, we have our victim with her laptop,
+a browser session, the attacker server, a banking server,
+which is where the victim wants to go,
+to the bank database, and so forth.
+All right, so let's set the stage here.
+So the attacker will send a link to the victim, right?
+And in this case, PoorYou.com,
+but they're trying to visit some banking website.
+So that victim is going to click on that link,
+whether it's a phishing email
+or in some form or fashion,
+he was able to get her to click on that link.
+When that happens, it goes out to the attacker server
+and executes code.
+Basically it sends a response back,
+which could be an invisible form
+or a script that gathers the credentials
+off that victim's machine without their knowledge,
+and then takes that information
+and then does a post to their bank using the data
+and also the valid cookie that the victim had.
+So basically, since it's a valid session ID,
+that victim was recently at that website
+and the cookie's actually valid.
+Well, the bank server thinks it's a valid session
+and it trusts the user so it then transfers the money.
+So a very scary scenario.
+Luckily not something that's very easy to execute,
+but it is possible.
+So one thing I do wanna make sure you understand
+is the distinction between XSS, or Cross Site Scripting,
+and XSRF, or Cross Site Request Forgery.
+So in an XSS attack, the browser runs malicious code
+because it was served from a site that it trusts.
+In a XSRF attack, the server performs an action
+because it was sent a request from a client it trusts.
+In an XSS attack, again,
+the browser on the client runs malicious code
+because it gets it from a site that it trusts.
+In a XSRF attack, the server actually performs the action
+because it was sent from a client that it trusts.
+So basically the distinction is where the trust occurs.
+It's on one side or the other.

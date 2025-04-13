@@ -1,0 +1,34 @@
+Okay, next let's talk about spyware.
+And spyware is malicious software
+that captures user activity and then reports back.
+So we're talking about keystrokes,
+web browsing activity, so on and so forth.
+So as an example,
+here, we have a user who's sitting down through PC
+to do some coding.
+And of course, everybody knows the best way to code
+is to have the projector projecting directly into your eyes
+and on your face while you're doing your coding.
+But seriously, anything that's entered in,
+if in fact, there's spyware on that machine,
+well, then there's a bad actor on the other side of that
+who potentially has the ability
+to either monitor that in real time
+or periodically those keystrokes are saved to a file
+and then emailed out or exfiltrated via some other method.
+Or if that bad actor is physical access to the network,
+they can retrieve that information at any time.
+So as an example, here's a basic network.
+We have a few PCs, we have a server, a router,
+and then a malicious web server
+that sits outside of our network.
+Well, if there happens to be spyware
+installed on that server, Server A, for instance,
+well then anything that's entered onto that server, right,
+the spyware is gonna capture keystrokes.
+It will then be periodically emailed out
+or sent out real time to that malicious web server.
+And as I mentioned, the bad actor then has the ability
+to monitor that either real time
+or periodically as it gets emailed out
+or whenever they wish.

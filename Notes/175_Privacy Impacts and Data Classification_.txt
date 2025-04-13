@@ -1,0 +1,151 @@
+Part of this whole compliance framework is
+to make sure we do a privacy impact assessment.
+And that's used to identify
+and manage privacy risks arising from new projects,
+from new systems, processes, or even business relationships.
+So every time a new venture is entered into,
+every time a new system is brought on board,
+a new piece of equipment is entered into the environment,
+there should be a security assessment
+and a privacy impact assessment
+to make sure it's fully understood what impact, if any,
+that piece of equipment or that relationship
+or that application will have on the environment.
+How is data accessed?
+Where's it coming from?
+Where's it going?
+Things along those lines.
+And there's three main reasons for doing this.
+One, we wanna ensure compliance.
+Regulatory and compliance laws are gonna vary depending
+upon industry, upon geographic location, and so forth.
+But very important to pay attention to
+because it can have some very significant financial
+and legal risks if not followed.
+And then identify and evaluate risks.
+So a privacy impact assessment
+and an overall risk assessment
+to determine impact from breaches or cyber incidents.
+So if in fact, worst case scenario, this piece of equipment
+or this system or this application is breached,
+what is the blast radius?
+What's impacted?
+What's the worst case scenario?
+And then you can back into that,
+what resources need to be assigned to that
+to make sure it's mitigated properly and so forth.
+And then identify appropriate privacy.
+So acceptable levels of risk must be identified,
+as I mentioned,
+and then appropriate mitigation controls put in place.
+So for instance, you don't wanna necessarily
+spend a million dollars putting controls into place
+that's going to safeguard, you know, $50,000 worth of data.
+But the converse is also true.
+You don't wanna necessarily spend $5,000
+to protect $20 million worth of data
+because that control may not be significant
+or appropriate enough.
+And then along with that, we have data classification.
+So data classification, as you might guess,
+is crucial for cybersecurity
+as it prioritizes protection efforts.
+Again, this is a big thing
+because we have lots of areas, lots of teams,
+different organizations, lines of business.
+They're all competing for the same pile of money,
+the same pile of funding.
+So by prioritizing things appropriately,
+you can get the proper funding,
+which allows you to ensure compliance,
+put in the proper access controls,
+help prevent data leaks,
+all while basically optimizing costs
+and enhancing organizational awareness.
+So some things to think about,
+we basically wanna make sure
+we prioritize protection efforts.
+By classifying data, organizations can determine which sets
+of data are most critical and most sensitive.
+As I mentioned, this helps in focusing protection measures
+and also resources where they're most needed.
+Regulatory compliance is a big one.
+Many sectors have stringent regulations
+regarding the storage, the transmission,
+and the handling of specific types of data.
+In other words, personal data, health records, and so forth.
+So the proper classification ensures
+that that data is handled in accordance with legal
+and regulatory requirements, thus avoiding legal penalties,
+financial penalties, loss of brand reputation,
+consumer trust, and all that good stuff.
+And then access control.
+So classification informs
+who should have access to what data.
+So in doing so, it allows for the implementation
+of access control based on roles and responsibilities,
+ensuring that only authorized individuals
+can access specific categories of data.
+Proper classification also helps with data leak prevention.
+So tools like data loss prevention
+or DLP solutions can be more effective and they can monitor
+and control data transfers based upon data sensitivity,
+thus preventing potential leaks.
+If we don't have data properly classified
+and we're trying to guard against everything,
+it can be cost prohibitive
+and also just the scope itself is just too large.
+So by classifying data properly,
+we can focus our DLP efforts on where it's most needed.
+And it also allows for efficient response to breaches.
+So in the event of a security incident,
+understanding the classification
+of compromised data can help in determining the severity
+of the breach and also the appropriate response strategy.
+This also helps significantly with cost management.
+So not all data needs the highest level of protection,
+which can be costly.
+So by classifying data,
+you can allocate security budgets more efficiently,
+providing stronger defenses for the most sensitive data,
+while avoiding unnecessary expenses on less critical stuff
+that you really don't need to protect.
+It also factors into awareness and culture.
+So when an organization classifies its data,
+it basically inherently educates employees about the value
+and the sensitivity of the information they can handle.
+So this helps to foster a more security-conscious
+organization and allows them to, in turn,
+focus resources more appropriately.
+It can also support encryption decisions,
+which we know encryption can be costly.
+It's also time consuming.
+So based on data classification,
+organizations can decide which data should be encrypted,
+both at rest and in transit.
+That becomes less and less of an issue nowadays.
+Years back when we're talking about, you know, five,
+10 years ago in the stone age of IT,
+when spinning disc storage arrays
+weren't necessarily encrypted by default,
+where you had to have self-encrypting drives
+or software on top of that, which was costly.
+Nowadays with all flash arrays,
+encryption's typically built in and turned on by default.
+So not as much of an issue as it used to be,
+but still something to keep in mind.
+And then data lifecycle management.
+So classification can guide decisions about data retention,
+archiving, and deletion,
+as we talked about the information lifecycle.
+So certain types of data might need to be preserved
+for longer periods due to regulatory mandates
+and so forth, while others can safely be deleted
+after a certain period of time.
+Again, reducing exposure.
+And then last but not least,
+it can also help facilitate audits,
+both internal or external.
+Having well classified data simplifies the process
+of demonstrating compliance
+and also showcasing effective data handling processes.

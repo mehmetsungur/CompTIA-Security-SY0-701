@@ -1,0 +1,38 @@
+And then something else to consider is
+we have bandwidth selection and also the width.
+So two main frequency bands.
+We have 2.4 gigahertz and then five gigahertz.
+Now, I won't read through all of these,
+but you can pause for a second and read through these.
+But just understand that 2.4 gigahertz is
+obviously a slower speed than five gigahertz,
+but it will typically travel farther
+and is a little more ubiquitous
+among IOT devices and so forth.
+Now, when it comes to channel frequencies, as an example,
+not something you necessarily need to know for the exam,
+but I just wanna put it out there for your information.
+As an example,
+here is a 2.4 gigahertz channel frequency, right?
+We have channels one through 14,
+and you can see there are some channels
+that overlap with each other.
+So you can see, you can adjust
+or jump from channel to channel
+if you're in a specifically crowded area.
+And you'll understand this
+with Wi-Fi analyzers or site surveys.
+And there's software you can download to your phone
+and you can run it and it will show
+all the different Wi-Fi hotspots in your area,
+what's broadcasting and so forth.
+And then also what channels they're broadcasting on.
+So you can adjust yours so that you're not overlapping,
+'cause if the channels get too crowded,
+then your speeds may suffer,
+you may have connectivity issues, and so forth.
+So as you can see, there are some things you can tweak
+to make sure that you're getting optimal speed,
+optimal power considerations,
+and then also using channels
+that aren't heavily utilized wherever possible.

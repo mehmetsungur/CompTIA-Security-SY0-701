@@ -1,0 +1,56 @@
+Okay, up next SNMP
+or Simple Network Management Protocol and SNMP traps.
+So what I want you to be aware of is SNMP,
+or the Simple Network Management Protocol,
+is used for managing and monitoring
+network devices and systems.
+So version three is the latest,
+and it's also the most secure in that it provides
+authentication, data integrity, and encryption.
+Version one and version two used something referred
+to as community strings, which were basically passwords,
+but they were sent in clear text.
+So no real security there.
+So SNMP Version 3 is the one we should use
+wherever possible as that's the most secure.
+So as an example here, we have a bunch of network switches,
+and they will have SNMP agents on them.
+So the SNMP agent can either be built-in in firmware,
+or it can be software that runs on top of that device.
+And without going into too much detail,
+each of these different devices have what's called a MIB
+and an OID, and it's basically just a moniker,
+or a designation that tells you what the device is,
+and the various capabilities within that device.
+So these agents will be configured to report into a manager,
+and the manager then aggregates
+all the different traps or alerts.
+Trap is another word for an alert from the different agents.
+And it could be something that's happening on the network,
+something's down, a port is down, or a system's offline.
+And the manager can also query the agents
+and also configure the agents if set up properly.
+So for your own information, it operates over TCP
+and UDP Port 161.
+Typically it will be UDP.
+And as I said, the manager can send a GetRequest,
+a NextRequest, a BulkRequest, or a SetRequest.
+And these are requests that the manager will send
+to an agent, say, hey, give me some information
+about your capabilities, what you can do,
+how you configured?
+Or I'll send a SetRequest,
+and that's where I'm telling the agent
+how to configure something.
+So these are messages that are sent
+from the manager to the agent.
+Traps, on the other hand, can be thought of as alerts,
+and then traps are sent from the agent to the manager.
+And these are typically unsolicited,
+meaning the agent initiates that communication,
+and it's used to report events, alerts, and so forth.
+And then lastly, for your own information
+is an InformRequest.
+And this is a message that's similar to a trap,
+however, it requires a response from the manager,
+so it's considered more reliable.

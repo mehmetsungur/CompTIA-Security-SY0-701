@@ -1,0 +1,32 @@
+Okay, next,
+let's look at cryptographic attacks.
+And the first one up is something referred to
+as a downgrade attack.
+So, this is an attack that forces a system to negotiate down
+to a lower-quality method of communication.
+So, basically, it allows an attacker to force a lower-grade
+or less secure method of communication.
+And you may wonder why is that even possible?
+Why should you be able to downgrade?
+Well, remember, as the IT environments constantly evolve,
+we're constantly upgrading systems,
+that upgrading doesn't happen across the board
+with every single system,
+so we always have to maintain some level
+of backwards compatibility
+so we can communicate with older systems
+or, quote, unquote, legacy systems.
+So, normally when two systems try to communicate,
+they try to agree upon the highest level of communication.
+So, if they're both brand new systems or relatively new
+and they're using the latest,
+greatest communication protocols or encryption protocols,
+then all is good,
+but if one system needs to communicate with an older system,
+it may need to downgrade to a lower level of communication.
+And of course, hackers can leverage this.
+So we often see this used with man-in-the-middle attacks,
+where a hacker will try to force a downgrade
+to a less secure communication method
+or a less secure encryption method
+so it becomes easier to break.

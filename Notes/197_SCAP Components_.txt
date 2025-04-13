@@ -1,0 +1,59 @@
+Okay, next,
+let's talk about security content automation protocol
+or SCAP.
+So what this is is a set of open standards
+and specifications to standardize
+and automate vulnerability management, security management,
+and security policy compliance assessment tasks.
+So that's comprised of a few things
+we've already talked about, such as CVEs,
+common vulnerabilities and exposure,
+which is basically a dictionary of standardized names
+for vulnerabilities and exposures.
+Also, CCE, common configuration enumeration,
+common platform enumeration,
+common vulnerability scoring system or CVSS,
+extensible configuration checklist description format,
+there's a mouthful,
+and that's basically a language
+for specifying security checklists,
+and also configuration baselines.
+And then open vulnerability and assessment language or OVAL.
+And that's basically a language
+for describing system vulnerabilities, configuration issues,
+and also patches.
+And then asset reporting format or ARF,
+I don't make these things up folks.
+So it's a format for reporting information about assets
+and vulnerabilities.
+Now, just in case you didn't believe me
+when it comes to ARF reports,
+and I probably wouldn't believe it either
+if someone came to me and said,
+"Hey, take a look at this ARF report."
+But just to prove that it's real,
+here's an actual sample ARF report.
+And again, RAF is an XML based format
+and it's used report information
+about assets, vulnerabilities, and compliance.
+Now again, this is a simplified output.
+A real ARF report or a real ARF document
+can contain a wide range of additional information.
+But if we take a look here, we'll see that right here,
+this ARF:asset report
+serves as the root of the ARF document.
+And then down here where we see ARF:report host,
+those elements represent individual assets, network hosts,
+or devices.
+So information about each one of these devices
+includes its host name, its operating system, IP address,
+additional asset identifiers,
+such as common platform enumeration or CPE information,
+vulnerability information,
+and also compliance status.
+So there's a lot of information generated in these reports,
+and it will vary depending upon the tool that's used
+to actually generate that report.
+But just so you're familiar,
+I wanted to give you a quick peek
+at what a sample output would look like.

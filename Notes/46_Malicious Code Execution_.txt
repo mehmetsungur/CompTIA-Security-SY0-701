@@ -1,0 +1,39 @@
+When we're talking
+about malicious code execution,
+understand that there are a number
+of ways that this can happen.
+Recently, over 50% of malware attacks
+are utilizing PowerShell.
+We also have Python.
+It could be Bash scripting,
+it could be macros built into Excel spreadsheets,
+and so forth.
+It could also be VBA or Visual Basic for Applications.
+So all of these things are prime spots
+for malicious code to exist
+and then be launched on target machines.
+And then the methods that we actually get
+that malicious code to the victim,
+it could be sent via email or malicious links
+so it can be installed and run to execute,
+like I said, man in the middle or man in the browser,
+or other data manipulation or exfiltration attacks.
+It could be via infected USB sticks
+and other removable media.
+So scripts can be executed automatically upon access,
+as I mentioned, to install malicious code.
+It could be malware, ransomware, Trojans, or backdoors.
+And then, as I just said,
+the actual remote access Trojan or the RAT or the backdoor
+can allow complete control over a target system,
+including access to browser sessions,
+to data, turn on webcams,
+it can turn on microphones, it can screenshot,
+capture all that stuff, store it locally,
+and then periodically email it
+or send it out to a command and control server,
+or it can allow an attacker real-time access to that system,
+to all the files on that system,
+to access the webcam and just watch it in real-time,
+along with audio and anything else
+that that computer connects to.

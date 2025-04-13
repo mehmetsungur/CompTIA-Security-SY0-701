@@ -1,0 +1,29 @@
+Next, let's talk
+about online versus offline backups.
+So, in a traditional sense, we have a main data center,
+but if you really wanna protect our critical assets
+against things like cyber attacks, ransomware, and so forth,
+we may implement what's called a cyber-bunker.
+So a cyber-bunker is basically where we're replicating data,
+and it may be some data
+or it may be all of our data just depends upon, again,
+your specific situation,
+but we're implementing in such a way
+that we're actually creating an air-gapped environment.
+So that logical air-gap basically means the connection
+between these two things,
+between the main data center and the cyber-bunker,
+is only active when the replication is taking place,
+and then that link is taken down.
+So that way if a hacker came into our network,
+they're not gonna be able to jump over into the cyber-bunker
+because that connection is down.
+There's lots of ways to architect this.
+You can have additional security,
+additional sets of credentials, and so forth,
+so only certain folks and certain teams
+can access the cyber-bunker.
+So again, you can ratchet it down
+and make it as granular as you like,
+but the concept that I wanna make sure you understand here
+is the air-gap.

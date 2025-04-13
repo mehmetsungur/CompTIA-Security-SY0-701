@@ -1,0 +1,112 @@
+Next, let's talk about
+user guidance and training.
+So a few things that should be included
+in training are policy and handbooks.
+And really this is important,
+because clear and comprehensive security policies
+and handbooks provide employees with guidelines
+for secure behavior and also help set expectations.
+So employees should receive training
+on the organization's security policies,
+covering topics like data handling,
+acceptable use of technology, and also incident reporting.
+Next is situational awareness,
+and the importance revolves around teaching employees
+to recognize and report suspicious activities
+or potential security threats.
+Again, the goal being to enhance
+the overall security posture.
+So training programs should include situational awareness
+exercises such as identifying phishing emails,
+which we've talked about, detecting unauthorized access,
+and understanding the signs of social engineering attempts.
+Insider threat training, again, important
+because employees need to understand that the concept
+of insider threats and really what their role is
+in preventing and reporting suspicious behavior.
+So training there should address the risks
+associated with insider threats.
+Emphasizing the importance of protecting sensitive data
+and reporting concerns.
+Don't put passwords on sticky notes on your monitor.
+Don't leave them on your desk.
+Don't walk away from your workstation
+without it being locked.
+Things along those lines, just very simple things
+that go a long way to helping secure the environment.
+Password management is another important topic.
+Proper password management is crucial
+for preventing unauthorized access
+to systems and to accounts.
+So there some of the training topics should revolve
+around creating strong passwords,
+using MFA or multifactorial authentication where possible.
+And also recognizing common password
+related threats like phishing.
+Now that we're living in a bit of a post pandemic world,
+it's really important that employees receive guidance
+on securing their remote workstations
+and understanding the unique risks,
+'cause they're not being monitored like they would be
+in a corporate environment.
+So training should address remote work security practices,
+including securing home networks, VPN usage,
+and secure communication protocols.
+When it comes to social engineering, as I mentioned,
+that's one of the key things that are used by bad actors.
+So as we know, these are attacks relying on
+manipulating human behavior.
+So it's crucial that employees learn
+to identify these risks.
+So training should revolve around recognizing
+and resisting social engineering attempts,
+including phishing, pretexting, and baiting.
+When it comes to operational security,
+this involves protecting sensitive information
+by controlling the release of data
+that can be exploited by adversaries.
+So training should really revolve around OPSEC principles,
+emphasizing the need to safeguard classified
+or confidential data.
+And then lastly, removable media and cables.
+So very important here,
+because cables can introduce security risks,
+and I'll talk more about that in just a moment.
+And training should really revolve around safe practices
+for using USB devices, cables, drives, and so forth.
+I always say basically treat it like a toothbrush.
+If you found one laying on the ground,
+you wouldn't pick it up and use it.
+So have that same mindset when it comes to removable media.
+So when it comes to malicious cables,
+sometimes referred to as evil USB cables,
+these are custom built with advanced logic chips
+and eavesdropping capabilities.
+They look just like a normal USB cable.
+It has additional things like Wi-Fi, malware,
+could be GPS, et cetera.
+They can download payloads.
+Some have Wi-Fi or cellular capability, GPS capability,
+and if someone picks it up
+and puts it into their workstation or their computer,
+it can connect to Wi-Fi, dial home,
+and then a remote attacker can gain
+full access to that system.
+These cables were originally developed
+by the NSA in 2008 under the code name of cottonmouth,
+and they were upwards of 10 to 15 to $20,000 a cable.
+I think in the very beginning.
+These days you can order them off websites for under $200.
+They're not super expensive
+and they're also very hard to identify.
+So if you're interested in researching
+that a bit more on your own,
+I would check out this website, hak5.org.
+They're the developer of a lot of this technology
+typically used for red teams or penetration testing.
+But again, as we know, all the tools that can be used
+by the good guys can also be used by the bad guys.
+So it's important that users are aware,
+they understand what the risks are, that these things exist,
+so users can collectively help to strengthen
+that security posture.

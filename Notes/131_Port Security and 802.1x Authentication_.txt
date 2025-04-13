@@ -1,0 +1,136 @@
+Okay, the next concept I wanna talk
+about is port security and 802.1x.
+So basically securing physical access to the network.
+So what do I mean by that?
+Well, we wanna control the ability of someone
+to just walk into our environment,
+whether it be a kiosk or a retail store, a library,
+or even within our corporate environment,
+and get access to our network.
+So we don't want just anyone to be able
+to walk up, pull out a laptop, CAT five cable
+or CAT six cable, what have you, and then plug into the wall
+and get access to our network,
+or connect wirelessly for that matter.
+So one way we can do that is
+through something called port security.
+Now, this is particularly applicable
+to things like kiosks in schools
+and libraries, retail outlets
+and so forth, not necessarily through an entire enterprise,
+although you could, but it gets a little unwieldy
+at a certain point.
+But for specialized environments
+and situations, it can certainly be a good fit
+and make sense.
+It can be used throughout the network, as I've mentioned,
+but it really should be used in conjunction
+with security practices like VLANs, 802.1x authentication,
+which we'll talk about in a moment, and firewalls.
+So 802.1x requires users to authenticate
+before being granted access to the network.
+So with regard to port security,
+what we can do is configure a switch so
+that it only allows one Mac address
+or only a certain number of Mac addresses.
+So it helps to keep unknown attackers
+from sending multiple fake addresses
+or someone we're not aware of from accessing a network.
+So as you might be aware, when a client very first connects
+to a network, right, and is plugging into a switch,
+it's going to go out and try
+to get a DHCP address from a DHCP server on the network.
+So as soon as it does that, the MAC address of
+that device is attached to that datagram,
+and it gets recorded within the port
+on that switch that it's connected to.
+So whatever that port is, and again,
+it's a layer two device, it will learn
+and memorize that Mac address
+and associate it with that port.
+And so the switch will learn over time,
+all the devices that are connected to it.
+So in this example, the client plugs into port number one.
+Well that Mac address then gets recorded,
+and it switches the Mac table for that port.
+So the switch will learn over time very quickly,
+all of the devices that are connected to it.
+But Mac addresses are associated
+with which ports and so forth.
+So that way when information comes in, it knows what port
+to send that information back out of.
+Broadcast will go out of all ports, obviously,
+but let's say in this example we have our switch.
+We have two PCs, PC one and PC two.
+So PC one is connected to port one, PC two is connected
+to port 10 in this example.
+So if PC one sends information to PC 10,
+it will go in port one, but only come out of port 10.
+So other computers that are attached
+to maybe ports two, three, four, five, and six,
+they won't see the datagrams on the network
+because the switch knows what computers are attached to it
+and which ports it needs to send information out of.
+So it's a way to help keep things more secure.
+But however, as I was mentioning,
+we have malicious individuals
+or malicious activity that can take place
+where someone could flood a specific port
+and basically overrun a Mac table
+on that switch and bring it down.
+So by setting port security
+and allowing only certain Mac addresses,
+or in this case one Mac address per port, we negate
+that ability for someone to do that type of activity.
+We can also use that in conjunction
+with something called 802.1x
+to strengthen security at the wall jack.
+As I mentioned before, with school settings
+as an example, we're a kiosk or things along those lines.
+So 802.1x authentication, which is really EAPOL
+or Extensible Authentication Access Protocol Over LAN,
+but it gives us the ability to say, hey,
+when somebody connects to our wall jack,
+we're not gonna allow them to communicate
+until they actually authenticate on the network.
+So basically, it only allows EAPOL traffic over that port
+until the client authenticates with a radius server
+or some type of authentication server.
+So let's take a look at that in more detail.
+So in this example, we have someone connecting
+to the network.
+They wanna communicate, but they need to authenticate
+with something referred to as a radius server,
+remote access dial-in user service.
+So it's an authentication server.
+So as you see below, we have a multi-part process.
+This is the actual communication
+that takes place back and forth.
+So the client in this case is referred to as a supplicant.
+The client is going to initiate a request.
+In this example, they have their laptop
+and they find an open wall jack,
+and they plug in, like we said.
+So the computer will attempt to connect
+and say, "Hey, I'd like to communicate on the network.
+Can I please have an IP address?"
+And the switch is gonna say, no,
+not until you authenticate.
+All right, well computers don't actually talk like that.
+That would be a little weird, but you get the point.
+So we only allow EAPOL traffic basically through
+at this point.
+So as I mentioned, you can see the full exchange here below.
+But for our purposes, just understand
+that the supplicant will send information
+over to the switch.
+The switch will then forward it
+onto the authentication server.
+Once the authentication server validates the request,
+assuming that the proper credentials are provided
+and validated, the authentication server sends
+that information back
+and says, yes, yes you can communicate.
+At that point, that port is now wide open and the supplicant
+or the client in this case can communicate
+as normal on the network.

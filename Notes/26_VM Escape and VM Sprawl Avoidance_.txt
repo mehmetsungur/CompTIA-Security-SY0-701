@@ -1,0 +1,118 @@
+Okay, next, let's talk about VM Escape.
+Now, VM or virtual machine is an attack
+that enables an attacker to actually escape out of their VM,
+kind of a break out of jail, if you will,
+and access resources on the host.
+So as you know, with VMs,
+we have basically guests and hosts.
+The host will be the actual physical server,
+and then the guests are the VMs that reside on that server.
+So a VM escape could potentially interact
+with the host server and other VM guests being
+hosted on that server.
+So some potential security risks
+include a complete compromise of that entire system,
+so very, very serious.
+It could result in data theft,
+it could result in control over the host.
+We could exfiltrate data,
+observe what's going on and so forth.
+We could elevate privileges
+and do things we typically wouldn't be able to do.
+So if we take a look here, so at the bottom in the blue,
+we see physical resources, and that's the hardware.
+That's going to be the host, right?
+That's the physical server.
+And then up top here, we see the VMs,
+VM one, two, three and four.
+VM one in this example is an attacker VM.
+So if that attacker VM is able to exploit
+some type of vulnerability and an exploited map function,
+in this example, they're able to map functions
+as typically reserved for their own VM
+and actually jump to another VM, if you will,
+and jump to another section within the host.
+So in doing so, they're actually able
+to access other VMs on that host.
+So they could jump from one side to the other,
+from one hypervisor to another,
+jump out and access resources on a specific host
+or all hosts, depending upon the exploit
+and how much has been compromised.
+So this is a very serious security vulnerability,
+as you can imagine.
+Luckily, these things are patched pretty quickly
+and not all that common,
+but you need to understand that they exist.
+And when we're talking about VM infrastructure,
+some companies have dozens, some have hundreds,
+some have thousands of servers and thousands of VMs.
+So the potential for VM escape could be very far reaching
+Another security vulnerability,
+and something to be familiar with is VM sprawl
+and VM sprawl avoidance.
+So VM sprawl is basically a large number
+of virtual machines on a network
+without proper IT management.
+So some common causes, various departments or users,
+they create their own virtual machines or VMs.
+They do so without proper procedures
+or lifecycle management, Shadow IT is an example.
+These things will grow, and as they grow,
+they have the potential to be forgotten about.
+And if they're just left running, they're not being patched,
+they're not being monitored, again, as you can imagine,
+that introduces security vulnerabilities
+into the environment.
+So some ways to mitigate this.
+So we need to make sure we define virtual machine policy,
+strict IT policies will help, right?
+We need policies around resource allocation and use,
+which helps ensure standardization
+and also awareness of assets.
+If things are monitored properly, they'll be patched,
+and updated appropriately,
+and of course, help de-risk the environment.
+We also need to make sure we create standard VM templates.
+Those standardized templates help with providing users
+what they need as well as proper naming conventions
+to identify VM owners and also the purpose,
+'cause as I mentioned,
+some VMware environments are very, very large.
+We're talking thousands,
+potentially tens of thousands of VMs.
+And if we have no idea what a VM does
+or who it belongs to,
+it's very hard for the VM administrators
+and also for security personnel to do any type of audit
+and then understand who to go back to
+to remediate those things.
+So if we have just willy-nilly naming conventions
+and nothing actually matches to what they do
+or where they're at, what department they're in,
+we have no CMDB where these things are actually located,
+and kind of defined, it becomes a bit of a nightmare
+to try to figure out, okay, we have a vulnerability
+across these 500 VMs.
+Who do we even reach out to to mitigate?
+Who's the administrator of those boxes?
+So proper naming convention becomes critical,
+and then we need to implement lifecycle management.
+So ensure temporary
+or short-term resources are reclaimed on time
+to ensure VMs aren't created and forgotten about,
+which we've talked about already.
+So we can't just spin them up and then forget about them,
+because if they sit out there, they're not patched.
+Again, security vulnerabilities will pop up,
+and then we need to routinely audit.
+So auditing the environment enables
+discovery of assets on the network.
+Again, VM sprawl.
+Things have popped up that we didn't know about.
+We need to audit to make sure we find those things.
+We understand who owns them
+and who administers them,
+so that way we can go back to the owners of those assets
+and make sure they're being updated, patched,
+and so forth, appropriately.

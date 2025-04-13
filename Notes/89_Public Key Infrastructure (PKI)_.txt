@@ -1,0 +1,86 @@
+Hey everybody, welcome back to Pluralsight.
+I'm your instructor, Christopher Rees,
+and in this module we'll be talking about
+using appropriate cryptographic solutions.
+So this is a jam packed module.
+So let's go ahead and get started.
+Talk about what we're gonna cover here today.
+So we'll start off with public key infrastructure, or PKI.
+We'll talk about encryption.
+We'll talk about various tools for encryption,
+things like obfuscation.
+We'll talk about hashing and salting.
+Also, digital signatures along with key stretching,
+blockchain, and the fact that it's an open public ledger,
+and then also certificates.
+So as usual, if we dig in
+and look at all the things in this module,
+you'll see there's quite a bit of information here.
+To keep this from being a two hour course,
+I'm gonna cover the main topics here in this video,
+and then I'll also include some additional information
+in the slide deck that you can download
+that will contain some additional background information
+or some added info that might be of value to you.
+But take a moment and pause this if you need,
+just to understand what's covered in this module.
+And then once you're ready, let's go ahead and get started.
+So I guess the million dollar question is,
+why should I care?
+Well, basically, encryption is everywhere.
+Whether we notice it or not, it's everywhere,
+and it can either work for us or against us.
+So not understanding what is appropriate
+and what is no longer secure can be very costly.
+And what I mean by that is
+that if we think we're doing things securely,
+we're not up on technology,
+and we think what we're doing is good enough,
+chances are it's not, right?
+If we're not up on it, it's already probably been bypassed,
+it's deprecated, it's legacy, and it's no longer secure
+or as secure as we think it is.
+So it's important to always keep up on these technologies.
+And then also, security is everyone's responsibility,
+even if you're not tasked with it directly.
+So when it comes to public key infrastructure or PKI,
+what is it?
+Well, public key infrastructure are components
+that enable the usage of digital certificates,
+and also a two key system, a public key,
+and a private key for encryption and other things.
+So it can consist of hardware, software, people,
+policies and procedures.
+It's kind of an amalgam of a lot of different things
+that kind of come together to give us
+this public key infrastructure.
+So to dig a bit deeper.
+Well, public key, as the name implies,
+is one part of a public key infrastructure, or PKI,
+and that's used to encrypt and also to decrypt data.
+So in essence, it's the mathematically linked key pair
+that has a corresponding private key.
+So a public key, as the name implies,
+designed to be made publicly available to anyone.
+So if you have a public key, private key,
+I can give my public key to anybody.
+They can then use that to encrypt information back to me
+that only I can decrypt, right?
+The private key, on the other hand, must be kept secret.
+The entire ball of wax really predicates itself
+on the security of that private key.
+If that's compromised, all bets are off.
+Conversely, the private key is one part
+of the public key infrastructure as well,
+that's used to encrypt or also decrypt data
+when you might think, well, wait a minute,
+isn't that what the other thing said?
+Well, yes, they can both be used to encrypt or decrypt,
+and we'll talk about the nuances there in just a moment.
+So again, a mathematically linked key pair
+that has a corresponding public key.
+Now, the private key, as I mentioned,
+is designed to be kept private.
+It's very, very important.
+That's probably the most important thing
+out of this entire discussion.

@@ -1,0 +1,95 @@
+Okay, so we made it
+to the end of the course,
+so welcome to the domain summary for security architecture,
+and let's go over a little bit of what we covered.
+So, here's our good friend Alice, who's not really Alice,
+but (laughs) you get the idea.
+So, for this one, CompTIA Security+ SY0-701,
+this was our security architecture course.
+So, this was the third course
+out of five domains covered by the exam,
+so you're more than halfway done.
+That's outstanding.
+I'm very happy that you're with me.
+Hopefully you're learning a lot.
+So, the first one was general security concepts.
+Then we had threats, vulnerabilities, and mitigations.
+Now we just finished up security architecture,
+and then we'll go on from here with security operations
+and then security program management and oversight.
+So, each one of these domains is jam-packed,
+and they contain critical information
+that you need to be aware of,
+so please don't skimp over any.
+All five are equally as important.
+So, let's look at some of the key concepts to remember.
+We talked about the various cloud models,
+so whether it's IaaS, PaaS, or SaaS,
+infrastructure as a service, platform as a service,
+or software as a service,
+and where the responsibility lies within each model.
+So, understand as a security professional
+where your responsibility lies within each of these.
+Also talked about secure infrastructure considerations.
+Things like device placement, security zones,
+setting up port security,
+and all the different tools and technologies
+that we can leverage
+to make sure our infrastructure is as secure as possible.
+We also talked about securing communications.
+We talked about VPNs, or virtual private networks,
+SSL and TLS,
+and which versions should be used and which are deprecated,
+and then things like SASE, or secure access service edge.
+We also talked about the various data types
+and classifications.
+Some things that you should be definitely aware of
+is how the different types of data need to be handled
+and also disposed of,
+and then also ensuring availability and resiliency.
+And we dug into highly available systems, or HA systems.
+We also talked about disaster recovery
+and business continuity planning,
+along with the different types of tests
+that you should definitely familiarize yourself with,
+walkthroughs, tabletops, partial tests, full tests,
+and the nuances between these things
+so that you understand when each is appropriate.
+And then as we mentioned before, exam success essentials.
+So, review the material more than once.
+It's always good to allow time
+for the information to sink in
+and then revisit that several times.
+What always helps me is when I start to learn something new,
+especially if it's a lot of information at once,
+I'll either read along as I'm listening,
+so I get basically auditory and visual reinforcement,
+and then I might walk away, take a break,
+whether it be a couple hours or a day,
+and then I'll come back again and re-watch that material,
+and that way, it sinks in that much more.
+And then also definitely take advantage of the labs, demos,
+and supplemental courses at Pluralsight.
+The additional information helps solidify the content
+and it also adds additional context.
+And then there is some recommended additional content.
+(laughs) I'll put a bit of a plug in for my own stuff,
+but Security Architecture and Design:
+The Big Picture,
+Malware Analysis: The Big Picture,
+and then also an Introduction to Threat Intelligence course
+would also be of help.
+And then as I just mentioned,
+make sure you definitely take a look
+at the Pluralsight labs.
+There's currently over 50 labs
+and more are added all the time,
+so definitely browse through the catalog,
+see which labs are available,
+and take advantage of them as much as possible.
+The more labs you do, the more hands-on you have,
+the more the information sinks in.
+So, that's a wrap for course number three.
+I'm so happy that you made it this far.
+So, please stick around and I'll see you in the next course
+for security operations.

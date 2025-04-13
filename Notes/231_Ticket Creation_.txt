@@ -1,0 +1,43 @@
+Next, we have ticket creation.
+So let's say, for instance, here we have a user.
+We'll use Alice as an example.
+She logs into our ticketing application, right?
+She logs a ticket, and that can basically kick off
+some type of action, whether that's to build a container,
+a bare metal server, virtual server, database, network,
+firewalls, so on and so forth, right?
+Some action is gonna take place.
+Now, from that point,
+it could basically be just the ticket is logged,
+and now someone has to manually pick it up
+and do something with it.
+Or we could kick off automated actions
+depending upon the nature of that ticket.
+As an example, let's say, for instance,
+here we have a firewall rule.
+So in the previous example, Alice created a ticket,
+she added a new application,
+she needs a firewall rule added.
+So it's reviewed and approved
+by the maintainer of the firewalls.
+So the firewall change goes into place.
+This is, again, now all automated.
+The change is logged, which then kicks off scanning,
+and that may be a local,
+or it could kick off a remote scanning instance,
+which could then do a remote network scan.
+Again, this depends upon the resource and the application
+and so forth, but you get the idea.
+We have some automated things in place.
+From there, it would create an output
+to compare against the previous
+to make sure that the rule is in place,
+to make sure no other rules
+have been inadvertently removed,
+and then the changes are logged in the ticketing system
+saying, hey, this has been resolved, the ticket is closed,
+what have you, and then the response sent back to the user.
+So just a quick example,
+but in a fully automated system,
+this could take place in minutes
+versus hours, days, or weeks in a traditional environment.

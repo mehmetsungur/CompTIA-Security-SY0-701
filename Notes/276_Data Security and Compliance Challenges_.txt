@@ -1,0 +1,34 @@
+There are some additional challenges
+around data security.
+So when we collect massive amounts
+of data from ever increasing sources,
+this creates privacy and security challenges obviously.
+As I mentioned, big data aggregation
+and analysis can create PII from disparate sources.
+So in other words, bits and pieces of information that in
+and of themselves don't mean anything really.
+Don't paint a picture of who that person is.
+But when we use things like big data analytics
+and pull all of those pieces of the information together,
+it can certainly paint a picture of who that person is
+and create PII
+or personally identifiable information from all
+of those disparate sources.
+Inadequate data management is another big one, so defining
+who owns the data, the data lifecycle,
+how long do we keep it along with how it's processed,
+analyzed, and secured becomes increasingly more difficult.
+And then also insecure infrastructure.
+So data environments are often designed for speed
+or for scale and not necessarily for security.
+As we know in the security world,
+security is quite often an afterthought
+and a bit of a bolt-on, if you will.
+The addition of IOT devices, big data analytics,
+and of course cloud or hybrid cloud environments amplify
+the challenge and potentials for exposure.
+Again, a lot of locks to check,
+a lot of doors to shut, windows to close and so forth.
+There's more and more things being thrown at us,
+so proper process automation, documentation,
+all of these things become more and more critical.

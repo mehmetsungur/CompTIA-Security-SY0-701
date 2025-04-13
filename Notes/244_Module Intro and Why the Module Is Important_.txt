@@ -1,0 +1,32 @@
+Hey everybody, welcome back to Pluralsight.
+I'm your instructor, Christopher Rees.
+And in this module, we'll be talking about
+using data sources to support an investigation.
+Let's go ahead and take a look at
+what we'll cover in this module.
+We'll be talking about three main areas.
+First off, log data and then data sources
+and then scenarios.
+So let's pull back the curtain just a bit.
+You can see we have subtopics in each of these categories,
+and we'll also go over a number of different scenarios,
+some of the methods you might use
+if you find yourself in that scenario,
+along with some of the more popular tools
+that you might use to help you in those scenarios.
+So go ahead and pause here for a second if you need to,
+and then when you're ready, let's go ahead and get started.
+Okay, so in essence, why is this important?
+Leveraging data to support an investigation is critical
+to supporting a case, zeroing in on root cause,
+and also to understanding not only why
+but how an incident occurred.
+So benefits of accurate and timely data collection
+are things like evidence gathering,
+threat detection, forensic analysis,
+compliance and auditing, also vulnerability assessments,
+incident response, user accountability, pattern analysis,
+continuous monitoring, and also historical context.
+So let's just click down one level
+and dig into each of these just a moment
+and explore really why they're important.

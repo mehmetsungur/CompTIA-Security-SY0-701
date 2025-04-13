@@ -1,0 +1,62 @@
+Okay, so let's talk about network appliances.
+So two concepts I want you to be familiar with.
+We have jump servers and proxy servers.
+So a jump server is a secured or hardened server, right?
+It's gonna be more secure typically than an average server,
+sometimes referred to as a bastion host.
+So it's used as an intermediary gateway
+to access resources within a secure network.
+On the other side of the fence, we have a proxy server.
+So again, this is also an intermediary server,
+but this is between client devices
+or web servers on the internet.
+So it's used for functions like caching
+or content filtering, anonymization or also load balancing.
+So to add a little more context, jump servers,
+they're used to connect to devices in remote networks.
+So they can be used to perform admin tasks
+in networks with limited connectivity.
+That's typically how they're used.
+And this might come down to firewalls, to bandwidth
+and again, it's much easier to lock one server down,
+make it very strict and very restrictive
+and then allow people to come in through that one server
+if they have proper credentials.
+And they may have to have a second set of credentials
+to access that server.
+So it may not even necessarily
+be their typical network credentials.
+They may have to have a second set to access that server
+which of course could be using multifactor authentication,
+biometrics and so forth.
+So these things are great and they're typically very secure
+but it could be a security risk potentially
+if not configured and maintained
+if you somehow bridge networks.
+Again, slight chance,
+because if you're setting up a jump server,
+chances are you know what you're doing
+but if it's not configured properly,
+it could introduce risks.
+So these things have to be configured properly.
+And then we're talking about proxies.
+Again, just to give you a quick example.
+So here we have hosts on our network, right?
+They're gonna connect to a forward proxy.
+So all the hosts that sit behind that proxy,
+when they connect to the internet, right,
+they're going out to web servers and so forth,
+they're going through the proxy
+and the proxy server can do all the things that I mentioned
+as far as content filtering, anonymization and so forth.
+We also have the concept though of a reverse proxy
+which is a load balancer.
+So you have hosts out on the internet
+who are accessing internal resources.
+So they will come through a reverse proxy or a load balancer
+and then access the resources on the internal network
+so that way that proxy server spreads the load
+across a number of different servers
+and allows for load balancing,
+proper resource utilization and so forth
+to make sure one specific server doesn't get overburdened.

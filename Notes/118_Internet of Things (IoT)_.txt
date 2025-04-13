@@ -1,0 +1,55 @@
+Okay, let's talk about the Internet of Things.
+So when we're thinking about IoT or Internet of Things,
+everything is a target.
+So we need to become aware of all of the ways
+that an attacker could enter the network from the obvious
+all the way down to wearables.
+And of course, as I mentioned, the Internet of Things.
+So there's so many different ways,
+so many different entry points
+or attack surfaces on our networks,
+and they're growing day by day.
+Internet of things is a big part of that.
+So when we're talking about smart devices
+and internet of things or IoT,
+we're talking about things like wearable technology,
+and this is things that are always connected,
+continuously feeding information about location,
+about habits, right?
+Telemetry information also increases the attack vector
+as I mentioned, making interception of that data easier
+and making inroads into the environment
+that much easier as well if we're not aware
+of how those things operate,
+and we're not locking things down appropriately.
+When we're setting up home automation as an example,
+personal data can be compromised tons and tons of data,
+whether it be financial information, personal information.
+And what this really boils down to
+is additional entry points into a user's network
+and ultimately really into their life.
+So whether we're talking about something personal,
+a small business, or even a large corporation
+or an enterprise, these entry points through smart devices
+and IoTs are becoming more and more prevalent.
+And as we know, social engineering becomes easier the more
+a hacker knows about you.
+So these smart devices
+and IoTs can be sensors, they can be wearables, like I said,
+smart devices in general, facility automation devices.
+They make things more convenient, no doubt, more real time
+and easier to manage,
+but they also increase a company's attack surface.
+And why is that?
+Well, at the end of the day,
+all of these things have one thing in common,
+and that is weak defaults.
+They're usually low powered devices that don't have a ton
+of processing power to work on encryption and defenses.
+So it's very important that we do what we can
+to secure these devices,
+and that includes changing the default passwords
+and settings and routinely audit the environment,
+especially in your company,
+to understand what IoT devices exist on your network
+and also what types of data they transmit.

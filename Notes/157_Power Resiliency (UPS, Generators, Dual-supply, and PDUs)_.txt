@@ -1,0 +1,38 @@
+And then lastly,
+let's talk about power resiliency.
+So an uninterruptible power supply, or a UPS,
+is a battery backup that provides power
+in the event of disruption,
+whether that's a sag or an outage, et cetera,
+so the length of time that system stays up
+depends upon the type of UPS, the batteries, and so forth.
+Next, we have a generator.
+So it's an alternate power supply
+that typically runs on gas
+and will quickly turn on if a power dip
+or an outage is detected.
+And then we have dual supply,
+so power is supplied by dual feeds
+independent of one another,
+so you may have an A side and a B side,
+you would actually have two different power sources
+coming into a data center,
+so if one were to go down, you have a backup.
+And then also managed power distribution units, or PDUs.
+So this provides the ability to monitor and control
+critical factors such as voltage, current,
+the power factor, and so forth,
+and I just have a quick example here
+of what A PDU would look like.
+They can be rack-mounted, they could be sitting on a desk.
+Again, it just depends upon the environment.
+But as the name implies,
+they are a power distribution unit
+and they allow cleaning of power,
+and they can send alerts to administrators
+or to battery backup devices
+if anomalies are detected and so forth.
+Okay, so we made it to the end of the module
+and the end of the course.
+Lots of good information in there, pretty jam-packed,
+so stick around because up next we have the Domain Summary.

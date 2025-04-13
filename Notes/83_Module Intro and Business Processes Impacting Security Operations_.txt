@@ -1,0 +1,150 @@
+Hey, everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Rees.
+And in this module, we'll be talking
+about change management process and impacts.
+So let's go ahead and take a look
+at what we'll be covering in this module.
+We'll be talking about business processes
+impacting security operations.
+We'll talk about technical implications,
+along with documentation, and also version control.
+And then you'll see under each of those
+are some additional concepts that we need to cover as well.
+So you can go ahead and pause here for a moment
+if you wanna read this.
+Otherwise, let's go ahead and get started.
+Okay, so talking about business processes
+impacting security operations.
+So what do I mean by that?
+Well, there's a number of things that you have to take
+into account when you're looking at best practices,
+making sure you're making things as repeatable
+and as standard as possible,
+and, of course, always keeping security in mind.
+So we have the approval process.
+So when we're talking in the context of change management
+and business processes,
+we want to make sure we have defined approval processes.
+Does it go to a manager?
+Does it go to a director, an executive director,
+a VP, a change management board?
+You know, each company's gonna be a little bit different,
+but that approval process should be standard
+so that it repeats the same thing over and over again.
+That way nothing gets missed.
+Next, ownership. Who actually owns that change?
+So the owner needs to be clearly defined,
+along with who owns the application or the platform, right?
+(chuckles) In some organizations,
+they're small enough that, you know,
+everyone knows what everyone is doing,
+and that's not as much of a big deal.
+But in larger organizations,
+the application owner may have no idea
+that a change is occurring,
+whether it be to the infrastructure,
+storage, network, compute, and so forth.
+Code changes, could be power changes,
+could be things in the data center.
+Anything that impacts that application,
+they may not necessarily be aware of it.
+So ownership, once clearly defined
+within that change management ticket
+or that change management process,
+they can be notified accordingly.
+Same thing with stakeholders.
+So the stakeholders are not necessarily the owner.
+They may be or they may not be,
+again, depending upon the organization.
+Stakeholders are typically the business folks
+that actually fund that application, or that change,
+or that platform, or what have you.
+They may not necessarily own the infrastructure
+or own the application's maintenance,
+care, and feeding, and so forth,
+but they need to be aware of what's happening,
+again, so they can be in the loop.
+And then impact analysis.
+When we're making a change,
+we need to make sure we understand
+what's the implication of that change.
+We don't just pull a string
+or pull a cord and see who screams, right?
+We don't do a scream test. That's not the best way to go.
+We need to make sure that we understand clearly
+what the implications are, what are the sub components,
+what's the downstream impacts, what things depend upon
+that application or that platform, what things feed into it,
+and what things get outputs from it.
+So all of those things have to be properly documented,
+and the impact needs to be analyzed and then communicated.
+Again, ownership, stakeholders,
+and proper approvals need to be put in place.
+And then we should be testing these changes
+before they ever go into production, if at all possible.
+Now, in every situation, is that possible? No.
+Sometimes things are so expensive on an application,
+or a platform might be so big you don't have a secondary one
+that you can test against.
+Do your best whenever possible,
+but when we have the opportunity,
+test those things either in a lower environment,
+a test QA environment, and then take those test results
+and include them in your approval process
+and in your change management ticket
+so that information, again,
+can be communicated to the proper people.
+And then we need to make sure
+that we have a maintenance window clearly defined.
+Some organizations can do maintenance whenever,
+others are very strict and say,
+"Okay, only from 11 at night till three in the morning,
+or midnight until eight in the morning," or what have you.
+Every organization will be slightly different,
+what's tolerable and what's acceptable,
+but once you have a clearly defined maintenance window,
+it's imperative that those changes take place
+within that maintenance window.
+And we'll talk about it more in just a few.
+But as you go through your changes
+and that maintenance window,
+and you may be four hours
+into an eight-hour maintenance window,
+and you realize, "Oh, man, this is not going well.
+We're having some issues.
+This is gonna take a lot longer than we thought."
+Well, then you have to make a decision.
+Do we roll back and try again later?
+Or do we press on and perhaps exceed our maintenance window?
+So again, that's gonna be a decision you have to make.
+Every organization will be slightly different
+as far as what their tolerance is,
+but keep those things in mind.
+And then all of the above should be rolled
+into a standard operating procedure.
+So the change itself should have a method of procedure,
+or a MOP, right,
+some type of documentation saying what's gonna be done.
+But the overall standard operating procedures,
+or the SOP, defines all of the things we just talked about,
+so that every single change,
+every single person doing a change,
+knows exactly what to do, what's required,
+who to notify, all of those good things.
+So having things standardized helps reduce risk
+and helps increase security.
+Okay, so here we have a change management meeting,
+as an example.
+Everyone is in the room.
+Some folks are remote, especially post pandemic,
+but everyone brings their changes to the table.
+They all discuss what's going to be done,
+so that way everyone is aware
+of what other groups are doing,
+and the chance of someone stepping on each other's toes
+gets reduced as well.
+So these things should happen whenever changes occur,
+whether it's weekly, biweekly, what have you,
+but make sure that everyone is aware
+of what everyone else is doing.

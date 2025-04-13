@@ -1,0 +1,49 @@
+(bright music)
+Hey everybody.
+Welcome to the CompTIA Security+ exam briefing.
+This course is the sixth course in our series
+on CompTIA Security+ certification.
+This exam prep course will help you with what to expect
+as you prep for and take the exam.
+So as mentioned, in this course,
+we're gonna cover what to expect and how to prepare
+for the Security+ exam SY0-701.
+As you know, the exam is comprised
+of five domains covering a number of areas
+with each area being weighted a little bit differently.
+These domains are found in the exam objectives
+or domains section of the exam guide.
+My name is Christopher Rees and I'm an author, trainer,
+and senior enterprise IT leader.
+So I've been an instructor creating certification training
+for over 20 years with over 50
+courses created over the years.
+I've had the privilege of training over 600,000 students
+worldwide who have collectively watched
+over a million hours of content.
+I hold over a dozen certifications and have been CompTIA
+and Microsoft certified since 1999.
+I also have 23 years of enterprise IT experience,
+and I have over a decade of senior IT management experience
+as well for a large enterprise organization.
+Prior to that, I was a law enforcement officer
+and detective specializing in computer crime investigations.
+So as far as this course goes,
+as you've gone through each of the five domains,
+you know that each course has multiple modules
+covering the exam objectives
+along with supplemental materials you can download,
+including the slides for each module.
+To download the exercise files,
+navigate to the Exercise Files tab
+and click the Download button.
+In the exercise files, you'll find a helpful study guide
+that you can use to follow along
+during your certification prep for the exam.
+It will contain a glossary of terms
+that you should be familiar with,
+as well as some practice questions.
+I'm happy to join you in your certification prep journey
+with the Exam Tips and Tricks
+for CompTIA Security+ course here at Pluralsight.
+(gentle music)

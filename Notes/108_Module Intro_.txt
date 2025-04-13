@@ -1,0 +1,32 @@
+Hey, everybody.
+Welcome back.
+I'm your instructor, Christopher Rees,
+and in this course, Security Architecture,
+we're gonna be talking specifically
+in this module about security implications
+of different architecture models.
+So as usual, let's go ahead,
+and take a look at what we'll cover
+in the module.
+So we have a few high level topics,
+and I pulled a few of the subcategories
+just to give you a bit of an overview.
+So we have architecture,
+and infrastructure concepts,
+and that covers things like cloud,
+infrastructure as code,
+containers and then we have considerations,
+things to think about when we're either designing
+or assessing these different networks,
+and so forth.
+Things like availability, resilience and cost.
+So as usual,
+if you pull back the curtain in a bit,
+you'll see we have some additional subtasks
+or some subcategories.
+So I won't obviously read through all of these,
+but we'll go ahead and pause here
+for a moment if you like,
+so you understand what's coming.
+And then when you're ready,
+let's go ahead and get started.

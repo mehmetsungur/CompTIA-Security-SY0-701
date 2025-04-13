@@ -1,0 +1,33 @@
+Okay, next up is everyone's favorite topic,
+and that's bloatware.
+And bloatware is basically pre-installed software
+installed on a device that's unnecessary,
+it's redundant, and basically it's seldom used.
+So it takes up storage space,
+it's potentially slowing down system performance,
+and then also it can contain adware or spyware,
+as we just mentioned, and also introduce vulnerabilities,
+because if it's software that we don't need, we never use,
+we don't really pay attention to,
+then chances are we're not going to update it
+or pay much attention to it.
+But you've probably noticed bloatware
+if you buy a PC from a local electronic store
+or order online.
+It comes pre-installed with a number of applications
+that you don't want.
+So typically, I'll go through
+and uninstall those right away,
+or I'll blow the entire system away
+and reinstall the operating system from scratch.
+And then, of course, in a corporate environment,
+they're gonna blow those away anyway
+and install their corporate image,
+so it's gonna be typically bloatware-free.
+But just understand that it exists, (laughs)
+and as you can see by the poor guy here,
+it's pretty frustrating, and it slows things down,
+and it's unnecessary.
+So general advice is to remove applications
+that you don't need to help lock down the system
+and just generally reduce the attack surface.

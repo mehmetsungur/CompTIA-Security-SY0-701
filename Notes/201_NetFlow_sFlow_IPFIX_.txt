@@ -1,0 +1,207 @@
+Okay, next up,
+let's talk about NetFlow and sFlow.
+So what exactly is NetFlow?
+NetFlow is a way of monitoring our network,
+and it takes it a step further really
+than just looking at typical network monitoring,
+as it actually will group the communication
+between two hosts on a network into flows,
+so it's not just simple packet capturing,
+it's actually grouping that in the flows
+to give you a more holistic view of traffic on your network.
+So we have a few things in place here.
+We have a router, which is typically
+where you're gonna have NetFlow enabled,
+so that's gonna be a NetFlow exporter,
+and that's gonna be connecting to various networks,
+whether it be the internet, remote sites,
+a LAN, a WAN, what have you.
+And then we're gonna be connecting to a NetFlow connector,
+and we'll have an administrator console
+where you can actually see a graphical representation,
+an application that will take the NetFlow data
+that's exported from the NetFlow exporter
+and display it graphically.
+We also have flow storage
+that's connected to the NetFlow connector.
+So as you can see, we have NetFlow packets
+that flow from the router to the collector,
+and then we also have the administrator
+that will query the collector.
+So one's feeding data into the collector,
+one's accessing or querying data from the collector.
+The collector and the storage itself
+are collectively known as the NetFlow cache.
+So as we enable NetFlow
+on the various devices in our network,
+one thing just to keep in mind is that each device
+should have its own separate port number.
+We can have multiple devices in the network
+reporting into or sending data to a NetFlow collector.
+Just make sure that each one has its own port number,
+so that the NetFlow collector can differentiate between,
+otherwise the collector won't know what's what,
+and it will just group everything together
+and basically give you bad data or a bad view
+of what's happening on the network.
+So as an example,
+here's a dashboard showing some NetFlow data.
+And you can see here we have the NetFlow sources,
+we have the number of sources,
+we have the number of destinations,
+and you can see the IP addresses here.
+And basically, we're taking the information
+that comes in from a source and a destination.
+If it's the same source destination and same port,
+same characteristics, if you will,
+then we're grouping that together into a flow.
+So some data that is collected by NetFlow collector
+would be the source and destination IP address,
+the IP protocol field value,
+source and destination port numbers,
+also counters, whether it be packets or bytes,
+timestamps, the start time and end time,
+and then also, where observed,
+the interface and the direction,
+whether it's ingress or egress,
+and whether it's unidirectional or bidirectional.
+And just for your own knowledge,
+there's two main flavors of NetFlow.
+We have version five and version nine,
+with version nine being the newer one.
+And the other implementations that we'll talk about,
+sFlow and IPFIX, are based off of NetFlow v9 as well.
+So there's a similar implementation called sFlow,
+and we'll talk about some of the differences here.
+So with NetFlow, it's Cisco proprietary,
+meaning it only works or functions on Cisco gear
+and more granular collection of IP traffic to create flows,
+so it does it basically packet by packet.
+We can get very granular.
+It only collects IP traffic, however,
+and we'll notice the differentiation here in just a moment,
+and it's more detailed collection,
+but it's also more CPU and resource intensive.
+And then if we want to actually display
+that data graphically, we'll need a third party collector,
+such as SolarWinds, PRTG, and so forth.
+And it's basically comprised of two components,
+the exporter and then the cache or the analyzer.
+As far as sFlow is concerned,
+that was actually introduced by HP in 1991,
+years after NetFlow came out.
+It samples packets and counters to create flows
+similarly to what NetFlow does,
+but the distinction here being that it samples,
+so it doesn't do it packet by packet by packet.
+So by sampling, we're actually getting more of a trend,
+but it's also less resource intensive,
+so it potentially scales better.
+It also can collect traffic from OSI layers 2-7,
+so it's not just IP traffic.
+It doesn't provide as detailed packet-level information
+as NetFlow, but again, it samples the data
+and that's configurable how often it samples
+so that it has the ability to scale.
+All devices need to be sFlow compatible,
+so that's something to keep in mind.
+And then also, again, two components,
+an agent and a collector.
+So there are some similarities between the two.
+And then we've kind of evolved into a new standard,
+called IPFIX, and that stands
+for Internet Protocol Flow Information Export,
+so that is a collector export protocol,
+and it's based on NetFlow v9.
+So all of the features that you would see in NetFlow,
+however, it's not Cisco proprietary,
+so it's non-proprietary.
+It also does packet count, byte count, type of service,
+flow direction, routing domain, and so forth,
+so a lot of good information there
+that allows you to monitor your network,
+see what types of services are running,
+what are the top sites, the top domains,
+who's the top talkers.
+It allows you to go in and get very granular
+with the network and understand what's going on.
+So if you have lags or if you have applications
+that are performing poorly, these are, of course,
+good reasons to use NetFlow or IPFIX.
+So it can be used for network monitoring,
+for measurement, it can be used for threat detection,
+and then also some service providers
+will use it for accounting and billing purposes as well.
+So all three are great tools.
+They actually need to be implemented
+on the devices in the network, and then all the devices
+that you're monitoring need to be compatible.
+You can figure the exporters of the agents
+to report to a collector,
+and then you can go with an analyzer or a dashboard
+and then get all the information that we talked about before
+about how your network is actually functioning.
+Now, in a previous video, we've talked about smurf attacks,
+and we've talked about amplification attacks and so forth.
+What I wanted to talk about real briefly here
+is how we could use NetFlow or sFlow
+to help thwart a smurf attack or an amplification attack.
+So if you recall with a smurf attack,
+otherwise known as an amplification attack,
+a hacker would basically send a directed broadcast
+with a victim's IP spoofed to a network segment,
+basically to the broadcast IP address on a network segment,
+so that everybody on that network
+would actually get that request,
+but instead of replying back to the attacker,
+they would actually reply back to the victim
+and flood that person's machine or that server
+or whatever the intended victim is.
+So here we have all the different computers
+attached to the network.
+Once that spoofed ICMP echo is sent,
+they basically all reply back to the victim's computer,
+again, a victim's PC, desktop, laptop, or a server,
+depending upon what the target is,
+that can potentially overrun the host system,
+the amplification attack,
+if you have enough hosts on that network.
+Because again, it could be dozens, it could be hundreds,
+it could be thousands of computers all replying back
+to that specific victim.
+So using NetFlow or sFlow, or actually,
+another network monitoring solution for that matter,
+but since we're talking about NetFlow and sFlow,
+it makes sense to cover that here.
+So what we could do is use NetFlow, or again, sFlow
+to identify ICMP echo requests or these pings,
+these smurf attacks or these amplification attacks
+to detect that network attack.
+So we could identify the victim using traffic monitoring
+to identify top destinations for ICMP echo responses.
+We could identify that within the tool.
+From there, we could use NetFlow or sFlow
+to filter for the top subnets, sourcing ICMP echo responses.
+We could then identify the port used for ICMP echo response
+to enter the site or to enter our network
+by using again, NetFlow or sFlow
+to show a top router and switch ports
+receiving ICMP echo requests
+and packets destined for that specific victim,
+and then we can create an ACL filter
+on the router or the switch port
+to block ICMP traffic from the source subnet.
+So again, just a quick example
+of how we might use this tool, automate to some degree,
+create filters and triggers,
+so if these things happen, we can be alerted
+and either automate that process and automate that response,
+or at least become aware of it,
+and then manually investigate and intervene as necessary.
+Okay, that brings us to the end of this module.
+Hopefully you found it informative,
+learned a lot, had a bit of fun,
+but stick around for sure, because up next,
+we'll be talking about modifying enterprise capabilities
+to enhance security.
+I'll see you in the next module.

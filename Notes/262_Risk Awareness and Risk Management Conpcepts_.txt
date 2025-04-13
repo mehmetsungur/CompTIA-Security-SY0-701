@@ -1,0 +1,185 @@
+So that falls in line with risk awareness:
+understanding what types of risk exist
+in the actual environment.
+We have inherent risk and then we have residual risk.
+Then we should also understand how to control risk,
+and then what's our overall risk appetite.
+So let's take a look at these things in more detail.
+So inherent risk versus residual risk.
+So inherent risk is what is assessed
+before any risk mitigation measures are implemented.
+So it gives us a baseline understanding
+of the risk's natural state.
+Residual risk is what's left over.
+So assessed after risk mitigation measures
+have been put in place.
+So we've done X, Y, Z to make sure that doesn't happen
+or we mitigate as much as possible.
+And then whatever risk is left over,
+so in other words, the remaining risk
+that the organization faces
+despite any effort to control and reduce that risk.
+And then once we get to that point,
+then we decide how to treat that risk.
+So risk management can be defined as the identification,
+the assessment, and the prioritization of risk
+along with the mitigation
+and also the monitoring of those risks.
+So when dealing with computer hardware and software,
+risk management is also known
+as information assurance or IA.
+And that will depend on the company's risk tolerance.
+In other words, as a government versus a tech startup,
+they have very different risk tolerance profiles.
+Also, the value of the data.
+If it's lost, is it a couple hundred dollars
+or is it a couple hundred million dollars, right?
+It's obviously gonna have an impact
+on how you treat and how you mitigate.
+And also the ability to recover.
+So there are multiple ways of managing risk.
+So we can accept certain levels of risk and just say,
+"You know what?
+We're gonna accept it
+and if it happens, we'll deal with it."
+Or we can transfer that risk, push it off to a third party,
+perhaps an insurance company as an example.
+We can also implement controls to reduce that risk
+as much as possible.
+Or we can avoid it altogether
+by not getting into that specific thing,
+that industry, that project, et cetera.
+So every company is different,
+and as such, each has a different tolerance for risk.
+So when we talk about the stages of risk management,
+a couple things.
+We have assessing requirements.
+So understanding the business and IT objectives
+and how security can meet those objectives.
+Also aligning with current capabilities.
+So understanding what's available today
+and what capabilities exist
+across people, process, and technology.
+From there, we create plans and initiatives.
+So quantify existing gaps
+and develop plans to prioritize initiatives
+to fill those gaps.
+Again, we wanna make sure
+we're trying to stay one step ahead
+or at least on par with our adversaries.
+If you leave the door wide open,
+almost guaranteed someone will eventually walk
+through that door.
+So we not only wanna lock the door,
+we wanna put a chain on the door,
+we wanna put bars in the window,
+we wanna put multiple things in place
+to make it difficult, right?
+Defense in depth.
+And then creating metrics and monitoring progress.
+So we need to develop metrics to track progress
+to ensure programs are meeting business requirements.
+If you don't track, if you don't monitor,
+how can you expect to understand how things are going?
+And by the same token,
+how do you know if things are off track
+if you don't understand what normal is
+and you're not tracking progress over time?
+So having said all of that,
+where do we get the actual information from?
+What helps us make our decisions and so forth?
+So we have internal sources.
+It can be internal audits, known issues,
+previous security incidents, and so forth.
+And that can potentially either help us feed
+or augment threat intelligence,
+such things as attack frequency, the cost to the company,
+or even the known cost to competitors within our industry.
+And then also understanding emerging bad actors and targets.
+Again, that helps us feed additional information
+into our contextual data.
+It's based upon industry, technology, the geography,
+where we're located within the world,
+and also the attack method.
+So one doesn't necessarily feed the other,
+but they can be used in aggregate to paint a picture
+and give a better understanding of what the true risk
+and the true nature of that risk is.
+So once we've done all of that
+and we understand what the risks are,
+then we need to understand what are we gonna do with it.
+So we have risk transference,
+and as I mentioned,
+that could be transferring that risk to a third party.
+That could be a hosted provider
+or an insurance company, right?
+So we have web servers in our own data center,
+and we wanna transfer the risk of keeping things secure,
+transfer the risk of all the things, maintenance, patching,
+all that good stuff from our internal resources.
+We're gonna move that to the cloud.
+We're gonna host it somewhere else
+and transfer that specific pile of risk, if you will,
+to a third party.
+Or we could say, "Okay, you know what?
+We're gonna buy insurance
+on that specific piece of infrastructure,
+the program, the facility, what have you,
+so that if in fact we do get hit
+and that risk actually is materialized,
+we have insurance to cover the damages
+that would arise from such a breach."
+Next, we have risk acceptance.
+So what is the cost of removing risk
+versus dealing with the issue if and when it occurs?
+So again, that's where the qualitative
+or quantitative analysis comes in.
+Okay, I have $100,000 worth of assets here,
+but in order to adequately protect it,
+it's gonna cost me $500,000.
+Well, at that point, it becomes a business decision.
+You might say, "Okay, dollar for dollar, it's not worth it."
+And that might be true and that might be the case,
+and that's your decision. But you may look at it as well
+and say, "Okay, it's gonna cost 500,000 to protect 100,000,
+but what's the cost of your reputation?
+What's the cost to downtime customer confidence,
+or standing in the marketplace?
+So there are some potential intangibles
+that could be factored in as well.
+And again, boils down to a business decision.
+You may still decide to protect that asset.
+Even though it may cost the business 5X
+what the asset itself is worth,
+the perception might be worth much more than that.
+And then we have risk mitigation or deterrence.
+So what level of reduction is acceptable?
+And then what controls can be put in place
+to effectively minimize that risk?
+So if we can reduce our risk by 80%, is that good enough?
+Is it 90%? Is it 10%?
+Again, every company's gonna be a bit different.
+Every industry's gonna be different.
+So then we have risk avoidance,
+and many organizations will simply opt to not do anything,
+deciding the risk is too high.
+So some examples might be deciding not to patch
+a certain piece of infrastructure.
+It may have been running for the past 10 years,
+and you're like, "Man, if we reboot that thing,
+I'm not quite sure it's actually gonna come back up again."
+Come. So you may decide not to patch.
+Again, that's an assumed risk. It's a business decision.
+But taking a look at that specific situation
+and seeing the pros and cons,
+we're gonna decide to do nothing.
+Another example might be migrating to a new platform
+or launching a new site or a service.
+Just like people have different levels of risk tolerance,
+some people are risk takers, some people are very pragmatic,
+companies are also the same way.
+Some are mandated that way by the industry
+or the type of business they're in.
+Others might be geographical considerations.
+But again, everybody's a little bit different,
+so there's no right or wrong answer to any of this.

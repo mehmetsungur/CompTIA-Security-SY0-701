@@ -1,0 +1,105 @@
+So if someone actually reports
+a suspicious email to you, there are some general guidelines
+when it comes to responding.
+Now, this will vary a bit from organization to organization,
+how you have your things set up,
+how you have your security departments segmented
+may be a bit different.
+But generally speaking, we want to acknowledge the report
+so that way the individual who reported
+that suspicious message,
+we're giving them positive reinforcement.
+And then we want to make sure we document the details,
+gather as much information as possible,
+then isolate the message.
+So if it was received by an email system,
+consider isolating that to prevent any potential malware
+from spreading within your organization.
+You would also consult
+with your organization's incident response plan
+if you're not already familiar with that
+or if it's outside of your specific department.
+So again, it's best to be proactive
+and plan for things before they actually happen.
+So the time to change the tires
+isn't when the bus is rolling down the highway.
+So these things should be developed ahead of time
+so that when you do hit an incident,
+you know how to respond.
+Then we would analyze the message,
+basically examine it for common signs of phishing
+or malicious intent, such as a suspicious URL,
+an attachment, or request for sensitive information.
+If possible, try to verify the sender.
+So if the sender claims to be from a legitimate organization
+or even a department within your own organization,
+independently verify their identity
+through official contact information,
+but not replying to that suspicious message.
+From there, assess the threat level.
+Make sure we're understanding the impact
+of that suspicious message.
+Consider whether it could be part
+of a larger phishing campaign or pose a significant risk
+to your organization's security.
+Next, it's important for containment and remediation.
+So if that message is in fact determined
+to be a phishing attempt or poses some type of threat,
+then we need to make sure we take appropriate action.
+So that may involve quarantining the message,
+blocking the sender, initiating some type
+of remediation steps such as password resets, and so forth.
+When it comes to communication,
+obviously you and your department will know about it,
+but make sure you communicate that out
+to the incident response team.
+If that's not you, provide them with as much detail
+as possible, and then alert remote locations as well
+if you have them as a proactive heads up measure.
+And then it's gonna be good to educate and raise awareness.
+So using the incident as an opportunity
+to educate employees about phishing threats
+is always a good idea.
+Conduct training sessions or awareness campaigns
+to help them recognize and also report suspicious messages
+in the future.
+From there, we want to make sure we monitor
+for further activity, keeping an eye on related
+or subsequent suspicious messages.
+Phishing campaigns often involve multiple attempts,
+and monitoring can help identify patterns.
+And of course, respond proactively.
+Depending upon the nature of that phishing attack,
+we may need to report to authorities.
+So if that message is determined to perhaps be part
+of a broader cyber crime offensive
+or poses a significant threat,
+then we would consider reporting it
+to relevant authorities such as law enforcement
+or a cybersecurity agency.
+From there, update security measures,
+which entails reviewing and updating
+the organization's security policies,
+and of course, as mentioned,
+cybersecurity awareness training
+to prevent similar incidents in the future.
+And then follow incident response protocols.
+My assumption is you, as the security professional,
+are already involved in the incident response plan,
+but again, depending upon
+how your organization is divvied up,
+you may not be actually part of that specific group.
+So again, if that's the case,
+then make sure you're just following proper protocols.
+Now, all of these things
+are not necessarily manual processes.
+Automation and orchestration platforms
+can help expedite this quite a bit,
+so analysis, alerting, quarantining,
+isolation, and so forth.
+All of these things can happen pretty much in real time.
+So I just want to make you aware,
+these are not necessarily serial tasks
+that have to take place, one after the other.
+Some of these things will be done in parallel
+and pretty much in real time.

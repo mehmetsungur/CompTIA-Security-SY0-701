@@ -1,0 +1,123 @@
+So first off,
+we have an acceptable use policy.
+So what we're really doing here is defining
+acceptable behaviors and practices related to the use
+of an organization's computer systems, networks and data.
+So, these things revolve around security,
+legal and compliance, resource optimization,
+and, of course, liability mitigations.
+And what I mean by that is basically clarifying
+the responsibilities and liabilities of users,
+which should make very clear to the user
+that improper use can lead to disciplinary actions,
+including termination of employment
+or even legal consequences.
+And then we have information security policies,
+so a framework for safeguarding
+an organization's sensitive information and assets.
+So, things like risk management,
+which helps identify and mitigate security risks
+by specifying specific security controls, procedures,
+and, of course, best practices.
+Compliance, which revolves around security policies,
+which ensures that the organization complies
+with relevant laws, regulations and industry standards
+related to data protection and, of course, security.
+Protection of assets, which define guidelines
+and measures for protecting valuable assets such as data,
+hardware and software from unauthorized access,
+disclosure or damage.
+Employee guidelines provide employees
+with clear instructions on how to handle
+sensitive information, use company resources securely
+and report on security incidents.
+And then incident response, which is basically
+policies that outline procedures
+for responding to security incidents, breaches,
+and things along those lines.
+When it comes to the various types of plans,
+they'll typically fall into four categories.
+So, we have incident management.
+We have business continuity,
+disaster recovery, and then business resumption.
+So, these plans could be separate and distinct documents,
+or they could be one larger document.
+Again, this will vary from organization to organization.
+So, to dig in a bit deeper, disaster recovery plans,
+these are very similar in scope
+to business continuity plans,
+but they focus specifically on information technology.
+So tasks, action lists, order of recovery
+for different systems, databases, servers, and so forth.
+Also, emergency contact information for key personnel
+and interested parties.
+Documentation, references to incident management
+or command center location,
+things along those lines,
+along with activities associated with people,
+process and technology.
+Again, we're specifically focusing on the technology part
+of our overall business resumption plan.
+Next, we have business continuity plans.
+So, these plans deal with the resumption
+and recovery of business operations
+once the initial disruption is contained.
+So, it should have things like how to begin recovery,
+location of key personnel and resources.
+Again, this is beyond the scope of just IT.
+Now, we're talking about business in general,
+disaster recovery and alternate work locations,
+staging areas, et cetera,
+also needed resources.
+And then we have business resumption plans.
+So, it can be the same or part of
+a business continuity plan, but it could also be separate.
+Again, it's gonna vary from organization to organization.
+This defines who owns the resumption process.
+So, keep in mind this may be different
+than personnel responsible for incident management
+or for disaster recovery, and it centers around the process
+for determining replacement of staff, buildings,
+infrastructure, various services.
+Again, this will all depend upon the nature
+of the incident and the amount of damage.
+So, all of these plans we've just talked about,
+keep in mind, they need to be updated periodically.
+They can't be a one and done, right?
+So as things change, we need to make sure
+our plans are updated, as well
+so they reflect locations, personnel,
+chain of command, and so forth.
+And then we have an incident management plan.
+So, this deals with the initial response to an incident.
+Again, tasks, actions and priorities,
+emergency contact details of key personnel
+and interested parties,
+activities required as it relates to people,
+process and technology,
+contact guidelines, who to reach out to,
+whether it's internal, could be media,
+could be emergency responders,
+law enforcement, local, state, federal,
+also documentation, things like maps, charts,
+perhaps third party response details,
+and also site access info.
+And then it's also good to have insurance contact
+and claim procedures.
+Now, you might ask yourself, what do all these things
+have to do with me or my job or my position?
+Well, why you may not interact
+with all these plans on a day-to-day basis,
+and quite frankly, hopefully you never do,
+but don't assume that in the middle of a crisis,
+you're going to have all this information
+right at your fingertips.
+Obviously, scenes will be chaotic. Stress levels are high.
+Information may not be readily forthcoming.
+And even the people who may know all these things
+may no longer be with the company
+or they could have been involved in the incident
+and can't respond.
+So all of these things should be documented, updated,
+and then routinely audited for accuracy
+and making sure they're up to date.

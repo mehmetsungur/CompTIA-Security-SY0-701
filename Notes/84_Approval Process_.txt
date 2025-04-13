@@ -1,0 +1,29 @@
+So when we're talking about
+the approval process, is it manual or is it automated?
+So the approval chain itself, if we create a ticket,
+does it automatically go to the person
+that needs to approve it?
+Do they automatically get notified?
+All of that good stuff.
+Within that ticket, whether it is manual or automated,
+we should have details included in that ticket,
+the notification process,
+the global change review or change collisions.
+What other changes are potentially going on that night
+that may actually impact or collide with my change?
+So understanding who's doing what
+and making sure that we're not
+stepping on each other's toes is critical, right?
+(chuckling) Would be a very bad night
+if you're in the middle of a massive storage upgrade
+or massive server upgrade,
+and the data center folks are actually doing a power upgrade
+at the same time, and you're halfway through your patch
+or halfway through your upgrade and the power gets cut.
+Well, guess what?
+(chuckling) That's not a good idea.
+Not what you would call a good bonding experience.
+So by following standard operating procedures
+and making sure everyone else
+is following those same procedures,
+these types of things get greatly reduced.

@@ -1,0 +1,73 @@
+Next we have something called
+a race condition.
+So a race condition occurs when a pair
+of routine programming calls in an application
+do not perform in the sequential manner that was intended.
+As you can imagine,
+a potential security vulnerability exists
+if the calls are not performed in the correct order.
+So as an example, we have three different things here.
+Authentication might be at risk,
+so trust might be assigned to an entity
+who is not who it claims to be.
+Integrity might also be compromised here
+because data from an untrusted
+and possibly malicious source may be integrated.
+And also confidentiality may be at risk,
+information could be disclosed
+to someone impersonating a trusted entity.
+But what I mean by a race condition is,
+if I expect things to happen in a certain order,
+let's say 1, 2, 3, 4, 5.
+Well, if I'm able to jump from 1,2 all the way to 5,
+I might skip steps 3 and 4,
+which might be the authentication steps.
+So I could jump right to the end
+and get access to some data,
+or be able to compromise something,
+compromise the system
+that I otherwise would not have access to.
+Another type of race condition is a time of check.
+So it's a type of race condition,
+and the attacker gains access
+prior to an authentication check,
+which is basically what I just talked about.
+So it inserts code or alters authentication
+to disrupt the normal authentication process.
+Administrators may see the intrusion,
+they may reset passwords and so forth,
+but the attacker may still have access because the attacker
+could remain logged in with old credentials.
+So as you can imagine, this could be
+a potentially serious security vulnerability.
+You may also see this referred to
+as a Time of Check to Time of Use,
+and you'll see the acronym down here at the bottom.
+But whether it's time of check
+or time of check to time of use,
+it's referring to the same thing.
+Along those same lines
+is something referred to as time of evaluation.
+So it's a race condition where multiple threads
+or processes access shared resources concurrently,
+and the final outcome of a program
+depends upon the timing of these operations.
+So an example would be to consider a scenario
+where two threads are trying
+to update a shared variable simultaneously.
+So as an example here,
+thread A reads the current value of the shared variable.
+Thread B reads that same value,
+but it's before thread A has a chance to actually update it.
+So both thread A and thread B perform some computation
+based upon the old value,
+when in reality we expect thread B
+to perform that computation on an updated variable,
+but it happens so fast that before it had a chance
+to actually evaluate that,
+thread A didn't get there in time.
+So thread A then updates the variable
+with its computed result,
+and thread B updates the variable with its computed result.
+But it's not what we intended because, again,
+the time of evaluation was not proper.

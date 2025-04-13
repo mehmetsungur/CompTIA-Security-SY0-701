@@ -1,0 +1,60 @@
+When we're talking about
+operating system security,
+a couple things to keep in mind.
+We have Group Policy.
+And Group Policy allows for centralized management
+and enforcement of user and computer settings
+across an organization.
+So we can set policies that apply
+to a specific organizational unit or a specific group
+and say, these folks are allowed to do XYZ,
+and these folks are not.
+So we can be very prescriptive as to who can access what.
+So if you want to dig more into Group Policy,
+Pluralsight has a number of excellent videos
+and excellent courses on Windows administration,
+server administration, and Group Policy specifically.
+So I would refer you to those videos
+for a deeper discussion on Group Policy.
+And then we have SELinux, which is along the same lines
+as we talked about before, SE Android.
+So this is an enhanced layer of security
+available with some flavors of Linux,
+and it enables mandatory access control lists or MACs.
+So in a little more detail.
+So SELinux implements something referred to
+as mandatory access control.
+So unlike traditional discretionary access control lists
+or DACs, where permissions are based on ownership
+and group membership.
+SELinux enforces a mandatory access control model.
+So this ensures that even privileged users
+and processes adhere to security policies,
+so they're not able to override those.
+And then also process isolation and containment.
+So this in essence, isolates processes
+and services from each other,
+preventing them from interfering with
+or compromising one another.
+So this containment helps contain security breaches
+to a specific process or service,
+reducing the overall impact.
+So it also enables protection against privilege escalation
+and zero-day mitigation.
+So in essence, it mitigates these things
+and the risk of zero-days
+by restricting the actions of a process.
+So even if an attacker gains access to a system
+through an unknown vulnerability, a zero-day and so forth,
+SELinux can limit what that attacker can do.
+They can't escalate privileges
+and do things that they shouldn't be able to do.
+So as I mentioned before, certain flavors of Linux
+such as RedHat Enterprise Linux or RHEL,
+and also CentOS are enterprise grade distributions of Linux,
+and they have SELinux enabled by default,
+Fedora being another distribution as well.
+Other ones like Debian and Ubuntu, they have it available,
+but it's not enabled by default.
+So there are additional features
+that need to either be downloaded, installed, and enabled.

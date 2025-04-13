@@ -1,0 +1,72 @@
+So when it comes to compliance reporting,
+we have internal and external.
+Some of the benefits of each.
+Internal, organizations must maintain comprehensive records
+of their security policies, procedures, and controls.
+Documentation is key.
+We also need to conduct regular security assessments,
+audits, and monitoring activities, which are essential
+to make sure we're complying with internal policies.
+Also, incident reporting procedures.
+Another big one that sometimes gets overlooked.
+Incident reporting is critical for compliance, right?
+Those procedures should be in place
+to document and respond to security breaches,
+and also for policy violations.
+When we're talking about externally, compliance
+with industry specific regulations like GDPR or HIPAA,
+and also standards like ISO 27001,
+and various NIST standards.
+Also, organizations are required
+to submit periodic compliance reports
+to regulatory authorities, certifying
+that they're actually complying, right?
+Their adherence to the policies.
+And also detailed documentation
+of security measures, risk assessments,
+and incident responses for external audits.
+Also, keep in mind the potential penalties
+for non-compliance.
+For internal non-compliance may result
+in the weakening of an organization's security posture.
+And also, failure
+to report security incidents or violations internally
+can hinder incident response efforts
+and also expose the organization to greater risk.
+Externally speaking, when we're talking externally,
+non-compliance with external regulations can lead
+to severe consequences,
+including some significantly hefty fines and legal action.
+Reputational damage may also occur as a result
+of public disclosure of non-compliance.
+The public actually learns of this
+before the company themselves releases the information.
+(chuckles) It's not a good look.
+Also, loss of business opportunities
+or certifications can be a consequence
+of failing external compliance audits.
+So to break this down.
+Some of the consequences for non-compliance. So fines.
+Fines can be substantial depending upon the industry
+and also the violation.
+We can also have sanctions.
+These can range from warnings and corrective actions
+to even suspension of operations
+that can shut the business down basically.
+We also talked about reputational damage.
+So these things can erode customer trust and confidence,
+and they can have long lasting effects,
+basically circling the drain at that point.
+If customers or consumers
+or investors don't trust the management,
+don't trust the company, they stop buying the product,
+stop buying the services, you kinda get the idea.
+You see where that's going.
+It's not a long-term sustainable position.
+Loss of license could also occur.
+So some industries require specific licensing.
+So a loss of license could effectively
+shut down that business.
+And then contractual impacts.
+So non-compliance could trigger termination, legal disputes,
+or again, financial penalties.

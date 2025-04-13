@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompTIA Security+ (SY0-701) Eğitim Notları</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CompTIA Security+ (SY0-701) Eğitim Notları</h1>
+
+    <h2>1. Kurs Genel Bakış</h2>
+    <p>Bu kurs, siber güvenlik temel bilgilerini, tehdit türlerini, zafiyetleri ve önleme yöntemlerini kapsar.</p>
+
+    <h2>2. Giriş</h2>
+    <p>Siber güvenlik kavramlarını, risk yönetimini ve farklı güvenlik tehditlerini anlamak.</p>
+
+    <h2>3. Tehdit Aktörleri ve Özellikleri</h2>
+    <h3>Tehdit Aktörlerinin Türleri:</h3>
+    <ul>
+        <li><strong>Devlet Destekli Aktörler:</strong> Ulusal güvenlik ve kritik altyapıyı hedef alan devlet destekli
+            saldırganlar.</li>
+        <li><strong>Siber Suçlular:</strong> Finansal kazanç elde etmeyi hedefleyen saldırganlar.</li>
+        <li><strong>Hacktivistler:</strong> Politik veya sosyal amaçlarla siber saldırılar düzenleyen kişiler.</li>
+        <li><strong>İç Tehditler:</strong> Kötü niyetli çalışanlar veya yükleniciler.</li>
+    </ul>
+
+    <h2>4. Saldırı Vektörleri</h2>
+    <ul>
+        <li>Kimlik Avı (Phishing) & Sosyal Mühendislik</li>
+        <li>Kötü Amaçlı Yazılım (Malware) & Fidye Yazılımı (Ransomware)</li>
+        <li>Hizmet Reddi (DoS) Saldırıları</li>
+        <li>Güncellenmemiş Yazılım Açıkları</li>
+    </ul>
+
+    <h2>5. Ağ Tehditleri ve Tarama</h2>
+    <p>Açık portların önemini ve Nmap gibi araçlarla nasıl tarandığını anlamak.</p>
+    <pre>
+        nmap -sP 172.31.37.0/24  # Ağda çalışan cihazları tespit etmek için ping taraması
+        nmap -F 172.31.37.92    # İlk 100 portu taramak
+    </pre>
+
+    <h2>6. Tedarik Zinciri Saldırıları</h2>
+    <p>Saldırganlar, büyük hedeflere erişmek için üçüncü taraf satıcıları tehlikeye atar.</p>
+    <p>Örnek: 2021'de REvil hack grubu tarafından gerçekleştirilen Kaseya tedarik zinciri saldırısı.</p>
+
+    <h2>7. Sosyal Mühendislik, Kimlik Avı ve Vishing</h2>
+    <ul>
+        <li><strong>Kimlik Avı (Phishing):</strong> Kullanıcıların kimlik bilgilerini aldatıcı e-postalarla ele
+            geçirmek.</li>
+        <li><strong>Hedefli Kimlik Avı (Spear Phishing):</strong> Belirli kişilere yönelik saldırılar.</li>
+        <li><strong>Whaling:</strong> Üst düzey yöneticileri hedef alan kimlik avı saldırıları.</li>
+        <li><strong>Smishing:</strong> SMS yoluyla kimlik avı.</li>
+        <li><strong>Vishing:</strong> Telefon görüşmeleri yoluyla sosyal mühendislik.</li>
+    </ul>
+
+    <h2>8. Watering Hole Saldırısı</h2>
+    <p>Hedeflenen kullanıcıların sıkça ziyaret ettiği daha az güvenli web siteleri belirlenerek, bu sitelere kötü amaçlı
+        yazılım bulaştırılarak gerçekleştirilen bir saldırıdır.</p>
+
+    <h2>9. URL Ele Geçirme (Typo Squatting)</h2>
+    <p>Hacker'lar, meşru sitelere benzer alan adları kaydettirerek kullanıcı kimlik bilgilerini ele geçirme veya reklam
+        geliri elde etme amacı güder. Örneğin, 'Google' yerine 'Googel' veya 'Goggle' gibi yanlış yazılan alan adları
+        kullanılabilir.</p>
+
+    <h2>10. Zafiyet Yönetimi</h2>
+    <p>Yaygın yazılım yanlış yapılandırmaları ve ortak hesap kullanım riskleri.</p>
+
+    <h2>11. Sonuç</h2>
+    <p>Çekirdek güvenlik ilkelerini anlamak ve en iyi uygulamaları hayata geçirmek, CompTIA Security+ sınavını geçmek
+        için önemlidir.</p>
+</body>
+
+</html>

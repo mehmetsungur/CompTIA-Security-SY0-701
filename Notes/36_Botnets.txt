@@ -1,0 +1,30 @@
+Next, we have botnets.
+And a botnet is malicious code that infects a large number
+of computers or a large number of hosts for the purpose
+of launching large scale attacks on specific targets.
+So botnets that sit out on the Internet can be sitting there
+for days, weeks, months, perhaps years,
+not necessarily doing anything, just waiting for the command
+to actually launch into action.
+So as we see here, an attacker can be located
+anywhere in the world.
+We have the concept of a Command and Control Center,
+or a C2 or C&amp;C server.
+So these C&amp;C servers can control thousands of bots,
+sometimes referred to as zombies, for massive DDOS attacks.
+So here we have an attacker's PC and then the victim PC
+or server, or it could be a website or company at large,
+so that attacker's PC would log into
+or connect to the Command and Control Server, right,
+the C2 server.
+And from there, they're able to then control all of the bots
+that are spread out across the Internet.
+And again, this could be thousands
+or potentially even millions of PCs
+that once they pull the trigger or give the command,
+they then launch a large scale attack
+against a single website
+or a single group of servers trying to bring that server
+or system offline,
+basically doing a massive Distributed Denial
+of Service attack.

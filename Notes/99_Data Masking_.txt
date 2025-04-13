@@ -1,0 +1,31 @@
+Next is the concept of data masking.
+So data masking can be a couple different things.
+It can be done within applications
+or databases at the individual record, row, column
+or an entire table.
+We also have IP address masking.
+So that can be things like network address translation
+or NAT, and that enables private IP addresses to be masked
+behind a proxy or a firewall.
+And data masking can also be static or dynamic.
+So data at rest or data in transit,
+and can be done with a variety of methods,
+whether it's encryption, substitution, nulling,
+tokenization, as we just talked about, et cetera.
+So a quick example, right?
+If we do an unmasked query result, we query a database,
+good old Alice and Bob, we're querying
+for specific data about those guys.
+Well, an unmasked query result will return back
+to the person or the system actually requesting that data.
+It'll give them the full information.
+Well, if we implement data masking,
+well, then that masked query result would only come back
+and say, Yep, we have Alice and Bob in our system."
+And their SSNs are basically Xed out,
+or might give us like the last four
+of their Social Security number or something, right?
+The masking can be done to different levels,
+but it's basically obfuscating data to a certain degree
+so that it's not returned back in full to the person
+or the system querying that result.

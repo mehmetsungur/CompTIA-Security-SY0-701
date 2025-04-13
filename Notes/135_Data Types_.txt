@@ -1,0 +1,51 @@
+Let's take a look at some data types
+to make sure we understand the nuances of each.
+So first off, we have regulated.
+So this type of data is subject to specific laws,
+rules, or regulations that dictate
+how it must be handled, stored, or protected.
+GDPR is an example.
+CCPA in California is an example.
+And depending upon the industry that you're in,
+there are industry specific ones as well.
+So data that falls into this category
+obviously needs to be treated in a certain fashion.
+And then we have trade secrets,
+which is confidential business information
+such as processes or formulas, or perhaps strategies
+that provide a competitive advantage,
+and is legally protected from unauthorized disclosure.
+And then we have intellectual property,
+creations of the mind, including inventions,
+literary works and artistic creations.
+These things are protected by copyright,
+by patents or trademarks, or could be trade secrets.
+And then we have legal information.
+So this is data related to legal matters,
+including contracts, court documents,
+it could be e-discovery information,
+attorney client information or communication,
+and these things are subject to legal confidentiality.
+And then we have financial information.
+So data about an organization's financial transactions,
+accounts, assets, including sensitive financial information.
+So lastly, we have human and non-human readable data.
+In other words, text or images,
+and then machines by which we mean binary code,
+which may include encrypted or encoded data.
+So I say all of these things to understand
+that we need to have specific policies and procedures
+in place so we understand
+how we're to treat each category of data,
+how we're supposed to process it, store it, maintain it,
+and then of course dispose of it.
+So all of these things will have different regulations
+and different stipulations,
+and it's important that within your company,
+you have these things defined.
+So number one, you're following process.
+And then number two, if things were to ever go south
+or you're audited, or you need to detail
+how you actually handle all of these things,
+you have it properly documented,
+and can recall it when needed.

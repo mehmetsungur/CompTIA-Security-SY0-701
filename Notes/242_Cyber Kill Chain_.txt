@@ -1,0 +1,44 @@
+Alright, next up, let's talk about something
+called the Cyber Kill Chain.
+So this was originally developed by Lockheed Martin in 2011,
+and it's based on the military concept of a kill chain,
+which basically means you're looking for all the things
+that an adversary needs to have happen
+so they can deliver whatever it is they're trying to do.
+So if you understand that chain,
+and you stop it at any point along that chain,
+then you take away their ability to actually commit
+and execute on what they're trying to do.
+So let's look through each of these steps.
+So first off, we have reconnaissance.
+So here the adversary is probing for a weakness.
+Harvesting login credentials or info
+that can be used in a phishing attack is an example.
+From there, we have weaponization.
+So in that case, they're actually creating
+the deliverable payload using an exploit
+and a backdoor, phishing email, what have you.
+And then we have delivery, like I said,
+actually sending the payload to the victim.
+Again, could be a text message, could be a phishing email,
+or a piece of malicious code.
+Once that's actually delivered, then we have the exploit.
+So the exploit means executing code on that remote system.
+From there, installation, as you might guess,
+which entails installing malware on the target asset,
+and then command and control.
+So at this point, they're creating a channel
+and trying to establish persistence
+where the attacker can control the system remotely,
+and then whatever actions,
+so carrying out the intended goals.
+So understanding how these things go
+from point A to point B, from really conception to delivery.
+If you're able to put controls in place,
+whether it's administrative, technical, software,
+human intelligence, it could be any number of things.
+Social engineering training, phishing training, right?
+Don't click on links in emails.
+If you're able to break any link in that chain,
+you then take away their ability to actually deliver,
+act upon the threat.

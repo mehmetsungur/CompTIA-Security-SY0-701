@@ -1,0 +1,52 @@
+Okay, next up, let's talk about
+radio frequency identification or RFID.
+And these are card readers used for inventory control,
+access to buildings, secure areas, and so forth.
+And as you can see, there's a few components to the system.
+We have the TAG or the RFID itself, a card,
+or it could be something placed on a document
+or a piece of clothing or some type of inventory,
+and then an antenna that is brushed against
+or coming close proximity to some type of reader
+or an interrogator,
+and then a computer or a system that processes that.
+So in the context here, we're talking about RFID
+to allow access to a secure area of a building and so forth.
+So some things to keep in mind.
+RFID brute forcing is more difficult than traditional,
+what we just talked about previously,
+simply because the physical access and proximity required
+and the realtime nature of that specific brute force.
+Also, the attacker needs a compatible RFID reader
+and cards to test against.
+They need something they can actually
+brute force over and over, some type of automation
+to scan all the possible codes,
+and then some type of system response monitoring
+to identify success so they can then understand
+the structure of the codes,
+what's being passed and so forth,
+so they can then craft their brute force attack.
+There are some brute force mitigations here as well,
+similar to what we talked about before.
+Strong encryption, so utilizing strong encryption algorithms
+between the TAG and the reader
+can make brute force impractical
+due to the computational time required.
+And then we also have rate limiting.
+So implementing timeouts
+after a certain number of failed attempts
+can slow down or deter a brute force attack.
+And then also multifactor authentication,
+we talked about that before,
+requiring a second form of identification, like a PIN
+or a biometric piece of data, maybe a retina scan
+or a fingerprint can add an extra layer of security.
+Alerting mechanisms can be set up
+to configure alerts and let administrators know
+when multiple unsuccessful attempts are made
+in quick succession.
+And then ID randomization.
+So some modern RFID systems use dynamic
+or randomized IDs that change with each interaction
+making static brute force attempts very much ineffective.

@@ -1,0 +1,39 @@
+Next, let's talk about failure modes
+and these different systems we just mentioned.
+Sometimes they fail.
+Like anything,
+whether it's an application, a piece of hardware,
+a piece of software, occasionally devices will fail.
+First, we have fail-open,
+and this is really centering around the fact that
+when equipment fails or a breach occurs,
+the equipment fails open.
+In other words, it allows access to continue.
+So it prioritizes availability
+or accessibility of the resource itself over security.
+In other words, if something fails, we wanna know about it,
+we wanna fix it as quick as possible,
+but we don't want to shut the thing down.
+We don't wanna close the gate
+and then cut off connectivity,
+cut off maybe users coming in,
+buying things, you know, what have you.
+We don't wanna cut the revenue stream off, in other words.
+So that doesn't mean we don't get alerted.
+It doesn't mean we don't go after it
+and fix the problem as quick as possible.
+It just means we're not gonna shut things down.
+And then we have fail-closed.
+So in this scenario,
+equipment failure or security breach will
+cause the system to block access or traffic
+to protect the system or the resource.
+So it prioritizes security over accessibility.
+So just two different ways of attacking the problem.
+Again, both will cause alerts,
+both will send out the troops, if you will,
+and we'll try to fix that as quickly as possible.
+One allows traffic to continue
+and access to continue while we're fixing it.
+The other shuts things down,
+basically pulls up the drawbridge and no access.

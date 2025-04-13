@@ -1,0 +1,81 @@
+Okay, so I mentioned RADIUS,
+let's talk about what that is.
+So RADIUS is Remote Authentication Dial-In User Service.
+So again, another fun fact,
+this was originally developed back in 1991.
+I won't read through everything,
+but basically, it was a protocol
+that grew in popularity for dial-up initially,
+hence the dial-in user service.
+But it's also used for VPNs, 802.1x, and much more.
+And what it basically does is it provides
+for centralized authentication, authorization,
+and accounting, or AAA.
+So the first standard was actually published in 1997,
+then it was updated in 2000,
+so it's been around for quite a while.
+It's a fun fact, though, because there's not many things
+that were developed that long ago
+that are still widely in use today,
+so I just wanted to bring that to your attention.
+So when we talk about RADIUS,
+some things we need to be aware of, so I mentioned AAA.
+So Authentication identifies the user
+and allows or denies access,
+or challenges for additional credentials,
+such as a PIN or a rotating code.
+Then we have Authorization, so that provides things
+like length of time allowed on a network,
+access control list for various resources, and so forth.
+And then Accounting, and this basically tracks the start
+and stop time for each session,
+and that can be used for billing or for showback.
+So let's cover the key elements and what they mean.
+So here we have good-old Alice.
+She's referred to, in this example, as a client,
+otherwise known as a supplicant in a RADIUS terminology.
+And what she wants to do is connect
+to a wireless access point,
+which is going to be a proxy or authenticator.
+Now, the environment itself may have
+multiple wireless access points spread out
+all throughout the environment.
+We don't wanna necessarily have to configure credentials
+for each and every wireless access point,
+so what we do is we configure those to forward that request
+for connectivity onto the RADIUS server.
+So the RADIUS server is also referred to
+as the authentication mechanism.
+So the wireless access point
+is really a dumbed-down device at this point,
+and just forwards that request to the RADIUS server.
+The RADIUS server then checks in with LDAP,
+in this case, AD or LDAP, and will say,
+"Hey, does Alice actually have credentials on the network?"
+"What can she access?"
+"Should she be allowed to access
+any of our wireless access points?"
+Assuming that she has a valid account,
+LDAP will respond back and say, "Yes, she's been verified,"
+pass that back to the RADIUS server,
+and then back over to the wireless access point,
+allowing Alice to then connect
+and gain access to the network.
+We could also add in 802.1 authentication
+to encrypt that connectivity between Alice
+and the wireless access point,
+and verify not only Alice and her credentials,
+but also her workstation or laptop itself.
+So as you can see, a RADIUS server allows us
+to act as a central point of authentication,
+so we can have multiple wireless access points
+throughout the environment.
+It saves us from having to visit each and every one
+or log into each and every one,
+and configure individually
+with credentials and what have you.
+We can just forward those requests onto the RADIUS server,
+which then checks in with active directory, or LDAP,
+gets the information back, passes it on,
+and allows connectivity or blocks access
+to that wireless access point.

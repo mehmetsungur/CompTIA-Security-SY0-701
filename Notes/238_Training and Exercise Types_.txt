@@ -1,0 +1,220 @@
+So next up is a subject
+near and dear to my heart, and that is training.
+So training, really when we're talking about security,
+security is everyone's job.
+So training should be continuous.
+It needs to utilize various methods,
+and that's tabletop sessions,
+we'll talk about that in just a moment.
+It needs to be scenario-based.
+It could be live training, videos, et cetera, et cetera.
+Everyone learns a little bit differently,
+so the more ways we can get training in
+and the more ways we can engage with the end user,
+the better for everybody.
+So really at the end of the day, we need to ensure
+that people have the proper training
+with the tools necessary to do their jobs.
+And here we're specifically talking about incident response,
+technical skills, threat intelligence,
+forensics, and so forth.
+So training should really run the gamut
+so that way when an incident does occur
+we have the right people for the job and the right tools
+to allow them to get done what they need to in short order.
+So now that we have our training properly defined,
+and we're making sure that we're investing properly
+in the tools, the training, the resources,
+making sure people are up to speed
+and up with the latest technologies
+and also the latest threats and vulnerabilities,
+then we need to worry about testing.
+So as far as testing goes, again, we need to define
+our goals and expected outcomes.
+So periodically test disaster recovery plans.
+Additionally, test business continuity
+and also cybersecurity plans
+to verify that the plans are valid,
+they cover the required elements,
+and that they're actually actionable.
+That's one of the biggest pieces to the puzzle.
+We don't wanna put plans together
+just to have a plan, right?
+So this is not a checkbox activity.
+We wanna make sure that the plans we put in place
+are actually workable and will get us back up and running
+as quickly as possible.
+From there, we need buy-in from senior management.
+So we must have executive approval,
+and this must be disseminated organization-wide if possible.
+It's very hard to get these things put into place
+if we're doing a bottom up, because every organization,
+every line of business, every group, tower,
+whatever it's called in your organization,
+everybody has competing priorities, what's important.
+So what's important to one group
+is not necessarily important to the other.
+So executive buy-in and a top-down approach
+is gonna make this the most successful.
+Once our testing is done, then we need
+to do post-testing review.
+So identify what's changed, if anything,
+and then compare our goals with expected outcomes
+and then actual results.
+And just so we're clear from a definitions perspective,
+test versus exercise.
+A test, which we're all used to, it's pass or fail.
+It either meets the objectives or it doesn't.
+Versus an exercise, which can be harder to measure.
+Some elements may be successful where others may not.
+But the exercise itself is a learning experience.
+So as you figure out what doesn't work,
+you refine that over time.
+And each iteration and each iteration, hopefully,
+it gets better and better
+to the point where we now have a flawless
+or a smooth operation
+that we can put into play when disaster strikes.
+Something very important, however,
+is that testing needs to be realistic.
+Simply reporting back successful test results
+are meaningless if the tests are not realistic.
+Again, this is not a checkbox activity.
+We need to make sure that we're actually doing things
+that are actionable, and that we're able to take away
+and refine and get better over time.
+So in other words, test the plan,
+don't plan the test, right?
+Crises don't typically knock on your door
+three or four days ahead of time and say,
+"Hey, Mr. Security Professional, today's Tuesday.
+On Friday, we're gonna have a crisis
+and we're gonna breach your network.
+So just please get ready, here we come."
+That doesn't happen, right?
+So we need to make sure
+that we're not testing in that fashion either.
+We need to make it as realistic as possible.
+So there are a few ways we can do these testing,
+one of which is called a tabletop exercise.
+So this is a structured and a collaborative
+discussion-based scenario
+that simulates a cybersecurity incident or a crisis.
+So this really should involve key stakeholders,
+incident response, IT, executives, management,
+and other relevant departments.
+So everyone is in a room together
+and you go through these tabletop exercises,
+understanding the scenario,
+understanding what's gonna take place.
+Everyone kind of chimes in
+and you collectively work your way through
+a specific scenario.
+So the steps involved.
+We have a scenario development,
+and the exercise begins with the creation of a realistic
+and a relevant cybersecurity scenario.
+The scenarios can range from data breaches
+to ransomware attacks to insider threats
+or perhaps DDoS attacks.
+And the scenarios should challenge participants
+and align with the organization's risk profile
+and overall objectives.
+In other words, keep the discussions
+and the outcomes realistic
+and in line with what the company would accept and expect.
+Then we have preparation.
+So participants are informed about the exercise in advance
+and provided with relevant background information,
+including the scenario, incident details and objectives.
+And they may also receive
+specific roles and responsibilities
+and are expected to function as a team.
+We then have facilitator and observer roles.
+So a facilitator guides the exercise, right?
+They're kind of running the show.
+They present scenario details
+and pose challenges to participants.
+Observers, which are often subject matter experts or SMEs
+or experienced incident responders
+monitor and assess participants' actions and decisions.
+From there, we have a scenario discussion.
+So participants gather in the meeting room
+or virtually over Zoom or Microsoft Teams
+or whatever you use to collaborate
+and discuss the scenario and its potential impact
+on the organization.
+They discuss how they would respond,
+how they'd make decisions, communicate internally,
+externally, and so forth.
+From there, we have decision making and actions.
+So the participants make decisions
+and they take actions as they would during a real incident.
+So this may involve notifying relevant teams,
+analyzing evidence, steps required to contain an incident,
+and then deciding on communication strategies.
+From there, discussion and evaluation.
+So throughout the exercise,
+the facilitator introduces new developments or challenges
+based upon participants' decisions.
+So everyone discusses their actions,
+the rationale behind their actions,
+and the potential consequences of their choices.
+From there, an after action review.
+So after completing the exercise, participants and observers
+conduct a very detailed review of the scenario
+and the responses.
+They identify strengths and areas for improvement
+in incident response procedures, communication,
+and of course decision making.
+In the overall benefits to the organization,
+we have proper risk assessment.
+Team collaboration, right, we're all working together.
+Decision validation, because now we're putting decisions
+out in front of everyone
+and we can kind of collectively decide,
+is this the best way to go or not?
+What are the potential impacts?
+What are the potential risks to the environment?
+And then also we're making sure
+that we're following policy and procedure.
+And then if there's an area for improvement,
+of course we can adjust as necessary.
+It's obviously a learning opportunity,
+we're all getting a chance to learn from one another.
+And the nice part is the training becomes scalable.
+We can start off with a small group and expand as necessary,
+bringing in additional teams,
+management, executives, what have you,
+and scale this thing out as large as we need it to be.
+And it also helps with risk mitigation
+and of course regulatory compliance.
+Also, just to clarify
+between a tabletop exercise and a simulation,
+there's some things around format,
+realism, goals, and interaction.
+So in a tabletop exercise, the format is discussion-based,
+whereas a simulation is hands-on and real time.
+As far as realism goes,
+in a tabletop exercise we aim for realism,
+we try to make this scenario as real as possible,
+but we lack hands-on action.
+In a simulation, this really mimics a real incident
+and real response activities as closely as possible.
+The goals are similar.
+We wanna make sure we test and evaluate
+incident response plans, policies and procedures.
+Also decision making and communication, right?
+That's for a tabletop exercise.
+In a simulation, we're doing those same things
+but we wanna provide practical, real-time experience
+of incident response
+and also assess the execution of those response actions.
+And then from an interaction perspective,
+tabletop exercises verbal communication, discussion,
+and decision making without taking actual action.
+So the pressure's really not on,
+but it's a good way to walk through the exercise.
+In a simulation,
+participants actively take concrete actions, make decisions,
+and interact with simulated systems and data.

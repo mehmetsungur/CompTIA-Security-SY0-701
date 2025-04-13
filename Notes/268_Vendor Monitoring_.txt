@@ -1,0 +1,33 @@
+When it comes to vendor monitoring,
+some things to keep in mind.
+We have risk assessment,
+so when selecting vendors, assessment
+of their security practices,
+and of course, prior performance is crucial.
+I've talked about this just a moment ago.
+So this includes data breaches, supply chain attacks,
+and any compliance issues.
+So you're well within your right to ask these things,
+and you should be doing that as part of due diligence.
+Vendor selection in general, right?
+Proper selection includes vendors
+who have a strong security posture
+that aligns with your own.
+So application of best practices,
+comprehensive incident response plans, et cetera.
+Again, part of the due diligence process
+to make sure their protocols, their processes,
+and their best practices are in alignment with your own.
+And then ongoing monitoring.
+So it's important to continually verify
+and validate a vendor's security posture
+and overall alignment, right?
+This is not a one-time assessment.
+This should be done on a continual basis,
+hence, the right to audit we talked about previously,
+also penetration testing,
+possibly if they're in agreement to that,
+but regardless, one way or the other,
+you should be making sure
+that you are monitoring
+that relationship on an ongoing basis.

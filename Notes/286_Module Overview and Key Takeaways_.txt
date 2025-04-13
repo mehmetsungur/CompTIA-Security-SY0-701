@@ -1,0 +1,48 @@
+Hey everybody, welcome back to Pluralsight.
+I'm your instructor, Christopher Rees, and in this module
+we'll be talking about security awareness practices.
+So let's go ahead and take a look
+at what we'll cover in this module.
+We'll be covering phishing, anomalous behavior recognition,
+user guidance and training, reporting and monitoring,
+development, and then execution.
+So as usual, let's take a look behind the scenes,
+look at the subtopics.
+I'll pause here for a second
+so you can read through what we'll be covering.
+And then when you're ready, let's go ahead and get started.
+Alrighty, so why is this topic important?
+Well, as I say pretty much every time, (laughs)
+every one of these things is very important
+for developing a strong security posture.
+But one of the key takeaways here
+is that security is really everyone's job,
+and proper awareness training helps empower individuals
+to recognize, respond to, and also prevent security threats.
+So some of the benefits of effective security awareness
+are it mitigates cybersecurity risks and threats.
+We also build what's called a human firewall
+against security breaches,
+because as we've learned, oftentimes,
+the human element can be the weak link in the chain,
+and I don't mean that derogatorily.
+Sometimes people make mistakes, they are negligent,
+not necessarily intentionally malicious,
+but just not doing something correctly
+can introduce vulnerabilities.
+So by implementing proper training,
+they understand best practices
+and how to go about their business
+to make things as secure as possible.
+It also prevents phishing and social engineering attacks,
+and ensures compliance with regulations and standards.
+And it also protects sensitive data and reduces data leaks.
+As you can imagine,
+the more trained and the better prepared we are,
+that will improve incident response capabilities.
+It also fosters a culture of security
+within the organization,
+and ultimately safeguards an organization's reputation,
+which we've learned is extremely important
+to overall success, longevity,
+and just sustainable business operations.

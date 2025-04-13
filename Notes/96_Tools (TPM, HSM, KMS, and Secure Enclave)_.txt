@@ -1,0 +1,53 @@
+Okay, let's go ahead and shift gears
+for just a moment and talk about some tools
+that we need to be aware of.
+So we have things like a TPM chip.
+So this is a secure area, usually embedded on a device,
+and it's used to store cryptographic keys
+like we just talked about,
+the public key, private key, so on and so forth.
+Those are cryptographic keys.
+So the TPM chip on a laptop or on a desktop, right,
+a computer or a server, they're embedded on the motherboard.
+They're not accessible from outside of the computer,
+and their purpose is to store those cryptographic keys.
+We also have something referred to
+as a hardware security module, or an HSM.
+That's similar to a TPM, although it can be installed later.
+So it's not built into the motherboard.
+It's typically a card that can be installed on a server,
+and that can be used to securely store
+those cryptographic keys.
+And then also a key management system.
+So that could be an in-house or a third party platform
+that's used to manage encryption keys
+external to the devices being encrypted.
+So those things are great
+as long as that doesn't get compromised
+or you don't blow up that system,
+and then all the keys are gone.
+So again, pros and cons to all of these things,
+but a key management system can be used
+to manage keys across a number of different devices.
+And then we have something referred to us as Secure Enclave,
+and that is a dedicated secure subsystem
+integrated into Apple Systems on a chip, right,
+iPhones and so forth, iPads,
+and it's isolated from the main processor
+to provide an extra layer of security.
+Quick example of a Trusted Platform Module, right?
+So here's a TPM chip,
+but again, just a chip that's embedded on the motherboard
+of that computer,
+and it's used to store cryptographic keys
+used for encryption.
+Conversely, we have a hardware security module,
+and you see here we have a rack-mounted version.
+And again, it's similar to a TPM,
+but HSMs are removable or external devices
+and can be added later.
+So here you see a rack-mounted one.
+It can also be a card that can be inserted
+into that server or computer,
+but both are used for encryption
+and for storing those cryptographic keys.

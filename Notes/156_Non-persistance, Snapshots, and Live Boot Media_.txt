@@ -1,0 +1,29 @@
+And then a few more concepts
+I wanna make sure you're aware of.
+We have non persistence snapshots and then live boot media.
+So non-persistent.
+So this prevents people from customizing their desktops,
+installing unapproved applications,
+tweaking settings, and so forth.
+So in other words, as an admin,
+we give someone a virtual desktop.
+They log in, they get the desktop,
+they get access to things, but they can't customize.
+When they shut that machine down,
+and they spin it back up the next day
+and they log back in again,
+it basically gives them a fresh copy of that desktop.
+So if they changed colors, they installed applications,
+any of those things that would basically be wiped,
+and it would start from scratch.
+And then snapshots, we talked about that.
+So that allows a user to quickly revert
+to a known good state or rollback changes
+in the event of a virus, malware, spyware, and so forth.
+And then we have live boot media.
+So Live Boot Media is basically an operating system
+on a USB drive that you would boot up
+that allows you to clean a system,
+removing malware and so forth,
+so you actually boot off of the USB device
+instead of the operating system on the computer.

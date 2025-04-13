@@ -1,0 +1,86 @@
+Next, let's talk about supply chain attacks.
+So an attack on an organization
+by targeting less secure elements in a supply network.
+So these are advanced persistent threats, typically.
+They try to get in and stay there,
+stealthily, and just exfiltrate data
+or see what's going on, monitor, and so forth.
+So they try to get in and stay
+for a prolonged period of time.
+It also targets victims further down
+the supply chain network.
+So if a target company or a target victim is very secure
+or very hard to get to, but they know that supplier A, B, C,
+and D make products or services
+that will end up at that target company,
+well then it may be much easier to target that supplier
+further up the food chain, if you will,
+and then get into the company that way.
+So some examples might be point of sale terminals
+that could be infected with malware
+before they ever get to the actual retailer.
+Or infected USB sticks that are infected
+before they actually get to the intended recipient.
+We also have malware or hardware that's installed
+on computer equipment or network gear before it reaches
+a target company.
+Again, there's been examples of routers and switches
+that have been compromised, taken off of shipping equipment,
+injected with malware or malicious hardware components,
+put back together again, put in the boxes,
+put back on the ships
+or the supply chain delivery trucks and so forth,
+and then delivered to the target company.
+So let's take a quick look at a supply chain attack example.
+So let's say we have a third party ad company,
+and they are basically putting ads
+on different types of websites.
+So we have websites across the board here, right?
+All e-commerce websites that display ads to customers.
+Well, if an attacker is able to actually compromise
+that third party ad company,
+they can then reach out to victims at a large scale,
+or victims that may be hard
+to get to specifically or individually.
+So as those victims then visit those e-commerce websites,
+they're faced with the malware that was installed
+by the attacker, and then any transactions
+that they do with that e-commerce website could be skimmed
+and that data sent to the attacker, right?
+So they can do that at mass,
+especially if it's a very popular website,
+if it's compromised, he can reach a large number
+of victims very, very quickly.
+So let's take a look at an actual example.
+So in July of 2021, okay, a few years back,
+Kaseya was attacked by a Russian hacking group called REvil
+by targeting a vulnerability in their VSA software.
+VSA is their Virtual Systems Administrator software.
+So Kaseya provides IT management
+and remote monitoring services to MSPs and their customers.
+So here we are.
+Kaseya actually provides services via their VSA platform,
+which is software as a service.
+It is actually used by a number of MSPs
+or managed services provider, right?
+Think of people that have large scale call centers that do,
+like I said, call center,
+email monitoring, desktop monitoring,
+could be security monitoring and so forth, right?
+So they're doing a lot of monitoring
+for additional downstream customers.
+So they have all of the MSP customers
+who then have their individual laptops and desktops servers,
+networks, and so forth.
+So the REvil Hacking Group was able to target
+and attack Kaseya.
+They installed malware on that company's VSA software.
+So when that software was then pushed downstream
+to the MSPs, you can see everything downstream
+at that point became infected.
+So the MSPs then passed it down to their customers,
+who then passed it down to the actual target computers,
+ransomware and so forth.
+So it was a very large scale attack
+that ended up impacting a number of companies
+in a number of different industries.

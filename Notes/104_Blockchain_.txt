@@ -1,0 +1,92 @@
+Okay, next,
+let's talk about the concept of blockchain.
+So blockchain is an immutable,
+decentralized digital open public ledger
+that is distributed among a network of many, many computers.
+So, once a transaction is recorded in the ledger,
+it cannot be altered or removed,
+and we'll talk about how that happens here in just a moment.
+So this provides trust and transparency
+and near real-time processing of transactions.
+And a block is a batch of transactions
+with a cryptographic hash of the prior block, timestamp,
+and some other information,
+again, adding to that ledger.
+Editing or altering a block
+would change all of the blocks that follow it,
+and I'll explain that here in just a moment.
+But it makes it a very secure system
+that is very, very tamper-resistant.
+So, as an example,
+here we have a couple blocks in the blockchain, right?
+Visually represented.
+So, we have our ledger,
+and everything that gets added
+to the blockchain gets added into that ledger.
+So, it was initially conceived in 1991,
+so it's been around for a while,
+even though blockchain has just recently started
+to gain some popularity.
+It's been around for a while
+as a timestamp for digital transactions.
+It didn't really gain mass adoption
+or recognition until around 2009
+when Satoshi Nakamoto used it with Bitcoin.
+So, sometimes people will think that blockchain
+and cryptocurrency are the same thing, but they're not.
+Cryptocurrency uses the underlying technology of blockchain,
+but cryptocurrency is not blockchain in and of itself.
+You can have blockchain
+without anything to do with cryptocurrency.
+And the blocks within a blockchain
+are comprised of a few things.
+We have data, we have a hash,
+and then we have a hash of the previous block.
+So, in this example here,
+we have our initial piece of data on our initial block.
+We'll hash that data and we'll get a hash value,
+and then we have a hash of the previous block.
+Now, since there is no previous block,
+when it's the very first one,
+it's referred to as a genesis block.
+The next one in the chain, as you see,
+will contain the hash of the previous block, right?
+Those things are connected.
+We will add additional data to the next block,
+and then that data will be hashed and given a hash value.
+That process will repeat over again,
+so you'll see on the next block,
+we have a hash of the previous block.
+We add data, and then we get a new hash,
+and that process will repeat over and over and over again.
+Well, let's say for instance,
+we have some type of bad actor that tries to come in
+and change the data on one of those blocks.
+Well, if they change anything on that block,
+you'll now see that the result in hash of that block
+is now different.
+And we can see that the hash of that block
+will not match the hash of the subsequent block.
+So everything from that point forward would be invalidated.
+So what happens basically
+is we have a thing called consensus.
+This is a distributed ledger, a distributed blockchain.
+There's many, many computers on that network.
+If a hacker or an attacker were to try to go in
+and do something like alter the data on one of those blocks,
+he would have to go into every single computer
+that has a copy of that blockchain and alter that block
+and alter all the subsequent blocks,
+which, for the most part, would be impossible to do.
+So if you tried to, as I said, manipulate that data,
+the hashes don't match,
+the blockchain basically breaks at that point,
+and it would be rejected by the blockchain, right?
+We have to have consensus.
+He would have to go into actually over 50%
+of all of the computers on the network and make that change
+for that to not be rejected by the network.
+So, as you can see,
+it makes it a very transparent
+and a very trustworthy system,
+and very, very tamper-resistant.

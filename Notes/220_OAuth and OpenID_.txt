@@ -1,0 +1,54 @@
+Okay, two more single sign-on technologies
+that I want you to be familiar with are OAuth
+and OpenID Connect, or OIDC.
+So OAuth is an open standard for authorization,
+and that's the key takeaway.
+It does authorization, not authentication.
+Alright?
+So authorization that allows third party applications
+to access a user's resources.
+So things like Google, Facebook, Twitter, LinkedIn, Amazon,
+all of the major social media providers have some type
+of authentication mechanism,
+and you may have used those in the past
+and not even realized it.
+So if you've logged into another website, like not Amazon,
+or not Google, or not any of the ones I just mentioned,
+but you can use your Google credentials
+or your Facebook credentials to log into that website.
+Well, on the back end of that,
+it's leveraging more than likely OAuth and OpenID.
+So it's a mechanism to use credentials from one
+of these websites as a trusted third party.
+So it provides authorization and access control,
+but it's important, especially as a security professional,
+to understand and make sure your users are aware
+of what is actually being authorized.
+Because when you click on certain things
+and you use these tools to allow authorization,
+there are certain things that may be passed along as well,
+some credentials or some information from your profile
+that you may or may not want to be passed on as well.
+So just make sure you check into those things.
+Along those same lines, we have OpenID.
+So this is actually built on top of OAuth or OAuth 2.0.
+So it's an identity layer that's built on top,
+and it provides authentication
+and user identity information.
+So in essence, it provides standardized authentication,
+which allows clients to verify a user's identity.
+And again, it passes user identity information,
+allowing applications to personalize user experiences.
+So again, just be aware of what's being passed along.
+It does make things more personal,
+but it's good to understand what information is actually
+being passed along so that you're in control of your data.
+So just to summarize, OAuth and OIDC or OpenID Connect.
+They serve different purposes.
+One's authorization, one is authentication.
+They often work together and they compliment each other
+in modern authentication and authorization scenarios.
+So when you log into a website using one
+of these trusted third parties, like I said, Google,
+Facebook, and so on,
+you're using these two technologies in the backend.

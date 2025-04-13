@@ -1,0 +1,59 @@
+And then we talked about ownership.
+So data is typically not owned by individuals,
+but it's actually owned by the enterprise.
+So just an important distinction
+to make sure that you're aware of.
+And then also owners are assigned, typically for management,
+for compliance and for accountability.
+So not actually the owner of the data, meaning they own it,
+they can take it with them, they leave the company, hey,
+I'm taking my data with me.
+No, it's owned by the company.
+An owner is assigned actually to account for
+and to manage that data,
+perhaps for compliance reasons or to assign ownership
+or permissions to other users.
+Just a quick review of the information lifecycle
+so that you're aware.
+Information, like anything else, has a lifecycle.
+Data is born, it has its useful life,
+and then it basically dies or is decommissioned.
+So let's go through this.
+So we collect information, we can access that information,
+we use the information.
+It's basically stored.
+It can be transferred to other people,
+other devices and so forth.
+And then when it's all said and done,
+the deletion and the destruction,
+kind of a birth to death or a womb to tomb, if you will.
+And in the midst of all of that,
+we have data protection that should be put
+in place to make sure that that data
+is actually protected properly.
+We're protecting the CIA, the confidentiality,
+the integrity, and the availability of that information.
+Remember the three pillars
+of information security and cybersecurity,
+we wanna make sure that data is always available,
+it's protected, and we can verify
+the integrity of that data.
+So basically, we're doing this to maintain
+compliance with various regulations.
+GDPR is an example of one, CCPA might be another.
+We'll talk about those two in another module.
+Ensure data is collected properly,
+also used and stored according to policy,
+and then destroyed once no longer needed.
+And that's an important thing to remember.
+The longer we keep data, the more cluttered things get,
+storage costs go up, our risks go up
+because now data is potentially discoverable
+that we didn't necessarily want to be discoverable.
+We no longer need it.
+So when it's no longer of any value,
+it should be properly deleted.
+So again, this helps solidify consumer trust,
+brand reputation, and overall transparency.
+And it also helps guard against breaches,
+unauthorized access and so forth.

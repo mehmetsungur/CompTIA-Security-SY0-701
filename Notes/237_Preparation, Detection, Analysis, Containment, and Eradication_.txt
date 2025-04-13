@@ -1,0 +1,148 @@
+So during the preparation phase,
+we should be identifying team members
+and basically assembling an incident response team,
+both primary and backups if appropriate,
+and getting very clear on what skills
+and what tools are needed.
+And also, during that phase,
+organizations should establish clear
+and well-documented incident response policies
+and procedures, so these documents outline the roles
+and responsibilities of incident response team members,
+define the incident classification and severity levels,
+and also provide guidelines for reporting
+and handling of incidents.
+Once the team is assembled,
+we need to make sure we define roles and responsibilities
+so that each team member is aware of their role,
+who their backups will be, and also ensure they have access
+to the proper tools and resources.
+And then once we have those things done,
+we need to make sure that we define
+and develop a defense-in-depth strategy,
+so the name of the game here is to strengthen defenses
+and also help mitigate the impact of breaches or incidents.
+Next, when it comes to detection and analysis,
+so properly trained teams can assist and expedite all phases
+of an incident response, kind of goes without saying,
+but quick assessment can determine the level of impact
+and also help direct containment and mitigation efforts,
+so detection and analysis is really crucial
+to the overall process.
+The quicker we can do this, the quicker that we can identify
+where to deploy resources, the quicker we can contain,
+mitigate, and ultimately reduce the impact
+of the blast radius of a breach,
+and that's really what we're trying to do.
+We're trying to lessen the impact,
+whether that be financially, impact to customers,
+impact to reputation, all that good stuff,
+so speed is of the essence here.
+So as I mentioned, the analysis of event and log files
+from IDS, or intrusion detection systems,
+firewalls, routers, and switches,
+along with directory servers and other network systems,
+proper logging is essential, and then having tools in place
+that can aggregate those different log files
+to give us a big picture, or a holistic picture,
+of the environment, helps us to understand
+and play back what happened and drill down to root cause.
+So really, what we're after here
+is to determine the true intent of the attack.
+Was it a clear target, or was it someone just probing?
+Was the business the actual target,
+or perhaps a side-door attack against another company?
+And again, was this a true attack,
+or just initial network or resource mapping?
+All of these obviously require our attention,
+it's just that not all of them
+are at the same priority level, so we need to make sure
+that we clearly identify what's happening
+so we can identify what teams are necessary
+and also allocate resources, because remember,
+just like on a battlefield,
+you only have so much resources you can deploy,
+and if you put everything on one side of the fence
+or one area to defend, that leaves other areas open.
+and the more skilled attackers know this,
+so sometimes, they'll try to put up false flags,
+have you look at one area and focus attention over here,
+while they try to do something way over there,
+so just keep that in mind.
+So once we've done our detection and analysis,
+next, we wanna make sure we stop the spread, containment,
+isolating the affected systems to prevent further damage
+or unauthorized access.
+And then next, eradication,
+which is the process of eliminating the root cause
+to prevent it from happening again. because as we know,
+it doesn't do us much good to really shut the door,
+turn the locks, to lock the window,
+and then leave the back door wide open.
+So as we eradicate and we remove whatever it is
+from our system, the backdoors,
+or the entry point that the attacker used
+to gain access into our network,
+we need to make sure that we go through and eradicate that,
+close those gaps, so that once we're back up and running,
+we've restored from backup, we think everything is good,
+we don't have the same problem reappear the next week
+or the next month, especially when it comes to ransomware.
+There have been cases where companies
+have actually paid the ransom,
+sometimes in excess of a million dollars,
+but they never actually fixed the vulnerability
+and patched the issue, so a week or two later,
+the attackers came back,
+hit the same company again with ransomware,
+and again, demanded another ransom.
+So eradication is definitely important,
+but making sure the holes are closed
+are equally as important, if not more important.
+And then we have, of course, recovery,
+so focusing on restoring the affected systems
+to normal operation while ensuring they're secure.
+We need to make sure that we're restoring to clean systems
+and that any vulnerabilities have been fixed.
+And a few key areas when it comes
+to eradication and recovery,
+we have disabling affected accounts.
+So we need to make sure that we identify
+and disable compromised user or service accounts
+to mitigate further spread or impact from malware,
+ransomware, bad actors, and so forth.
+Shutting down ports and protocols is another good idea,
+isolating affected systems or networks,
+again, to contain the spread to other areas
+while also trying to limit the impact to the business,
+and then recovering from backups,
+so as I mentioned, recovering to a clean system.
+So it's always a great idea to verify
+that the backups are actually good.
+Nothing more of a lonely feeling
+than restoring from a backup, and there's nothing there,
+so verifying those ahead of time, obviously critical,
+but recovering to a clean system.
+We wanna make sure that the backup itself is clean,
+but then also that the system we're recovering to
+is also clean.
+Basically, building from scratch
+and restoring the data is optimal,
+but if we need to recover to an existing system or systems,
+we need to make sure they are clean and free from infection,
+so we need to make sure that any vulnerabilities
+have been patched and verify any gaps have been closed,
+and then coordinating with other sites and locations.
+So communication with these other sites,
+assuming we have other sites,
+because they may need to take proactive measures as well
+to make sure things don't spread to their area,
+or we may need to give them a heads up
+and prepare for a failover.
+So if our systems are able to fail over
+to that remote location,
+we obviously need to make sure they're aware of it.
+We need to make sure that that system is free
+and clean from infection, and make sure that the same holes
+that allowed access to our systems locally
+do not exist on that remote location.

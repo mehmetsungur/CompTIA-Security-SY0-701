@@ -1,0 +1,89 @@
+Next, let's talk about web filters.
+So a web filter can be agent-based.
+So we have agents actually running on the devices
+that are trying to connect to the internet.
+It also typically will include a centralized proxy
+where all of our requests will go through.
+So we can set policies, inspect traffic,
+potentially block things from leaving our network,
+as well as scan from malware
+and other things trying to come into our network.
+Then we have universal resource locator or URL scanning,
+so we can scan web addresses
+before they go out to the internet.
+So in other words, the folks inside of our network
+are trying to access sites
+that we deem inappropriate or not safe,
+or content that we don't want
+to be displayed while at work, et cetera.
+We can block those things by scanning for the URLs
+before that web traffic actually leaves our network
+and goes out to the internet.
+We also can set rules around content categorization,
+so things like firearms or explosives,
+or things that might be harmful,
+or, again, things we don't wanna see at work.
+Typically it's gonna be things around firearms or anarchy,
+or not safe for work material,
+pornography and things along those lines.
+And then we can have block rules,
+which are a little more specific,
+but it blocks things like certain types of content,
+certain types of downloads.
+It could be a certain type of applet
+or a certain type of extension,
+executables, so on and so forth.
+And then we have reputation filters.
+So in the context of a web filter,
+it's a component or a feature that's designed
+to assess and categorize websites
+or web content based upon
+their own reputation or trustworthiness.
+So in essence, it's an important part of web filtering,
+and it's used to control and manage internet access
+in some organizations, schools, and other environments.
+Okay, so here we have an example of
+a web filter or a centralized proxy example.
+So as you can see, we have some infrastructure here.
+We have some computers, laptops,
+mobile devices inside of our network.
+And there's a proxy or a web filter sitting on
+the outside of, the perimeter of that network
+that access the gateway
+for sites trying to access the internet.
+So we can see here, we have a number
+of devices trying to access the internet.
+So they're gonna go through the web filter,
+they go out to the internet,
+and of course out to their respective websites.
+That's how things typically function
+without any web filtering in place.
+So if you're inside your network, you type in a website,
+you get the website basically.
+Well, if we set it up where we have blocking rules now,
+or some type of content filtering,
+content categorization, and so forth.
+In other words, we're setting up some rules
+that say there are certain types of websites
+that you cannot access.
+And in this example, we have website E.
+We've deemed that that type of website, for whatever reason,
+whether it's based on content,
+perhaps languages displaying, reputation,
+et cetera, et cetera,
+we've deemed that specific website is
+not appropriate for work.
+So now when the user on their laptop
+or mobile device tries to access that website,
+it's gonna hit that content filter and be blocked.
+So I'm showing the connection here
+from the internet out to website E in red,
+just to show the path that it would've taken.
+But since the proxy
+or web filter had blocked that connection,
+that connection would actually never take place.
+So the user will be displayed some type
+of webpage saying this content has been blocked
+for whatever reason, and display whether it's again,
+content, categorization, reputation, inappropriate content,
+and so forth.

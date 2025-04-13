@@ -1,0 +1,93 @@
+Okay, next, let's talk
+about mobile device vulnerabilities,
+and a few things you need to be aware of.
+So, third party app stores,
+rooting or jailbreaking,
+side-loading, custom firmware,
+carrier unlocking, firmware over-the-air updates.
+These are all things
+that are potential security vulnerabilities
+in the environment.
+So let's take a look at jailbreaking.
+So jailbreaking, for iOS devices,
+and rooting, for Android devices,
+different names, but it means the same thing, are processes
+that involve removing software restrictions, right?
+These are things that are imposed
+by the device's operating system.
+So, we're taking that restriction away
+so we can basically do whatever we want, right?
+We're the admin or the superuser,
+or the root user of that specific environment.
+So the goal being to gain elevated privileges,
+often referred to as root or superuser, again, on Android,
+or root access on iOS or Apple devices.
+So let's look at some of the nuances
+between jailbreaking and rooting these mobile devices.
+And again, keep in mind we do this,
+because we wanna install applications
+that we're typically aren't allowed
+to install, or can't install.
+We wanna go around the vendor's official app store
+and download things that were created
+by maybe independent creators and so forth, right?
+We wanna avoid having to go
+through this specific lockdown vendors app store,
+or customize our phone in a certain way,
+or do things basically that we weren't allowed to,
+or weren't initially intended to be able to do.
+So on Android, right, rooting that mobile device allows us
+to gain elevated privileges.
+So this basically
+grants super user administrative level access
+to the Android operating system,
+allowing us to make system level changes.
+Same thing with custom ROMs.
+So these modified versions of the Android OS
+can allow additional features and customization
+that weren't necessarily originally intended.
+And also app customization, which we talked about.
+System file modifications, third party app stores, again,
+going around the vendor's official app store
+to download things that aren't typically allowed.
+And then custom kernel installation,
+which allows for device customization,
+perhaps enhanced performance, and so forth, right?
+All of these things, however, have the potential
+to break that device or make it unusable,
+and then introduce a multitude of security vulnerabilities.
+On the iOS side, we can bypass restrictions.
+Again, app installation, we can use nonofficial app stores
+to download applications
+that aren't available via the app store.
+It allows customization of experience.
+You can change things like colors,
+how apps appear on the home screen, and so forth.
+It can provide access to system files,
+application tweaks, right?
+All of these things can void the warranty.
+All of these things have the potential, again,
+to break that device and introduce a multitude
+of security vulnerabilities.
+So you kind of get the recurring theme here.
+All of these things might make life a little nicer
+or a little easier for the end user.
+It provides them customization,
+but it also introduces a lot of security vulnerabilities.
+So one of the goals here should be
+to make sure we educate users
+to understand they should not be doing this,
+especially in a corporate environment.
+If they wanna do it with their personal device,
+that's on them.
+But in a corporate environment,
+we wanna make sure this does not happen.
+Now, of course, we can install applications
+and software on those devices,
+make that very, very difficult, if not impossible,
+or at least we can monitor and be aware
+if it does happen or is attempted.
+But user education is key here.
+So they understand the ramifications of what they do
+and also the security vulnerabilities
+that they may be introducing into the environment.

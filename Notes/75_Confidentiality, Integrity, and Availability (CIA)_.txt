@@ -1,0 +1,76 @@
+Okay, so no talk about
+security would be complete
+without talking about confidentiality, integrity,
+and availability, right?
+The CIA, not the CIA, the Central Intelligence Agency,
+but the three things I mentioned,
+confidentiality, integrity, and availability.
+So what does that actually mean?
+Well, we're talking about the CIA triad
+in regards to information and how we can access it,
+how safe is it, how secure is it, and so forth.
+So the CIA triad is basically three elements
+to help ensure that data is kept private, kept accurate,
+and also accessible to authorized users.
+A few CIA examples would be confidentiality
+also referred to as privacy.
+So an example of a technology that would allow that
+would be encryption
+or also 2FA or multifactor authentication.
+Additionally, such things as airgaps,
+and we'll talk about these in more detail down the road,
+but basically separating our network
+so that it's not connected to other networks,
+not connected to the internet and so forth, right?
+We're keeping that data confidential or keeping it private.
+And then we talk about integrity.
+And another way to think of that is
+consistency and accuracy.
+So we wanna make sure that file permissions are proper
+and that access control is also proper.
+So that way we know that it's consistent, it's accurate,
+and the folks that need to have access to that data do.
+And conversely, the folks that don't, don't have access.
+And then also such things as version control.
+So that way we know we're dealing with the latest,
+greatest version of a file,
+or if we need to look at a specific version,
+perhaps three or four versions back,
+we know which one we're looking at.
+And then availability.
+That's consistent accessibility,
+and that could be such things as patches and updates,
+making sure that our systems are up to snuff,
+and that we're meeting our security requirements,
+making sure that we're not compromised,
+we're not taking down by malware, viruses,
+ransomware, and so forth.
+And then also such things as backups or DR/HA,
+disaster recovery and high availability.
+Again, we'll talk about those concepts later in the course.
+So when it comes to non-repudiation,
+it's the assurance that someone cannot
+deny the validity of something, right?
+Some documents, some email, some what have you.
+So it can also be a service that is maintained
+so that a sender and recipient cannot
+deny having participated in that communication.
+So something like a PKI
+or public key infrastructure provides that service,
+that provides for non-repudiation
+through the use of public key and private keys.
+We'll talk more about PKI in an upcoming module,
+but assuming a user keeps this private key secure,
+data encrypted via that private key could
+only originate from that user.
+And again, we'll talk about how that actually works later,
+but just understand there are mechanisms
+that we can put in place to make sure
+that a user does something
+or when a user does something,
+we can actually substantiate that,
+yes, that user did that,
+because he's the only one that
+could have originated that message
+or could have participated in that communication.
+Again, primarily because of this PKI infrastructure.

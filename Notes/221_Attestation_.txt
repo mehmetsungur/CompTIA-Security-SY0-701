@@ -1,0 +1,63 @@
+Okay, next up is attestation.
+So the key takeaway here
+is we're talking about identification.
+So the first step in attestation
+is to identify all user accounts
+and their associated access rights.
+This includes user identities, roles, group memberships,
+and the resources they can access.
+So we do that in a number of ways.
+First off is notification.
+So the organization notifies the user
+of the responsible managers or administrators
+about the upcoming attestation process.
+So this notification usually includes a list
+of their account details and permissions.
+So again, when we're talking about attestation,
+we're basically saying
+"Okay, we need to verify that this person or this entity
+or this resource,
+and it is what it says it is."
+So this is often a bit of a manual process.
+Next is review and verification.
+So users or their designated reviewers
+are asked to review the list of accounts and access rights.
+So during this review,
+they should confirm that the information is accurate
+and up to date,
+and if there are discrepancies or unauthorized access,
+they can raise flags.
+Next is documentation.
+So any changes or corrections made
+during the attestation process are documented
+for auditing purposes.
+So that's really the big takeaway here is
+all of this is done, obviously, to maintain security,
+but it's also there for documentation for auditing purposes.
+Next is approval or rejection.
+So after the review and any necessary adjustments,
+the accounts and the access rights are either approved,
+if they're accurate,
+or rejected, if they're incorrect or unauthorized.
+So this step is crucial for maintaining the integrity
+of the identity and access management system.
+And then next, periodic recurrence.
+So as I mentioned, attestation is not a one-time process.
+So it's typically performed periodically.
+It could be quarterly, it could be annually,
+to ensure that user identities
+and access rights remain accurate
+and aligned with the organization's policies.
+So if you've recently got one,
+(laughs) expect to get one again before too long.
+And then we can have an automated process as well.
+So automated attestation in modern IM systems,
+much of that process can be automated.
+So these automated tools can generate reports,
+they can send notifications,
+and in some cases they can even perform some level
+of verification, making the process more efficient
+and less prone to human error.
+But regardless of how it's done in your organization,
+make sure that it's followed through,
+that it's maintained, and that it's accurate.

@@ -1,0 +1,73 @@
+So let's talk about security zones
+and what that's comprised of.
+So let's say, for instance,
+we have our DMZ, or our screened subnet.
+And then we have, let's say, a storage and database zone.
+We have a vendor or a third party zone
+where people that are outside of our network
+may place some infrastructure
+to work with inside of our environment.
+We have a user access zone, remote access zone,
+and then a PCI zone for sensitive information,
+customer information, cardholder information, and so forth.
+So all of these things are split up into different zones
+so that we can cordon them off
+or add different security policies
+for these different zones.
+And then as we go out to the internet,
+we would have a firewall in place
+to allow connections to come in but filtered.
+So that way, the network is not wide open,
+and we only allow certain ports, or certain applications in,
+certain IP addresses in, and so forth.
+And we can filter the information
+or the data that comes into our network.
+You may also place firewalls
+even between zones within your network,
+even inside the perimeter
+to cordon one area off from another.
+That way, it helps secure traffic
+and make sure that not just anybody
+can access certain areas of the network.
+So in this example, we have a few users
+that are accessing our corporate network.
+They're coming in through the internet.
+But we may also have a bad actor.
+Again, this is where different types of sensors,
+intrusion detection systems come into play.
+Different types of monitoring, alerting and filtering,
+along with our firewall.
+And we'll talk more about
+different firewall types here shortly.
+But we may also wanna put additional firewalls,
+as I mentioned, between vendor and third party zone.
+So that way, when our vendors come in,
+their infrastructure sits in a restricted space
+and only certain components or protocols
+or ports are allowed to pass through.
+So they have enough information
+or enough access so they can do
+what they need to do within our network, but no more.
+And then just keep in mind that a DMZ,
+another word for that is a "screened subnet."
+So you may hear those terms used interchangeably.
+They both basically mean the same thing.
+So I'm sure you know the answer to this already,
+but I'll ask it.
+So what's the point of doing all of this?
+Why should we put all of these controls in place?
+Well, we wanna reduce the attack surface.
+We wanna make sure that we shrink the attack surface
+as small as possible, that we enable our business partners
+and customers to do what they need to do,
+but not leave things so wide open
+that attackers can just walk right in.
+Also, the more we reduce our attack surface,
+the less things are available for a penetration test
+or any type of reconnaissance.
+They're not going to see what types of servers we run,
+what type of services, operating systems, and so forth.
+So the less information we give up,
+the harder it is for attackers to gain a picture
+of what our network looks like
+and how they might be able to get in.

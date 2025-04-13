@@ -1,0 +1,94 @@
+The last thing I wanna cover in this module is
+the concept of a certificate authority.
+Now certificate authorities or CAs
+can be internal to a corporation or a company,
+or they can be external.
+In this case, let's talk about an external
+or a trusted third party that's acting
+as a certificate authority.
+And Bob wants to communicate with a financial institution.
+He wants to do some online banking.
+So the first time he connects to that financial institution,
+the bank will present its public key to Bob.
+Bob can then use that public key
+to encrypt session keys back to the bank.
+The bank, as we know from our discussion
+on public key and private key,
+the bank is the only one
+that can decrypt those session keys.
+Once that happens, the bank can extract those session keys
+and develop bulk encryption keys that they can use
+to then communicate going forward.
+There are a number of certificate authorities
+out on the internet,
+such as Symantec, GeoTrust, Comodo, Entrust,
+GlobalSign, DigiCert, Thawte, et cetera, et cetera.
+There's a number of them.
+These are some of the biggest ones out there.
+They provide certificates that are
+basically installed by default on our browsers.
+Whether we're in the banking side or on Bob's side,
+they will trust that external
+trusted third party certificate provider.
+Bob can also check against the public key
+that's provided by the financial institution
+to make sure they're valid as well.
+Much like a police officer, if you were to get pulled over,
+you can think of the state as a certificate authority,
+so the police officer will check with the state
+to make sure that the credentials presented are valid.
+He can also check with dispatch
+and make sure that,
+"Hey, is this driver's license still valid?"
+Same thing applies here.
+The certificate authority.
+They can look and check against something called A CRL
+or a certificate or revocation list,
+or alternatively, there's an OCSP,
+an online certificate status protocol.
+Either of them can give them
+the validity of that specific certificate.
+Then that communication can take place over TLS or SSL,
+going over an HTTPS connection.
+And Bob can be assured
+that he's communicating securely
+with that financial institution.
+Lastly, let's talk about a CSR
+or a certificate signing request.
+When a bank or a person for that matter wants to apply
+to a certificate authority for a digital certificate
+for various reasons,
+there are some things you have to provide
+and then it has to be validated
+before they're issued that digital certificate.
+So PKCS number 10 is the most common type
+for public key cryptography standards.
+And just a quick example of what is actually required.
+You can see on the left here we have common name,
+business name, department, city, state,
+country, and email address.
+All of those things must be provided
+and they will be validated.
+And you can see on the right hand side here
+the example of what I filled out for this specific one.
+But this is basically the bare bones of
+a request that will need to be filled out
+and supplied to that certificate authority
+before that digital certificate would be issued.
+Okay, so that was a jam packed module
+with a lot of information around
+PKI, encryption, digital certificates,
+tokenization, and all that good stuff.
+So please download the slides
+and go through that as well
+as there's some additional information there
+that will help tie all these things together.
+So I would recommend you download that,
+and walk through those slides,
+and then watch this maybe two or three times
+to have it all blend together and all make sense.
+So, again, congrats on finishing this module
+and also finishing the very first course.
+Up next is our domain summary,
+and from there, please stick around for our next course,
+which will cover threats, vulnerabilities, and mitigations.

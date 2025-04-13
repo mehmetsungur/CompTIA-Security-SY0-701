@@ -1,0 +1,14 @@
+Next we have worms,
+and a worm is a self-replicating program
+that is usually self-contained
+and can execute and spread without user interaction.
+That's the difference between
+what we just talked about before.
+So here, worms spread without any user interaction.
+So they can spread very, very quickly throughout a network.
+And there are two main types of worms.
+So we have network service worms,
+which exploit network vulnerabilities
+to propagate and infect others.
+And then we also have mass mailing worms,
+which exploit email systems to spread and infect others.

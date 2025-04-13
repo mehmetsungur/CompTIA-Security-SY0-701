@@ -1,0 +1,52 @@
+Hey everybody.
+Welcome back to Pluralsight.
+I'm your instructor, Christopher Rees,
+and in this module we'll be talking about activities
+associated with vulnerability management.
+So as usual, let's take a look
+at what we'll be covering in this module.
+We'll be talking about identification methods,
+analysis, vulnerability response and remediation,
+validation of remediation, and then reporting.
+So we'll click down one level
+and see what each of these topics entail.
+And you'll notice that I have one section outlined in pink.
+We won't cover that because we've covered it
+in another section, but we'll certainly dig
+into everything else.
+So pause here for a second if you'd like
+to read over what we'll be covering.
+Otherwise, let's go ahead and get started.
+So as I like to do for some
+of these modules is talk about why is this important
+so that you understand the application
+or the implications of what you're learning
+and why it's so critical.
+So vulnerabilities are discovered,
+as we know, every day with new ones
+being created all the time,
+whether it be existing hardware
+and software bugs, it can be zero-day exploits.
+Of course, malware and ransomware attacks.
+All of these things are becoming more
+and more frequent each and every day.
+So by utilizing proper vulnerability management,
+we help mitigate certain things.
+And that is risk reduction.
+By regularly scanning and addressing vulnerabilities,
+we minimize the chances of security breaches
+and of course, data compromises.
+It also allows us to enhance compliance
+because many regulations require organizations
+to have a structured vulnerability management process
+in place to protect sensitive information.
+It also equates to cost savings.
+So by being proactive, we can save money
+by preventing costly security incidents
+and associated downtime.
+And all of those things, of course,
+equate to reputation preservation.
+So it helps maintain our organization's reputation
+by preventing data breaches,
+by ensuring consumer trust, investor confidence.
+And that, of course, all translates down to the bottom line.

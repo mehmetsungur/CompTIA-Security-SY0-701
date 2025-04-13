@@ -1,0 +1,60 @@
+So in this day and age,
+everyone has their mobile phone
+and they're taking pictures of what they had for lunch,
+what they had for dinner, because it's so important
+that we know who had sushi
+and what restaurant they ate at and so forth.
+On top of that, we're taking pictures of ourselves,
+taking pictures of our food, whether at a bar
+or a restaurant, and what we had to do.
+Everything is geared around social media.
+What that does is allow attackers to inject code, malware,
+viruses into images, into websites transmitted down
+to our computers, our mobile devices,
+and so forth, which then, worst case scenario,
+we sit down at our laptop or our PC to do some work,
+then, all of a sudden, boom, malware is infected on our PC
+or our laptop, ransomware and, even worse,
+we may bring that ransomware into our corporate environment
+and then lock down the network
+or, even worse, take our entire company offline.
+So let's talk about how all of these things
+actually get started,
+some of the attack vectors that can bring these types
+of threats and so forth into the environment.
+So we have image-based threat vectors.
+We've talked about some of these before.
+So malicious image files.
+So vulnerabilities in handling or processing
+or the displaying of an image file, right?
+So that can be done in a number of different ways,
+but it's done such that when you click on that image,
+it can do something behind the scenes.
+You may not even be aware of it,
+but it can do something nefarious, execute scripts,
+download additional software
+and so forth to compromise your system
+and, ultimately, compromise your network.
+Steganography, which we talked about,
+is basically the embedding of information within images.
+Very difficult to detect.
+There is software out there that can help assist with this,
+but it's one of those things that is not super,
+super common, but it's out there
+and we have to be aware of it.
+And then we have things like watering hole attacks,
+so injecting code into image files, hosted on websites,
+frequented by a target audience,
+and then Remote Code Execution,
+or RCE, especially crafted image files that can allow
+for arbitrary code execution, kind of in line
+with everything we've just talked about.
+And then we have file-based threat vectors.
+So similar in concept to image-based threat vectors,
+malicious executables, document files, archive files, .zips,
+.rar files, tarballs and so forth, or scripts.
+And basically, that's used to spread malware
+to gain unauthorized access, distill data, exfiltrate data,
+try to bring a company down to its knees
+and so forth without actually stealing anything.
+They just wanna destroy everything.

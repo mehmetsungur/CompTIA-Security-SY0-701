@@ -1,0 +1,53 @@
+So having said all of that,
+what about vendor assessment?
+So in choosing vendors,
+that's a good idea to ensure
+that they are open to penetration testing,
+right-to-audit clauses, evidence of internal audits,
+independent assessments, and also supply chain analysis.
+So if the vendors doing things right
+and their security postures up to snuff,
+these things should not be a big deal to them
+and they're probably already doing them.
+So they can share the results with you
+or provide you evidence of internal audits on demand.
+Also, independent assessments,
+you may choose to have another third party come in
+and do an independent analysis,
+also analyze their supply chain
+and understand how they're getting their goods and services.
+A right-to-audit clause means you're able to go in
+and audit their processes whenever
+or during some agreed upon cadence.
+So this all really boils down to due diligence.
+So understand the vendor's security posture,
+their financial stability, their capabilities,
+and also their reputation with compliance and regulations.
+These are all things that you should be doing
+to evaluate the vendors
+that you're gonna be doing business with.
+Because make no mistake about it,
+vendors will typically have access
+to some of our critical systems,
+or at least have access or knowledge
+of those critical systems.
+So if we partner with someone whose security practices
+are not in alignment with our own, in other words,
+their security practices are weak by comparison,
+then that effectively can open up a side door
+into our organization.
+And there's been, time and time again,
+examples where companies have been compromised
+due to third-party compromise,
+a supply chain compromise, right?
+Some vendor was hacked
+and the bad actors then used that relationship
+or that connectivity to gain access
+to their actual real target.
+And also part of the due diligence process
+is to ensure that vendors don't have conflicts
+preventing them from acting
+in the organization's best interest.
+Because, again, they're a vendor you are hiring,
+you need to make sure that they're acting
+in your best interest at all times.

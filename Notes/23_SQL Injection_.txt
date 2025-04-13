@@ -1,0 +1,21 @@
+Next, we have SQL injection.
+Now, SQL or Structured Query Language
+is how we interact with and program databases,
+sorry, how we actually query a database
+and get data back out of that database.
+So modifying a SQL query that's passed to a web application,
+a SQL server and so forth.
+So adding code into a data stream.
+By using specially crafted SQL queries,
+we can bypass login screens
+and vulnerable websites can also return usernames,
+passwords and so forth
+with the right SQL injection technique used.
+And we'll do a quick demo of that in just a moment.
+And in doing so, we can cause an application
+to throw an error and crash,
+basically allowing an attacker
+remote access to that web server
+or at least access to information from within that server.
+Again, usernames, passwords, credit card information
+if it's not stored properly and so forth.

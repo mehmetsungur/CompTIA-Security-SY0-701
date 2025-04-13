@@ -1,0 +1,49 @@
+So let's take a look
+at a real world example here for non-compliance.
+So British Airways incurred the largest fine ever
+for a data breach back in 2018.
+So here they are flying in.
+Basically it's a $238 million fine.
+So that's obviously extremely substantial.
+If you happen to be with British Airways,
+you know the story better than I do,
+and hopefully that's water under the bridge,
+but that is a significantly and materially impactful fine.
+So basically what happened over 500,000 users were impacted
+and it centered around non-compliance with GDPR regulations.
+It was a major card attack that skimmed credit card data.
+This malicious code malicious JavaScript
+was installed on web servers and basically skimmed
+e-commerce transaction data from users.
+So as you can see, not a trivial instance.
+So if we break it down a little more detail,
+I'm not going to read through all of this,
+but just understand that back in 2018, they were fined,
+as I mentioned, $238 million roughly,
+and was basically determined they failed to implement
+adequate security measures to protect customer data.
+So over 500,000 customers were affected.
+Attackers compromised login credentials
+issued to one of British Airways' third-party suppliers.
+And as you can see here, attackers compromised
+login credentials issued to one of British Airways'
+third-party suppliers for a remote access gateway.
+So this is significant.
+We talked about this previously
+about the impact of third-party providers
+and making sure that we're assessing their security profile,
+their security posture,
+the controls they have in place and so forth.
+So as I mentioned, the penalties were significant,
+over $238 million.
+Now they were eventually reduced to roughly $26 million
+due to mitigating factors from COVID-19.
+So in that regard, timing was in their favor,
+but the fine was largely due
+to British Airways not having necessary client-side
+security protections in place.
+Again, security audits, routine monitoring,
+continuous improvement,
+all of these things would help in this situation.
+And not having visibility into a third-party vendor
+ecosystem was really the weak link in the chain here.

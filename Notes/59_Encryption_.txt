@@ -1,0 +1,41 @@
+Okay, next up, let's talk about encryption.
+So we have a few types to talk about.
+So we have encryption at rest, which is basically the data
+that's sitting on a disk, whether that's a solid state disk
+or magnetic, the concept is the same
+or encrypting the data that's at rest.
+It's sitting on a disk somewhere. Next is in transit.
+We would encrypt data being sent from point A to point B.
+As it goes onto the wire,
+we would use things like IPSec or SSL,
+and we would encrypt that communication
+so that way it prevents eavesdropping.
+If someone were to intercept that communication,
+they would not be able to understand what it says.
+It would basically just be garbled text,
+and then also encryption in memory or encryption in use.
+So this is data that's actually being used
+by an application and it's sitting in RAM.
+So these are three different types of encryption
+that can be used or that we should be aware of
+and consider when we're designing our systems
+and making sure we're securing our infrastructure.
+And these can be managed by hardware or by software.
+So software, we're talking
+about things like BitLocker or VeraCrypt.
+There are a number of different tools out there
+that can encrypt your data.
+It could be at the file level
+or it could be at the folder level or volume level,
+or you can encrypt an entire disk.
+And then we also have hardware,
+and we're using things like TPM chips
+or HSM modules, which allow us to encrypt
+and manage those keys externally in addition
+to things like network interface cards
+that have IPSec built in
+or some type of an encryption algorithm built into the card.
+But regardless, whether it's software
+or hardware, the concept is the same.
+We want to encrypt data to avoid interception,
+to avoid eavesdropping, and to keep the data itself secure.

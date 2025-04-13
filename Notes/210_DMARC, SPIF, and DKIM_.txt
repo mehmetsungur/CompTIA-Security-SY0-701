@@ -1,0 +1,87 @@
+Okay, next, let's talk about email security,
+and a few things I want you to be familiar with.
+We have the concept of DMARC, DKIM, and SPF.
+So DMARC standing for Domain-based Message Authentication,
+Reporting, and Conformance, right?
+That's a mouthful.
+SPF is Sender Policy Framework,
+and DKIM is DomainKeys Identified Mail.
+So we'll talk about each of these in just a second.
+So the gist of what these things
+are designed to do is basically reduce spam
+and spoofing and basically hackers using email
+to launch attacks on various organizations,
+and also give organizations an idea
+of how their emails or their email domains
+are being utilized; if they're being hacked,
+spoofed, and so forth.
+So if a sender wants to implement DMARC, DKIM, and SPF,
+they will initially log into their DNS server
+and they'll publish a few records.
+They'll publish the SPF, DKIM, and DMARC records into DNS,
+which basically specifies
+what IP addresses can emails originate from.
+It will also validate the header information from an email.
+So the sender will actually publish their public key
+in the DNS record, and then every time
+an email gets sent from that sender,
+they will sign that message with their private key.
+It's in the header field of their email message,
+so that way, the recipient can then check DNS
+and verify via the public key that the sender
+is who they say they are.
+Okay, so let's walk through this.
+So the sender sends an email,
+so he sends it to his email server.
+His email server then sends it over
+to a receiving email server.
+That receiving email server then will check DNS to see
+if there is a DKIM and an SPF policy in place,
+and it'll also test to see if those things pass or fail.
+Now, DMARC kind of ties all these things together.
+Again, the originating organization,
+the DNS server will publish a DMARC policy,
+the receiving email server queries DNS
+and sees what that DMARC policy is.
+It can either be,
+Accept if that email is validated, go ahead and deliver.
+In other words, our policy equals none.
+We can send it to Quarantine.
+So if it fails those checks,
+those DKIM and SPF checks,
+then we can place it into a junk or a spam folder,
+or we can say, no way,
+if it actually fails, don't even deliver it.
+Just drop it, market it is undelivered.
+Don't deliver it to the recipient at all.
+And then we can also send reports
+back to the originating email sender to let them know
+how their domain is actually being utilized.
+We can send an aggregate report
+that just shows everything that comes through,
+and we can also show a failure report
+or a forensics report so they can see
+how often their email domain is being spoofed or spammed.
+Now, the recommendations
+are when you very first set these things up,
+set the policy to None for a period of time,
+so you have an opportunity to tune things,
+because if you set it to reject right off the bat,
+you may have things not tuned properly
+and your emails won't be delivered.
+So it's definitely recommended to be a phased-in approach.
+Next, on the same topic, we have email gateways.
+So an email gateway manages
+and secures the flow of email traffic
+into and out of an organization.
+So spam filtering, virus scanning, DLP,
+which we've talked about before.
+It can also do DMARC processing,
+which we talked about just a moment ago.
+So DMARC processing,
+many gateways have this functionality built in.
+So again, querying DNS for the sender's information.
+So the DMARC policy tells the recipient what to do
+if that email is in fact not legitimate
+or if it fails DMARC verification.
+Again, Accept, Quarantine, or Reject.

@@ -1,0 +1,62 @@
+So some terms and concepts
+we need to be aware of.
+First off is high availability.
+So this is really two or more systems that are in sync
+at or near real-time.
+So failover between the systems occurs pretty rapidly
+and to minimize disruption.
+So as you can see here, we have one site.
+Site A is comprised of VMware infrastructure.
+We have an ESXi host with a number
+of guest VMs sitting on that.
+And then from there it goes
+into a storage virtualization engine,
+and it has SAN storage on the backend.
+Well, here we also have site B.
+And in this situation we have a highly available environment
+so that if site A were to go down for whatever reason,
+we're able to vMotion
+or move all the workloads while they're actually running.
+With a minimum disruption,
+we can move them from site A to site B,
+and actually move those resources, those workloads
+and so forth over to the other site.
+The users actually accessing
+that data might notice a tiny bit of latency
+as that v motioning is taking place,
+but for the most part it should go unnoticed.
+And then ultimately the goal is to have no downtime.
+So again, when we're talking about high availability,
+we can also look at it from a backup
+and recovery perspective.
+So our backup data centers need to be relatively close,
+30 to 50 miles away if possible.
+So that allows a low latency between locations
+to ensure synchronous replication of data.
+So again, data centers close enough electronically
+so that we have that round trip time
+between those two data centers low enough.
+So our applications can replicate
+and right to each location
+with as little latency as possible,
+so that latency sensitive applications like databases
+and so forth can still continue to function.
+So when we do a needs assessment, we need to understand
+what systems and what applications actually need HA.
+Again, as it comes down to cost, infrastructure,
+complexity, maintenance, right?
+Someone has to support all this additional infrastructure.
+And these things, as you can imagine,
+typically revolve around revenue generating applications
+and things that are customer facing.
+And then the second part of that assessment is what systems
+and applications actually also need
+offsite data replication.
+It is possible to replicate within different zones
+within a data center,
+so that way if one area were to go down,
+maybe a sprinkler head or something were to go bad
+and damage one section of a data center,
+the other section would still be up and running.
+So you can do HA onsite or you can set up HA
+and replication between data centers.

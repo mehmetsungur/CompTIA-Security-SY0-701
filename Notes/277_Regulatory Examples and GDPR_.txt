@@ -1,0 +1,45 @@
+Some regulatory examples,
+I won't go through all of these,
+but a couple big ones are GDPR
+or the General Data Protection Regulation,
+the California Consumer Privacy Act or CCPA,
+and then HIPAA.
+They're the big three that most people need to focus on.
+There are a few others here that I will list
+that I recommend you take a look at on your own.
+But for our discussion here, we'll focus on GDPR.
+So the General Data Protection Regulation,
+it was a privacy and security law
+that originated in the European Union in May of 2018.
+So it's been around for a while now.
+So it imposes obligations onto organizations anywhere,
+that mean globally, so long as they target
+or collect data related to people in the EU.
+So what type of data does it cover?
+So it provides individuals,
+otherwise known as data subjects,
+more control over how organizations process
+or control the processing of their data.
+Things like names, locations,
+patient data and health records,
+email addresses, and of course, photos.
+So essentially any data that could be used
+to identify a living person.
+As we talked about, GDPR fines and penalties
+can be pretty significant.
+So fines, GDPR allows for fines of up to €20 million
+or 4% of a company's global annual revenue,
+whichever is higher.
+A lot of times, when we're talking about fines
+or regulations or restrictions,
+it's like two different things
+and whatever is the lesser of the two.
+Well, in this case, it's the exact opposite,
+whichever is greater.
+So if you're a relatively small company,
+you could be fined up to €20 million.
+If you're a major trillion dollar company,
+you could have 4% of that company's global annual revenue
+as a potential fine.
+So extremely significant,
+something you definitely need to pay attention to.

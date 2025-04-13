@@ -1,0 +1,67 @@
+Okay, next, let's talk about API Gateways.
+So an API Gateway can perform such things as authentication
+and authorization, rate limiting, load balancing,
+virus scanning, orchestration data conversion, and more.
+So in this example, we have our backend services,
+applications data, microservices, messaging and so forth.
+And then we have our customers who want to use
+or consume those backend services.
+In order for us to control security, to rate limit,
+to make sure things don't get overloaded,
+which as mentioned, has advanced security features.
+It can do mediation, custom API, load balancing,
+caching, request shaping,
+putting things in different format.
+And then also transport security.
+We can utilize SSL
+and TLS, so we make sure those API calls are encrypted.
+So the services and the API calls themselves pass
+through the gateway, so the calls from customers are secure.
+And we have some of those additional features built in,
+which I'll talk more about here.
+So some of the security benefits,
+we have authentication and access control.
+So API Gateways centralized authentication
+and access control mechanisms.
+They can integrate with identity providers.
+We talked about OAuth and Open ID Connect as an example.
+And they can enforce authentication standards,
+ensuring only authenticated users
+or systems can access APIs.
+We can also do rate limiting
+and DDoS protection.
+By implementing these things along with traffic management.
+API Gateways can protect against DDoS attacks
+and excessive traffic.
+Again, reducing the risk of service disruptions.
+We also have encryption and data protection.
+API Gateways can often support, as I mentioned, SSL
+and TLS for data in transit,
+basically encrypts that communication.
+This ensures that the data exchange between clients
+and services is encrypted,
+reducing the risk of eavesdropping
+or data interception.
+We can also do logging and monitoring, so gateways can log
+and monitoring, coming requests
+and responses, providing visibility into API usage
+and also potential security threats.
+So this, as you can imagine, helps in identifying
+and responding to security incidents more effectively.
+We can also implement security policies, so they allow
+for the implementation of these policies,
+such as content validation, input validation,
+and of course data filtering.
+So this can reduce the risk
+of injection attacks like SQL injection
+or cross site scripting.
+We can also add security headers to responses
+to mitigate common web security vulnerabilities,
+such as cross origin resource sharing,
+and also content security policies.
+And then also centralized security updates.
+So when security vulnerabilities are discovered,
+or security policies need to be updated,
+API gateways provide a central point
+for implementing these changes, reducing the complexity
+of managing security across multiple microservices.

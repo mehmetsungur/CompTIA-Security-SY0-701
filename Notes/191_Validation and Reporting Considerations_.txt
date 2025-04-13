@@ -1,0 +1,65 @@
+So that brings us to validation
+of remediation.
+So what we're talking about here is rescanning.
+Number one, we wanna ensure that the fixes put in place
+resolved the actual issue.
+So for instance, our scan turns up
+some type of vulnerability.
+We prioritize, we put resources to that, we patch,
+we update, we do whatever we need to do
+to remediate that issue.
+We now need to rescan to ensure that the fix put in place,
+actually resolve the issue.
+And by the same token, we wanna make sure
+that new issues aren't discovered as a result.
+We also need to make sure we incorporate auditing.
+So periodically audit the results,
+and that can be either internal or a third party.
+And we want to validate results and ensure accuracy.
+And then verification.
+So depending upon your industry,
+regulatory and/or compliance mandates may require
+independent validation of controls put in place.
+And also the testing results.
+Again, that will vary by organization and also by industry.
+Now, when it comes to reporting considerations,
+some things to keep in mind.
+I won't take into each of these,
+because most of them are self-explanatory.
+But understand that when we report back, we need to ensure
+that we incorporate all of the things here
+as much as possible so that we give the proper information,
+we tailor that report to the audience.
+We need to have an executive summary,
+but also technical details, documentation of the scans,
+and then also evidence as to what was done,
+the remediation efforts that took place,
+and then the resulting scans after the fact
+to show that they were successful.
+Or if we haven't remediated yet,
+recommendations for remediation.
+And then something that's very critical
+when we're reporting to management is
+that we give a proper security assessment,
+if we put everything as top priority,
+everything as a 10 out of 10.
+Well, obviously we can't do everything at once,
+so we have to make sure we prioritize properly.
+Number one for transparency, but also two for trust.
+So that when we do bring them something,
+they understand that it's for real,
+and they'll fund or at least assign resources appropriately.
+So keep in mind the reports need to be informative
+and actionable and also aligned with specific needs
+and requirements of your organization.
+The actual business itself should be driving
+those priorities so that we align with their objectives
+and help the business achieve their goals.
+Alright, that was a jam packed module talking about
+vulnerability management.
+A lot of good stuff there.
+Hopefully we had some fun and you learned a lot.
+But stick around, because up next,
+we'll be talking about security alerting
+and monitoring concepts and tools.
+See you in the next module.

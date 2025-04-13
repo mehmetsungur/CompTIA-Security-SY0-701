@@ -1,0 +1,116 @@
+Hey, everybody.
+Welcome back to Pluralsight.
+I am your instructor, Christopher Rees,
+and welcome to our Domain Summary for Course #4.
+Congrats for making it this far.
+We are almost to the finish line,
+so let's go ahead and take a look at what we'll cover.
+And here, we see Alice, actually, not Alice,
+and as usual, she's super excited
+to talk about the Domain Summary.
+So this is CompTIA Security+ SYO-701,
+which is Security Operations for CompTIA Security+.
+This is the biggest out of the five domains,
+so congrats for making it through, as I said,
+the fourth course out of five Domains covered by the exam.
+So we've gone through General Security Concepts,
+Threats, Vulnerabilities, and Mitigations,
+and then Security Architecture,
+which brought us here to Security Operations.
+The last course
+is Security Program Management and Oversight,
+so stick around for that one.
+But some key concepts to remember,
+so we talked about hardening targets,
+whether it's mobile, networking devices, servers,
+storage, and cloud resources,
+so make sure you understand how to harden those things
+and make sure they're as difficult to get into
+as possible for the adversaries.
+We talked about the different types of analysis,
+ranging from static analysis, dynamic analysis,
+of course, fuzzing, linting,
+code smells, and so forth.
+So understand how they factor into security operations
+along with the CI/CD pipeline.
+We talked about vulnerability response and remediation.
+We covered CVE and CVSS along with exposure factor.
+And then talked about alerting and monitoring tools,
+such as SCAP, SIEM systems,
+DLP, SNMP, NetFlow, and AV scanners.
+So make sure you're familiar
+with all those terms and what they are.
+If they don't ring a bell,
+you might wanna go back and review the content.
+And then we talked about authentication and authorization,
+things like SSO, SAML, Oauth, and access controls,
+along with some email security concepts,
+like DMARC, DKIM, SPIF or SPIF.
+Lastly, we talked about incident response
+from tabletops to simulations and then digital forensics.
+So a lot of critical information covered in this course.
+When it comes to exam success essentials,
+some things to keep in mind.
+As I mentioned before, review the material more than once.
+Allow time for the information to sink in
+and revisit several times if necessary,
+and use test questions
+and exam simulations to test your knowledge and retention.
+As I've mentioned before, when I learn something new,
+sometimes I have to get up, walk away,
+maybe even wait a few days,
+do something else completely different,
+let the information kind of soak in
+in the background, if you will,
+and then when I come back to it
+and review it again, it makes much more sense.
+I don't know exactly why that happens,
+but that's just the way it seems to work for me,
+and it very well may work for you as well.
+Also, make sure to check out the Pluralsight Labs.
+There are absolutely great content there.
+And again, additional information
+will help solidify the content
+and also add additional context,
+and then some recommended additional content,
+I always put a plugin for myself, of course,
+Security Architecture and Design: The Big Picture.
+I would also check out Malware Analysis: The Big Picture,
+and then potentially Introduction to Threat Intelligence,
+all of which can add some additional information
+and context to what we're studying here.
+Now, something new I thought I'd include here.
+I'd love to have your feedback to see if it's a value,
+and that is a glossary of key terms.
+So I won't read through all of these, obviously,
+but I'll include them in the slide deck,
+and you can download them and review at your leisure.
+But I have a couple pages of key terms
+that we've covered in this course.
+So go ahead and zip through those when you get a chance
+and make sure you're familiar with all of those things.
+And then lastly, as I mentioned, the Pluralsight Labs,
+I can't stress these enough.
+There's a number of great instructors
+that put a lot of time and effort into these things,
+so I would definitely make sure you check them out.
+There's dozens and dozens of different labs
+for different concepts
+and different tools and technologies,
+even ones that aren't necessarily covered
+in the course in depth,
+along the lines of wire sniffing,
+penetration testing, and so forth.
+Even though those things aren't covered in the course,
+I definitely recommend you check them out
+as it gives you additional context
+and additional background
+so a lot of these concepts start to all tie together.
+So again, congrats for getting this far.
+Next up is Course #5,
+Security Program Management and Oversight.
+And as I mentioned, the race is almost over.
+We have one course left,
+and the finish line is in sight.
+So great job, keep it up,
+and I'll see you in the next course.

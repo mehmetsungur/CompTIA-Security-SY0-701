@@ -1,0 +1,95 @@
+When it comes to onboarding and offboarding.
+So processes should be defined
+for both on onboard and of course offboarding.
+And that's really saying that users
+should have a clear understanding of what's acceptable,
+what's allowed, and of course what's expected.
+Companies should also ensure they take possessions
+of all company assets when an employee leaves,
+and this includes hardware, software, and of course data.
+Now, some external considerations
+that we need to be aware of.
+And again, this is a bit of an eye chart.
+I won't read through everything,
+so I'll go ahead and pause here for a second.
+But just understand there are six categories here,
+regulatory, legal, industry,
+local or regional, national, and of course global.
+You need to understand these things exist,
+the definition of what they are,
+which could range from warnings for non-compliance
+up to legal or financial consequences.
+And be aware of the policies
+and the guidelines that exist
+to make sure we're following best practices
+and staying in compliance.
+As you'll learn as we go
+through the various modules within this domain,
+compliance is a very big thing
+that should not be overlooked.
+Okay, so let's talk about monitoring for a moment
+and some use cases for monitoring.
+Number one, it can actually boost productivity.
+So if we track time spent on social media,
+web surfing, or non-related activities,
+on a personal level, if you track these things,
+you'll probably be pretty surprised to know
+how much time you actually spend
+on these activities throughout the day.
+And if you're actually doing it during the workday,
+that's even a bigger problem.
+So if the company is able to track and monitor,
+they may not necessarily care up to a point,
+but if you're spending seven hours
+out of an eight-hour day on social media or web surfing,
+you may end up getting a knock on your door
+or someone responding to your desk and saying,
+"All right, we need to have a bit of a talk."
+It can also deter or detect criminal activity,
+so it can detect intrusions or breaches, of course,
+criminal activities such as threats or harassment,
+illegal behaviors, and so forth.
+And also, if employees know they're being monitored
+or at least have the potential to be monitored,
+that in and of itself sometimes can deter these activities.
+Tracking employee locations.
+Again, not everyone's favorite topic,
+but in certain scenarios it makes sense.
+So we need to ensure remote workers
+are adhering to company policies,
+working at prescribed locations, traveling safely,
+not speeding or driving erratically, right?
+Sometimes drivers will have their cars
+monitored with GPS and so forth,
+and if they go over a certain speed,
+it may send off an alert, things along those lines.
+And then protecting our IP or intellectual property.
+So this way we ensure a proprietary company, employee,
+or customer data is secure
+and not being removed from the company.
+So really at the end of the day,
+we're trying to balance what's reasonable.
+So first step is to make sure
+we have a defined privacy and acceptable use policy,
+so that way everything is very clearly defined,
+there's no ambiguity or nuance,
+and employee knows exactly what's expected and what's not,
+what's acceptable and what's not.
+And if there are questions,
+they can of course refer back to that acceptable use policy.
+This should also refer to BYOD and remote employees
+so they understand what they can and can't do,
+what information or data on that device
+is company property or could be monitored,
+and what isn't.
+And then what is the overall
+employee expectation of privacy?
+If they're using company equipment on company time,
+then there should be really no expectation of privacy
+as far as what can be monitored.
+But again, every industry is slightly different.
+Those policies should be clearly defined,
+and a user should be reminded
+every time they log into a device that,
+hey, this activity could be monitored,
+so that they're aware and there's no surprises.

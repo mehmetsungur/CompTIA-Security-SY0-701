@@ -1,0 +1,31 @@
+A couple quick words about cipher suites,
+so, strong versus weak ciphers,
+and a cipher is an encryption algorithm.
+So, computational resources and capabilities
+continue to increase, right?
+Every year we get faster computers,
+all things being equal, the actual power
+and the computational capabilities
+will continue to increase year over year.
+So strong ciphers can become weak,
+or at least weaker, as computing power increases.
+So in other words, what's state-of-The-art today,
+six months, a year, five years from now,
+might be deprecated, might be broken and no longer valid.
+So current examples of some strong ciphers,
+and you can look these up
+to obviously get more details on these,
+but ones you should be aware of are AES,
+triple DES, or 3DES, and then also TwoFish.
+So they're in use and considered to be a strong cipher.
+Some weak ciphers or ones that are deprecated,
+meaning no longer used,
+are things like WEP and also WPA, right,
+that are used for like mobile communications,
+you'll see them on hotspots.
+They used to be state of the art years ago
+when we're trying to connect to a wireless access point,
+but they have since been cracked, very quickly in fact,
+and have been deprecated.
+So, like I said, something that was great
+a year, two years, five years ago, is no longer valid.

@@ -1,0 +1,27 @@
+And then when it comes to backups,
+there's also some distance considerations.
+So backups versus high availability.
+So backups can be geographically far away
+because they're asynchronous,
+versus high availability, which requires synchronous.
+So when it comes to backups,
+there really is no distance constraints.
+If you want to have things be highly available
+and synchronous replication,
+basically meaning almost real time,
+then you do have potentially some distance constraints.
+Backups do not have that.
+However, some things to consider,
+physical backup distance limitations.
+How long would it take to get tapes back
+in the event of a disaster?
+Are they across the street, perhaps another state,
+or perhaps across the country?
+So those things need to be considered as well.
+And then recovery testing, whether it's a hot, warm,
+or cold site, the time required to recover offsite backups,
+the order of recovery, app consistent,
+crash consistent, and so forth.
+All of these things should be tested
+so that you fully understand and have realistic expectations
+of how long it's gonna take to actually recover something.

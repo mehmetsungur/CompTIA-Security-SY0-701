@@ -1,0 +1,20 @@
+Next, let's talk a little more
+about Endpoint Detection and Response, or EDR.
+So some of the key features are:
+the ability to monitor and collect activity
+from various endpoints,
+so we can kinda see what's going on throughout the network.
+So it can analyze that data to identify threats,
+patterns, or indicators of compromise, right, IOCs.
+It can automatically respond to identified threats
+to remove or potentially mitigate them,
+notify appropriate teams.
+We can kick off forensics and analysis tools
+to research threats and also search
+for suspicious activities.
+So you can see, it does a lotta the same things
+that a SOAR system would do,
+but in the previous context, this EDR endpoint
+would actually feed into a larger SOAR system,
+which is more robust and has the ability to integrate
+with a lot of other systems and so forth.

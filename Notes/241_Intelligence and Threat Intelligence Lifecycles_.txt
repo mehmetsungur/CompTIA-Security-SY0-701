@@ -1,0 +1,97 @@
+So let's take a look
+at the intelligence lifecycle
+and understand there's a number
+of pieces to the puzzle here.
+So the intelligence lifecycle is a structured process used
+by intelligence agencies and organizations to collect,
+analyze, and disseminate information,
+obviously to aid in decision making.
+So when applied to threat hunting,
+decision making needs to lead
+to immediate action being taken to contain
+and also to remediate those threats.
+So let's walk through each piece
+of the intelligence lifecycle.
+So we have direction,
+sometimes referred to as planning and direction.
+So this is the initial phase where objectives
+and goals of the intelligence effort are defined.
+This includes identifying the specific information needs,
+setting priorities, and determining the best methods
+to gather the needed data.
+Then we have collection.
+In this phase,
+information is gathered from a variety of sources.
+We talked about those just a moment ago.
+This can involve human intelligence, signals intelligence,
+open source intelligence, and other methods.
+So in the context of cybersecurity,
+this might involve gathering data on potential threats,
+vulnerabilities, and also attack patterns.
+Next, we have processing.
+So the collecting information is then processed
+and converted into a format that can be analyzed.
+So this might involve translation or decryption
+or organizing data into databases.
+So in our world, this could include parsing logs,
+organizing data from security tools
+or decrypting intercepted communications.
+From there, we have analysis.
+So during analysis, the processed information is evaluated
+and interpreted to produce actionable intelligence.
+So that's really what we're after
+is something we can act upon.
+Analysts look for patterns, anomalies, and insights.
+They attempt to put pieces of information into context,
+assess their reliability, and then draw conclusions.
+So again, in our world, this involves analyzing data
+to identify potential threats, vulnerabilities,
+and the motives along with the capabilities of attackers,
+and then we have dissemination.
+So that analyzed intelligence is then disseminated
+to the relevant decision makers in an appropriate format.
+So the way intelligence is reported can vary
+depending upon the audience and their needs, of course.
+In a typical cybersecurity setting,
+this might involve preparing reports for different levels
+of management or for operational teams,
+and then kind of surrounding all of this
+is we have feedback and evaluation.
+So this isn't often overlooked,
+but it's a crucial phase where effectiveness
+of the intelligence process is then evaluated.
+So feedback from the users of intelligence is gathered,
+and the entire process is reviewed
+for any necessary adjustments, right?
+We have a constant feedback loop.
+So this helps to refine the future intelligence efforts
+and ensure that the intelligence lifecycle remains aligned
+with the changing needs and objectives of the business.
+So to look at this a different way,
+we have objectives and key questions.
+So based upon what our objectives are
+and what we're trying to accomplish,
+we're going to interface with different data sources, right?
+We're gonna do internal sources.
+It can be technical sources, and then human sources.
+We talked about that previously.
+All of these things feed into threat intelligence
+and security tools, which are monitored by analysts,
+and the analysts then can turn around
+and feed that information or disseminate that information
+to a number of end users, if you will.
+So that could be incident response teams.
+That could be security operations teams
+or a vulnerability management team,
+or it could go over onto the risk and fraud side, right,
+risk analysis and fraud management,
+and then up to security leadership.
+So the information gathered through that process,
+as you can see, has a lot of disparate end users.
+So the information needs to be disseminated
+in a form and fashion specific to that audience,
+but again, this is a super important part of the puzzle.
+Threat intelligence analysis, if done properly,
+can feed a lot of the decisions
+and the actions that are taken
+by the various teams on the right of this graphic.

@@ -1,0 +1,14 @@
+And the next, a watering hole attack,
+just to add a little bit more detail
+to what we talked about previously.
+So in a nutshell, it's a sophisticated attack
+that identifies less secure websites
+that target users are likely to visit.
+And by attacking those websites,
+the attacker can plant malware on those sites.
+From there, malicious code can scan the user's computer
+for vulnerabilities, for zero-days, et cetera, et cetera
+and it may download additional information to that computer
+to initiate additional attacks, to siphon data,
+to render it useless whether it's ransomware or so forth
+or whatever else the attacker may have in mind.

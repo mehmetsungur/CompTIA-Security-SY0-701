@@ -1,0 +1,89 @@
+Next, let's talk about the concept
+of access control lists, or ACLs.
+And what we're doing here is determining the level of access
+to one or more resources.
+Basically we're talking about permissions.
+So read, write, modify, delete, those types of things,
+execute, depending upon which operating system you're in.
+But the permissions that are needed to do a specific action.
+Right, then we also have no access,
+which basically means if that's turned on,
+it doesn't matter what other permissions you have.
+If no access is enabled,
+that basically trumps everything else.
+And then it can also be implicit or explicit.
+So in other words, allow everything except X,
+or we could say deny everything except X.
+So we could be very specific and say
+only allow application A or application B to run,
+deny everything else,
+or we could say allow everything to run
+except application A or application B.
+This is sometimes referred to
+as whitelisting or blacklisting.
+If they're on the whitelist, it can run.
+If it's on the blacklist, it can't run.
+So these are just basically two different ways
+to grant access to an application.
+So we have a few types of access control lists.
+We have a discretionary access control list, or a DACL.
+And this is really the most common type of ACL.
+It allows for an owner of an object to access
+and specify permissions or specific users and groups.
+So the owner is able to determine what users have access
+and the level of access or permissions.
+Then we have a system access control list, or a SACL.
+And this is used for auditing,
+basically specifying which users or which processes
+should be audited when specific actions are attempted,
+like someone's trying to log in,
+or they're trying to access a folder or a file,
+perhaps read or modify or delete.
+So we can audit for very specific activities,
+and that will get written to an event log
+or a security log which we can then go back and refer to
+or monitor or review later.
+Or we could have it send to a system
+that's monitoring that more in real time,
+and if one of those actions take place,
+we can become alerted more or less in real time.
+So a few use cases for access control lists.
+We have file systems.
+So ACLs are used to control who can read, write,
+execute files and directories, as we talked about.
+It can also be used in the context of network security.
+So ACLs can be used in routers or firewalls or switches
+to control traffic by specifying which IP addresses
+or which ports are allowed or denied.
+And we also have ACLs in use for database systems.
+So ACLs define which users can access
+and modify specific data tables or rows.
+And then, also, when it comes to cloud services
+or web applications.
+So ACLs are used to manage permissions for users,
+resources, or even API endpoints.
+So the same concept when we're talking about ACLs,
+just different use cases or different contexts.
+And then, (laughing) everyone's favorite topic,
+the concept of least privilege.
+So this is the practice of providing individuals
+or systems with the bare minimum level of access
+or permissions necessary to perform their job function
+or specific tasks.
+(laughing) If you do that, you may not have a happy user,
+but you're securing your environment, right?
+So it's very granular.
+It can be default deny.
+So if I don't explicitly say you can do something,
+then it's just implied that you can't.
+And then we can also do something
+called role-based access control, or RBAC.
+So based upon the role that you're assigned,
+you have certain permissions granted with that.
+So in other words, if you're in finance,
+you automatically have a certain set of permissions,
+but if you get moved from finance to, say, HR,
+those permissions are taken away
+and then new permissions are granted.
+So that way, you only have the permissions required
+to do your job, nothing more.
